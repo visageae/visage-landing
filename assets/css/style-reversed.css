@@ -6658,7 +6658,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 }
 #visage {
   background-size: cover;
-  background-image: url("../img//logo_bg_light.svg");
+  background-image: url("../img/logo_bg_light.svg");
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
@@ -6674,7 +6674,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 }
 #visage .static-header {
   background-color: white;
-  background-image: url("../img//logo_bg.svg");
+  background-image: url("../img/logo_bg.svg");
 }
 #visage .fa.highlight {
   color: #4fa078;
