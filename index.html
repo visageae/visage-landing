@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<title>Home</title>
+	<meta name="description" content="Startups template">
+	<meta name="keywords" content="Startups template">
+	<link rel="shortcut icon" href="assets/img/favicon.ico">
+	<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.jpg">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.jpg">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.jpg">
+	<link rel="stylesheet" type="text/css" href="assets/css/custom-animations.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/lib/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/rzslider.min.css" />
+
+	<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body id="visage" class="landing-page visage" ng-app="visageModule" ng-controller="homeController">
+	<!-- Preloader -->
+	<div class="preloader-mask">
+		<div class="preloader"><div class="spin base_clr_brd"><div class="clip left"><div class="circle"></div></div><div class="gap"><div class="circle"></div></div><div class="clip right"><div class="circle"></div></div></div></div>
+	</div>
+
+	<!-- Header -->
+	<header>
+		<nav class="navigation navigation-header">
+			<div class="container">
+				<div class="navigation-brand">
+					<div class="brand-logo">
+						<a href="index.html" class="logo"></a><a href="index.html" class="logo logo-alt"></a>
+					</div>
+				</div>
+				<button class="navigation-toggle">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="navigation-navbar collapsed">
+					<ul class="navigation-bar navigation-bar-left">
+						<li><a href="/">Home</a></li>
+						<li><a href="/recruiter">Recruiters</a></li>
+						<li><a href="/pricing">Pricing</a></li>
+						<li><a href="/career">Career</a></li>
+					</ul>
+					<ul class="navigation-bar navigation-bar-right">
+						<li><a href="https://app.visage.jobs/">Login</a></li>
+						<li class="featured"><a class="btn btn-sm btn-solid" href="https://app.visage.jobs/">Sign up</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<div id="hero" class="static-header window-height light-text hero-section  clearfix">
+		<div class="overlay"></div>
+		<div class="heading-block align-center centered-block">
+			<div class="container">
+				<div class="animated" data-animation="fadeIn" data-duartion="500">
+					<h2>Tired of sifting through thousands of irrelevant CVs ?</h2>
+					<h2>Let our Crowd of Recruiters find the talent</h2>
+					<h5>Visage is a crowd-sourcing platform of freelance recruiters sourcing talent for your job openings.</h5>
+					<h5>Our customers submit a job and get 10 relevant and interested candidates in 10 days! Ready for interviews</h5>
+				</div>
+				<div class="animated" data-animation="fadeInUp" data-duartion="500" data-delay="200">
+					<a href="#" class="btn btn-solid" data-toggle="modal" data-target="#myModal">Request a demo</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="row">
+						<div class="form-group col-xs-6">
+							<input type="text" class="form-control" placeholder="First name">
+						</div>
+						<div class="form-group col-xs-6">
+							<input type="text" class="form-control" placeholder="Last name">
+						</div>
+						<div class="form-group col-xs-12">
+							<input type="text" class="form-control" placeholder="Company">
+						</div>
+						<div class="form-group col-xs-12">
+							<input type="text" class="form-control" placeholder="Work Email">
+						</div>
+						<div class="form-group col-xs-12">
+							<input type="text" class="form-control" placeholder="Phone number">
+						</div>
+						<div class="form-group col-xs-12">
+							<div class="radio">
+								<label>
+									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+									I'm looking for a job
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									I'm looking for talent
+								</label>
+							</div>
+						</div>
+
+						<div class="form-group col-xs-12">
+							<textarea placeholder="I would like to ask/know about..."></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-outline-color" data-dismiss="modal">Cancel</button>
+					<button type="button" class="btn btn-solid">Request a demo</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section id="numbers" class="section section-bg features-list-section align-center dark-text counter-container">
+		<div class="sticker l-divider">
+          <img src="assets/img/visage/logo_only_white.svg" alt="Visage small logo" class="sticker-top is-small">
+        </div>
+		<div class="container">
+			<div class="clearfix animated" data-duration="500" data-animation="fadeInRight">
+				<div class="col-xs-4">
+					<article class="align-center">
+						<p class="heading"><span class="highlight counter">2394</span>
+						<p class="heading heading-label">Recruiters</p>
+					</article>
+				</div>
+				<div class="col-xs-4">
+					<article class="align-center">
+						<p class="heading"><span class="highlight counter">352</span>
+						<p class="heading heading-label">Jobs</p>
+					</article>
+				</div>
+				<div class="col-xs-4">
+					<article class="align-center">
+						<p class="heading"><span class="highlight"><span class="counter">540</span>k</span>
+						<p class="heading heading-label">Saved</p>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<div class="section align-center dark-text animated fadeInUp clearfix">
+		<h2>No bad apples here.<br> We only work with <span class="highlight">top</span> companies.</h2>
+		<div class="container">
+			<job-caroussel class="job-caroussel" jobs="jobs"></job-caroussel>
+		</div>
+	</div>
+
+	<section id="how" class="section about-section align-center dark-text animated fadeInUp">
+		<div class="container">
+			<div>
+				<div class="section-header align-center">
+					<h2>How <span class="highlight">it</span>  works</h2>
+					<p class="sub-header animated zoomIn" data-duration="700" data-animation="zoomIn" style="animation-delay: 0ms; animation-duration: 0.7s;">
+						Lorem ipsum dolor sit atmet sit dolor greand fdanrh s
+						<br>dfs sit atmet sit dolor greand fdanrh sdfs
+					</p>
+				</div>
+				<div class="section-content row animated fadeInDown" data-duration="700" data-delay="200" data-animation="fadeInDown" style="animation-delay: 200ms; animation-duration: 0.7s;">
+					<div class="col-sm-4">
+						<article class="align-center">
+							<span class="heading">POST</span>
+							<i class="icon icon-chat-messages-14 highlight"></i>
+							<p class="light">Post your job to thousands of recruiter in real time.</p>
+						</article>
+						<!--<span class="icon icon-arrows-04"></span>-->
+					</div>
+					<div class="col-sm-4">
+						<article class="align-center">
+							<span class="heading">FILTER</span>
+							<i class="fa fa-filter highlight"></i>
+							<p class="light">Our proprietary 3-steps process filters the best candidates.</p>
+						</article>
+						<!--<span class="icon icon-arrows-04"></span>-->
+					</div>
+					<div class="col-sm-4">
+						<article class="align-center">
+							<span class="heading">HIRE</span>
+							<i class="icon icon-realestate-living-03 highlight"></i>
+							<p class="light">Interview and hire. You have 30 days to evaluate the candidates.</p>
+						</article>
+					</div>
+				</div>
+				<br>
+				<br>
+			</div>
+		</div>
+	</section>
+
+	<section id="benefits" class="section section-bg process-section align-center dark-text">
+		<span class="sticker l-divider">
+          <img src="assets/img/visage/logo_only_white.svg" alt="Visage small logo" class="sticker-top is-small">
+        </span>
+		<div class="container">
+			<div class="section-header">
+				<h2>BENEFITS</h2>
+			</div>
+
+			<div class="section-content row">
+
+				<div class="col-sm-6 align-center animated vcenter" data-duration="500" data-animation="fadeInRight">
+					<br/><br/>
+					<article>
+						<h3><span class="highlight">FAST</span></h3>
+						<p class="sub-title">
+							Visage gets you a highly curated shortlist of interested candidates in a matter of days.
+						</p>
+					</article>
+				</div><!--
+			--><div class="col-sm-6 animated vcenter" data-duration="500" data-animation="fadeInLeft">
+				<img src="assets/img/features/content_image1.png" class="img-responsive" alt="process 3" />
+				</div>
+
+
+
+				<hr class="clearfix" />
+
+				<div class="col-sm-6 animated vcenter" data-duration="500" data-animation="fadeInLeft">
+					<img src="assets/img/features/content_image1.png" class="img-responsive" alt="process 3" />
+				</div><!--
+			--><div class="col-sm-6 align-center animated vcenter" data-duration="500" data-animation="fadeInRight">
+					<br/><br/>
+					<article>
+						<h3><span class="highlight">Easy</span></h3>
+						<p class="sub-title">
+							Post a job in minutes.<br/> Wait for 5 days and start interviewing candidates.
+						</p>
+					</article>
+				</div>
+
+				<hr class="clearfix" />
+
+
+				<div class="col-sm-6 align-center animated vcenter" data-duration="500" data-animation="fadeInRight">
+					<br/><br/>
+					<article>
+						<h3><span class="highlight">AFFORDABLE</span></h3>
+						<p class="sub-title">
+							The cost to hire is below $990 per job openings.
+						</p>
+					</article>
+				</div><!--
+			--><div class="col-sm-6 animated vcenter" data-duration="500" data-animation="fadeInLeft">
+				<img src="assets/img/features/content_image1.png" class="img-responsive" alt="process 3" />
+			</div>
+
+
+
+			</div>
+		</div>
+	</section>
+
+	<section id="feedback" class="section  align-center light-text">
+		<div class="container animated" data-animation="fadeInDown" data-duration="500">
+			<div class="section-header">
+				<h2>WHAT <span class="highlight">CLIENTS</span> SAY</h2>
+			</div>
+			<div class="section-content">
+				<!-- BEGIN SLIDER CONTENT -->
+				<div class="col-sm-10 col-sm-offset-1">
+					<div class="flexslider testimonials-slider align-center">
+						<ul class="slides">
+							<li>
+								<div class="testimonial align-center clearfix">
+									<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non bibendum metus. Aenean vel rutrum velit. Duis aliquet augue non augue volutpat, ut viverra est sagittis. Duis elementum mi mauris, nec rhoncus dolor consectetur vitae lorem ipsum.</blockquote>
+								</div>
+							</li>
+							<li>
+								<div class="testimonial align-center clearfix">
+									<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non bibendum metus. Aenean vel rutrum velit. Duis aliquet augue non augue volutpat, ut viverra est sagittis. Duis elementum mi mauris, nec rhoncus dolor consectetur vitae lorem ipsum.</blockquote>
+								</div>
+							</li>
+							<li>
+								<div class="testimonial align-center clearfix">
+									<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non bibendum metus. Aenean vel rutrum velit. Duis aliquet augue non augue volutpat, ut viverra est sagittis. Duis elementum mi mauris, nec rhoncus dolor consectetur vitae lorem ipsum.</blockquote>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- END SLIDER -->
+			</div>
+		</div>
+	</section>
+
+	<section id="feedback-controls" class="section feedback-controls-section align-center light-text animated" data-animation="fadeInDown" data-duration="500">
+		<div class="container">
+			<div class="col-md-10 col-md-offset-1">
+				<!-- BEGIN CONTROLS -->
+				<div class="flex-manual">
+					<div class="col-xs-12 col-sm-4 wrap">
+						<div class="switch flex-active">
+							<img alt="client" src="assets/img/people/profile-1.jpg" class="sm-pic img-circle pull-left" width="69" height="70">
+							<p>
+								<span class="highlight">AMY WARNER</span><br/>Investor at <span class="highlight">Pear Inc.</span>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-4 wrap">
+						<div class="switch pull-left">
+							<img alt="client" src="assets/img/people/profile-2.jpg" class="sm-pic img-circle pull-left" width="69" height="70">
+							<p>
+								<span class="highlight">JOHN DOESOME</span><br/>Accountant at <span class="highlight">Vell Inc.</span>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-4 wrap">
+						<div class="switch">
+							<img alt="client" src="assets/img/people/profile-1.jpg" class="sm-pic img-circle pull-left" width="68" height="69">
+							<p>
+								<span class="highlight">PETER MOOSOME</span><br/>VP Marketing at <span class="highlight">Footbook</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- END CONTROLS -->
+			</div>
+		</div>
+	</section>
+
+
+
+	<footer id="footer" class="footer light-text">
+		<div class="container">
+			<div class="footer-content row">
+				<div class="col-sm-4 col-xs-12">
+					<div class="logo-wrapper">
+						<img width="130" height="60" src="assets/img/visage/logo_horizontal_white.svg" alt="logo" />
+					</div>
+					<p>
+						Visage is a crowd-sourcing platform of freelance recruiters sourcing talent for your job openings.
+						Our customers submit a job and get 10 relevant and interested candidates in 10 days! Ready for interviews
+					</p>
+				</div>
+				<div class="col-sm-5 social-wrap col-xs-12">
+					<strong class="heading">Social Networks</strong>
+					<ul class="list-inline socials">
+						<li><a target="_blank" href="https://www.facebook.com/visagefinder"><span class="icon icon-socialmedia-08"></span></a></li>
+						<li><a target="_blank"  href="https://www.linkedin.com/company/visage-dmcc"><span class="icon icon-socialmedia-05"></span></a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3 col-xs-12">
+					<strong class="heading">Our Contacts</strong>
+					<ul class="list-unstyled">
+						<li><span class="icon icon-chat-messages-14"></span><a href="mailto:info@startup.ly">info@visage.jobs</a></li>
+						<li><span class="icon icon-seo-icons-34"></span>Astrolabs, Cluster R, Jumeirah Lake Towers, Dubai, United Arab Emirates</li>
+						<li><span class="icon icon-seo-icons-17"></span>+971 (0) 52 428 39 08</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">visage.jobs 2016. All rights reserved.</div>
+	</footer>
+
+	<div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
+
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="assets/js/jquery-1.11.3.min.js?ver=1"></script>
+	<![endif]-->
+	<!--[if (gte IE 9) | (!IE)]><!-->
+		<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js?ver=1"></script>
+	<!--<![endif]-->
+
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.appear.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.plugin.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.countdown.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="assets/js/toastr.min.js"></script>
+	<script type="text/javascript" src="assets/js/startuply.js"></script>
+	<script type="text/javascript" src="assets/js/custom.js"></script>
+	<script type="text/javascript" src="assets/js/angular.min.js"></script>
+	<script type="text/javascript" src="assets/js/visageControllers.js"></script>
+	<script type="text/javascript" src="assets/js/rzslider.min.js"></script>
+
+</body>
+</html>

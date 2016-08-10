@@ -1,5 +1,13 @@
 node_modules/
+assets/mailchimp
+assets/node_modules
+signup.php
 npm-debug.log
 *.DS_Store
 ftpsync.settings
+.idea
 *.html
+!index.html
+!career.html
+!pricing.html
+!recruiter.html

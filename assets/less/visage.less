@@ -1,0 +1,369 @@
+
+#visage {
+
+  background-size: cover;
+  background-image: url("@{img-path}/logo_bg_light.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+
+  h1, h2 {
+    font-weight: 500;
+  }
+
+  .vcenter {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+  }
+
+  .static-header {
+    background-color: white;
+    background-image: url("@{img-path}/logo_bg.svg");
+
+  }
+
+  .fa.highlight {
+    color: @base-color;
+  }
+
+  .light {
+    color: @text-light
+  }
+  
+  .btn-white {
+    background-color: white;
+    color: @visage-green;
+  }
+
+  .features-list-section {
+    h2 {
+      .highlight {
+        font-size: 45px;
+      }
+    }
+  }
+
+  .section-bg {
+    background: @section-bgcolor;
+    h2, .heading, .sub-title, p  {
+      color: @section-color;
+    }
+
+    .highlight {
+      color: @base-color;
+    }
+  }
+
+  .sticker {
+    display: block;
+    height: 90px;
+    line-height: 90px;
+    position: relative;
+    text-align: center;
+    width: 100px;
+    .sticker-bottom.is-circle {
+      background: inherit;
+      border-radius: 1000px;
+      display: block;
+      height: 100px;
+      width: 100px;
+    }
+    .sticker-bottom {
+      font-size: 88px;
+    }
+  }
+  .l-divider {
+    &.l-divider-white {
+      background-color: white;
+    }
+    img {
+      height: 40px;
+    }
+    background-color: inherit;
+    border-radius: 50px;
+    margin: -60px auto 4px auto;
+  }
+
+
+  #hero + .section {
+    margin-top: -40px;
+  }
+  #hero {
+    h1, h2 {
+      color: @header-color
+    }
+    h5 {
+      color: @header-color;
+      font-size: 22px;
+      margin: 10px 10%;
+      &:first-of-type {
+        margin-bottom: 10px;
+        margin-top: 30px;
+      }
+    }
+    .btn {
+      margin-top: 20px;
+    }
+  }
+
+  #how {
+    .section-content {
+      article {
+        .heading {
+          font-size: 30px;
+        }
+        i {
+          font-size: 80px;
+          height: 95px;
+        }
+      }
+    }
+  }
+
+  #numbers {
+    article {
+      .heading {
+        color: @section-color;
+        line-height: 0px;
+        .highlight {
+          font-size: 3em;
+        }
+      }
+      .heading.heading-label {
+        font-size: 26px;
+        line-height: 1;
+        margin-top: -28px;
+      }
+    }
+  }
+
+  #benefits {
+    .section-content {
+      .vcenter {
+        h3 {
+          font-size: 2em;
+          font-weight: bold;
+        }
+        .sub-title {
+          font-size: 1.8em;
+          line-height: 1.8em;
+        }
+      }
+    }
+    .section-header {
+      margin-bottom: 10px;
+    }
+  }
+
+  #feedback {
+    .section-content {
+      .flexslider {
+        .flex-viewport {
+          color: black;
+        }
+      }
+    }
+  }
+
+  #pay {
+    .section-header {
+      p {
+        font-size: 22px;
+      }
+    }
+  }
+
+  #process {
+    .section-header {
+      margin-bottom: 10px;
+    }
+  }
+
+  #not-convinced, #apply {
+    background-color: @base-color;
+  }
+
+  #apply {
+    .btn{
+      margin-top: 50px;
+    }
+  }
+
+  #process, #atVisage {
+    article {
+      .highlight {
+        font-size: 60px;
+      }
+      .heading {
+        font-size: 30px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .footer {
+    a, .list-inline li .icon {
+      color: @footer-color
+    }
+  }
+
+  .job-caroussel {
+    margin-top: 50px;
+    height: 100px;
+    .carousel {
+      .job-container {
+        padding: 10px;
+        
+        .job {
+          position: relative;
+          height: 100px;
+          background-color: white;
+          padding: 10px;
+          img {
+            position: absolute;
+            bottom: 6px;
+            left: 11px;
+            opacity: 0.2;
+            height: 30px;
+          }
+          .job-title {
+            color: @visage-green;
+            font-weight: bold;
+            font-size: 20px;
+          }
+        }
+      }
+      .carousel-control {
+        top: 33px;
+        font-size: 30px;
+        i {
+          color: @visage-green;
+        }
+      }
+    }
+  }
+
+  #calculator {
+    margin-top: 100px;
+
+    .nav-tabs {
+      &>li{
+        &.active{
+          &>a {
+            color: @visage-green;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    .tab-content {
+      background-color: white;
+    }
+
+    .rzslider {
+      margin-top: 60px;
+      margin-bottom: 50px;
+
+      .rz-pointer {
+        background-color: @visage-green;
+
+        &.rz-active:after{
+          background-color: white;
+        }
+      }
+    }
+
+    .package-column {
+      &:hover {
+        background-color: @visage-green;
+      }
+      .package-price {
+        color: @visage-green;
+      }
+    }
+  }
+
+  &.career {
+    .static-header {
+      background-color: white;
+      background-image: url("@{img-path}visage/career-cover.jpg")
+    }
+
+    #atVisage {
+      .hidden-xs {
+        >div {
+          margin-bottom: 25px;
+        }
+      }
+      .values {
+        .col-xs-6 {
+          margin-top: 20px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: @screen-sm) {
+  #visage {
+    #calculator {
+      .package-column {
+        .package-price {
+          .price {
+            font-size: 58px;
+          }
+          .currency {
+            font-size: 37px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.shadow {
+  -webkit-box-shadow: 0 1px 5px 0 rgba(96, 96, 96, 0.3);
+  -moz-box-shadow: 0 1px 5px 0 rgba(96, 96, 96, 0.3);
+  box-shadow: 0 1px 5px 0 rgba(96, 96, 96, 0.3);
+}
+
+.carousel-control 			 { width:  4%; }
+.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
+
+@media (max-width: @screen-sm) {
+  .carousel-inner {
+    .active.left { left: -100%; }
+    .next { left:  100%; }
+    .prev { left: -100%; }
+    .active > div { display:none; }
+    .active > div:first-child { display:block; }
+  }
+
+
+}
+@media (min-width: @screen-sm) and (max-width: 992px ) {
+  .carousel-inner {
+      .active.left { left: -50%; }
+      .next        { left:  50%; }
+      .prev		 { left: -50%; }
+      .active > div { display:none; }
+      .active > div:first-child { display:block; }
+      .active > div:first-child + div { display:block; }
+  }
+
+}
+@media (min-width: @screen-md ) {
+  .carousel-inner {
+    .active.left { left: -25%; }
+    .next        { left:  25%; }
+    .prev		 { left: -25%; }
+  }
+}
+
