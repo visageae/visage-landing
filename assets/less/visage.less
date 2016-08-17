@@ -36,6 +36,17 @@
     color: @visage-green;
   }
 
+  .navigation-header {
+    .navigation-navbar:not(.collapsed) {
+      background-color: @visage-light-grey;
+      li:not(.featured) {
+        a {
+          color: @visage-green;
+        }
+      }
+    }
+  }
+
   .features-list-section {
     h2 {
       .highlight {
@@ -283,6 +294,13 @@
       }
       .package-price {
         color: @visage-green;
+        .price {
+          font-size: 5vw;
+          .currency {
+            font-size: 3vw;
+            top: -24px;
+          }
+        }
       }
     }
   }
@@ -315,12 +333,15 @@
     #calculator {
       .package-column {
         .package-price {
+          padding: 5px;
           .price {
-            font-size: 58px;
+            font-size: 44px;
+            .currency {
+              font-size: 30px;
+              top: -18px;
+            }
           }
-          .currency {
-            font-size: 37px;
-          }
+
         }
       }
     }

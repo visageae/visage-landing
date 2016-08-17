@@ -6686,6 +6686,12 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   background-color: white;
   color: #0fc48b;
 }
+#visage .navigation-header .navigation-navbar:not(.collapsed) {
+  background-color: #eceff1;
+}
+#visage .navigation-header .navigation-navbar:not(.collapsed) li:not(.featured) a {
+  color: #0fc48b;
+}
 #visage .features-list-section h2 .highlight {
   font-size: 45px;
 }
@@ -6869,6 +6875,13 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 #visage #calculator .package-column .package-price {
   color: #0fc48b;
 }
+#visage #calculator .package-column .package-price .price {
+  font-size: 5vw;
+}
+#visage #calculator .package-column .package-price .price .currency {
+  font-size: 3vw;
+  top: -24px;
+}
 #visage.career .static-header {
   background-color: white;
   background-image: url("../img/visage/career-cover.jpg");
@@ -6881,11 +6894,15 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   margin-bottom: 30px;
 }
 @media (max-width: 768px) {
-  #visage #calculator .package-column .package-price .price {
-    font-size: 58px;
+  #visage #calculator .package-column .package-price {
+    padding: 5px;
   }
-  #visage #calculator .package-column .package-price .currency {
-    font-size: 37px;
+  #visage #calculator .package-column .package-price .price {
+    font-size: 44px;
+  }
+  #visage #calculator .package-column .package-price .price .currency {
+    font-size: 30px;
+    top: -18px;
   }
 }
 .shadow {

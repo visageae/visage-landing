@@ -3,13 +3,13 @@
     var counter = function() {
         var anim = function(elem, start, cb){
             $(elem).animate({countNum: start}, {
-                duration: 4000,
+                duration: 1500,
                 easing:'linear',
                 step: function() {
-                    $(this).text(Math.floor(this.countNum));
+                    $(this).text(parseInt(Math.floor(this.countNum)));
                 },
                 complete: function() {
-                    $(this).text(this.countNum);
+                    $(this).text(parseInt(this.countNum));
                     cb();
                 }
             });
