@@ -2597,7 +2597,7 @@ input[type=checkbox]:focus {
   margin-bottom: 30px;
 }
 .package-column .package-detail ul li {
-  height: 56px;
+  height: 72px;
   padding: 15px 0;
   font-size: 16px;
   font-weight: 500;
@@ -6818,6 +6818,24 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 #visage #apply .btn {
   margin-top: 50px;
 }
+#visage #product .package-column:hover {
+  background-color: #0fc48b;
+}
+#visage #product .package-column:hover .package-detail .btn.btn-outline-color {
+  color: white;
+  border-color: white;
+  background-color: #0fc48b;
+}
+#visage #product .package-column .package-price {
+  color: #0fc48b;
+}
+#visage #product .package-column .package-detail .btn-outline-color {
+  color: #0fc48b;
+  border-color: #0fc48b;
+}
+#visage #pricing-features .heading {
+  font-size: 22px;
+}
 #visage #process article .highlight,
 #visage #atVisage article .highlight {
   font-size: 60px;
@@ -6939,6 +6957,10 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   #visage #calculator .package-column .package-price .price .currency {
     font-size: 30px;
     top: -18px;
+  }
+  #visage #pricing-features .heading {
+    font-size: 16px;
+    font-weight: bold;
   }
 }
 .shadow {

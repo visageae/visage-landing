@@ -223,6 +223,36 @@
     }
   }
 
+  #product {
+    .package-column {
+      &:hover {
+        background-color: @visage-green;
+        .package-detail {
+          .btn.btn-outline-color{
+            color: white;
+            border-color: white;
+            background-color: @visage-green;
+          }
+        }
+      }
+      .package-price {
+        color: @visage-green;
+      }
+      .package-detail {
+        .btn-outline-color {
+          color: @visage-green;
+          border-color: @visage-green;
+        }
+      }
+    }
+  }
+
+  #pricing-features {
+    .heading {
+      font-size: 22px;
+    }
+  }
+
   #process, #atVisage {
     article {
       .highlight {
@@ -389,6 +419,12 @@
           }
 
         }
+      }
+    }
+    #pricing-features {
+      .heading {
+        font-size: 16px;
+        font-weight: bold;
       }
     }
   }
