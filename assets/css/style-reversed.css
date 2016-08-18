@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
 @import "lib/font-lineicons.css";
 @import "lib/toastr.min.css";
 @import "lib/bootstrap.min.css";
@@ -6662,6 +6662,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
+  padding-top: 60px;
 }
 #visage h1,
 #visage h2 {
@@ -6686,10 +6687,18 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   background-color: white;
   color: #0fc48b;
 }
-#visage .navigation-header .navigation-navbar:not(.collapsed) {
+#visage .navigation-header .navigation-brand {
+  margin-top: 10px;
+}
+#visage .navigation-header .navigation-brand .brand-logo .logo {
+  height: 40px;
+}
+#visage .navigation-header .navigation-navbar:not(.collapsed),
+#visage .navigation-header .navigation-navbar.collapsing {
   background-color: #eceff1;
 }
-#visage .navigation-header .navigation-navbar:not(.collapsed) li:not(.featured) a {
+#visage .navigation-header .navigation-navbar:not(.collapsed) li:not(.featured) a,
+#visage .navigation-header .navigation-navbar.collapsing li:not(.featured) a {
   color: #0fc48b;
 }
 #visage .features-list-section h2 .highlight {
@@ -6762,6 +6771,14 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   font-size: 80px;
   height: 95px;
 }
+#visage #clients .logos li {
+  height: 150px;
+  line-height: 150px;
+  vertical-align: middle;
+}
+#visage #clients .logos li img {
+  vertical-align: middle;
+}
 #visage #numbers article .heading {
   color: #000000;
   line-height: 0px;
@@ -6826,28 +6843,47 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 }
 #visage .job-caroussel .carousel .job-container .job {
   position: relative;
-  height: 100px;
+  height: 130px;
   background-color: white;
   padding: 10px;
 }
 #visage .job-caroussel .carousel .job-container .job img {
-  position: absolute;
-  bottom: 6px;
-  left: 11px;
-  opacity: 0.2;
-  height: 30px;
+  height: 16px;
 }
 #visage .job-caroussel .carousel .job-container .job .job-title {
-  color: #0fc48b;
-  font-weight: bold;
-  font-size: 20px;
+  color: black;
+  font-size: 16px;
+  line-height: 16px;
 }
-#visage .job-caroussel .carousel .carousel-control {
-  top: 33px;
-  font-size: 30px;
+#visage .job-caroussel .carousel .job-container .job .job-details {
+  position: absolute;
+  bottom: 2px;
 }
-#visage .job-caroussel .carousel .carousel-control i {
-  color: #0fc48b;
+#visage .job-caroussel .carousel .job-container .job .job-details .job-location,
+#visage .job-caroussel .carousel .job-container .job .job-details .job-industry {
+  text-align: left;
+  font-size: 12px;
+  line-height: 12px;
+  color: #78909C;
+}
+#visage #testimonial .list > div {
+  min-height: 410px;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+#visage #testimonial .list > div:hover {
+  background-color: #ffc107;
+  color: white;
+}
+#visage #testimonial .list > div img {
+  margin: 10px auto;
+  width: 200px;
+}
+#visage #testimonial .list > div p {
+  text-align: justify;
+  width: 200px;
+  margin: 0 auto;
 }
 #visage #calculator {
   margin-top: 100px;
@@ -6910,13 +6946,19 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   -moz-box-shadow: 0 1px 5px 0 rgba(96, 96, 96, 0.3);
   box-shadow: 0 1px 5px 0 rgba(96, 96, 96, 0.3);
 }
-.carousel-control {
-  width: 4%;
+.carousel-control-container {
+  width: 100%;
+  height: 20px;
 }
-.carousel-control.left,
-.carousel-control.right {
-  margin-left: 15px;
-  background-image: none;
+.carousel-control-container .carousel-control-left,
+.carousel-control-container .carousel-control-right {
+  font-size: 20px;
+}
+.carousel-control-container .carousel-control-left {
+  margin-right: 5px;
+}
+.carousel-control-container .carousel-control-right {
+  margin-left: 5px;
 }
 @media (max-width: 768px) {
   .carousel-inner .active.left {
