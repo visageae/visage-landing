@@ -12,7 +12,6 @@ app.controller('homeController', ['$scope','$http',function($scope, $http) {
     $scope.jobs = [];
     $http.get("/assets/json/jobs.json").success(function (data, status) {
         $scope.jobs = data;
-        console.log($scope.jobs);
     });
 
 }]);

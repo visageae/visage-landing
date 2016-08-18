@@ -6783,6 +6783,13 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   float: none;
   vertical-align: middle;
 }
+#visage .modal .close {
+  position: absolute;
+  right: 6px;
+  top: -6px;
+  font-size: 50px;
+  z-index: 1;
+}
 #visage .static-header {
   background-color: white;
   background-image: url("../img/logo_bg.svg");
