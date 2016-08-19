@@ -2592,6 +2592,7 @@ input[type=checkbox]:focus {
 }
 .package-column .package-detail {
   padding: 30px 15% 50px;
+  height: auto !important;
 }
 .package-column .package-detail ul {
   margin-bottom: 30px;
@@ -2664,7 +2665,7 @@ input[type=checkbox]:focus {
     height: 400px;
   }
   .package-column .package-price .price {
-    font-size: 80px;
+    font-size: 70px;
   }
   .package-column .package-price .price .currency {
     top: -30px;
