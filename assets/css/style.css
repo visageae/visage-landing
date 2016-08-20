@@ -2574,7 +2574,7 @@ input[type=checkbox]:focus {
 }
 .package-column .package-price .price {
   position: relative;
-  font-size: 115px;
+  font-size: 96px;
   font-weight: 300;
   line-height: 125px;
 }
