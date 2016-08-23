@@ -15,7 +15,8 @@ module.exports = function (grunt) {
     'grunt-ng-annotate',
     'grunt-contrib-htmlmin',
     'grunt-contrib-imagemin',
-    'grunt-svgmin'
+    'grunt-svgmin',
+    'grunt-contrib-cssmin'
 
   ].forEach(function (task) {
     grunt.loadNpmTasks(task);
@@ -82,7 +83,6 @@ module.exports = function (grunt) {
             'favicon/{,*/}*.*',
             'assets/img/{,*/}*.{webp}',
             'assets/fonts/{,*/}*.*',
-            'assets/css/{,*/}*.*',
             'assets/json/{,*/}*.*'
           ]
         }]
@@ -346,6 +346,7 @@ module.exports = function (grunt) {
       'concat',
       'ngAnnotate',
       'copy',
+      'cssmin',
       'uglify',
       'filerev',
       'usemin',
