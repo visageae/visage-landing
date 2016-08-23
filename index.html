@@ -2,367 +2,522 @@
 <html lang="en">
 <head>
 
-	<meta charset="utf-8">
-	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-	<title>Home</title>
-	<meta name="description" content="Startups template">
-	<meta name="keywords" content="Startups template">
-	<link rel="shortcut icon" href="assets/img/favicon.ico">
-	<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.jpg">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.jpg">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.jpg">
-	<link rel="stylesheet" type="text/css" href="assets/css/custom-animations.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/lib/font-awesome.min.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/rzslider.min.css" />
+    <meta charset="utf-8">
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <title>Visage | Crowdsourced recruitment</title>
+    <meta name="description" content="Visage is a crowdsourcing platform sourcing talent for your job openings. Get 10 interested and relevant candidates within 10 days">
+    <meta name="keywords" content="sourcing, crowsourcing, candidate targetting, video recruiting, visage, video cvs, video cv, Cv selfie, cv selfies, anti-recruitment agency, anti-agency, cloud recruitment, recruitment platform, online recruitment, advertising platform, job advertising">
 
-	<!--[if lt IE 9]>
-		<script src="assets/js/html5shiv.js"></script>
-		<script src="assets/js/respond.min.js"></script>
-	<![endif]-->
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-touch-icon-57x57.png?v=2">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-touch-icon-60x60.png?v=2">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png?v=2">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-touch-icon-76x76.png?v=2">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-touch-icon-114x114.png?v=2">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-touch-icon-120x120.png?v=2">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png?v=2">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-touch-icon-152x152.png?v=2">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon-180x180.png?v=2">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-32x32.png?v=2" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/android-chrome-192x192.png?v=2" sizes="192x192">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-96x96.png?v=2" sizes="96x96">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-16x16.png?v=2" sizes="16x16">
+    <link rel="manifest" href="/assets/img/favicon/manifest.json?v=2">
+    <link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg?v=2" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=2">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/custom-animations.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/lib/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/rzslider.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+
+
+    <!--[if lt IE 9]>
+    <script src="assets/js/vendor/html5shiv.js"></script>
+    <script src="assets/js/vendor/respond.min.js"></script>
+    <![endif]-->
 </head>
 
-<body id="visage" class="landing-page visage" ng-app="visageModule" ng-controller="homeController">
-	<!-- Preloader -->
-	<div class="preloader-mask">
-		<div class="preloader"><div class="spin base_clr_brd"><div class="clip left"><div class="circle"></div></div><div class="gap"><div class="circle"></div></div><div class="clip right"><div class="circle"></div></div></div></div>
-	</div>
+<body id="visage" class="landing-page visage background-image-cover home-1">
 
-	<!-- Header -->
-	<header>
-		<nav class="navigation navigation-header">
-			<div class="container">
-				<div class="navigation-brand">
-					<div class="brand-logo">
-						<a href="index.html" class="logo"></a><a href="index.html" class="logo logo-alt"></a>
-					</div>
-				</div>
-				<button class="navigation-toggle">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<div class="navigation-navbar collapsed">
-					<ul class="navigation-bar navigation-bar-left">
-						<li><a href="/">Home</a></li>
-						<li><a href="/recruiter">Recruiters</a></li>
-						<li><a href="/pricing">Pricing</a></li>
-						<li><a href="/career">Career</a></li>
-					</ul>
-					<ul class="navigation-bar navigation-bar-right">
-						<li><a href="https://app.visage.jobs/">Login</a></li>
-						<li class="featured"><a class="btn btn-sm btn-solid" href="https://app.visage.jobs/">Sign up</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PDDGWX"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PDDGWX');</script>
+<!-- End Google Tag Manager -->
 
-	<div id="hero" class="static-header window-height light-text hero-section  clearfix">
-		<div class="overlay"></div>
-		<div class="heading-block align-center centered-block">
-			<div class="container">
-				<div class="animated" data-animation="fadeIn" data-duartion="500">
-					<h2>Tired of sifting through thousands of irrelevant CVs ?</h2>
-					<h2>Let our Crowd of Recruiters find the talent</h2>
-					<h5>Visage is a crowd-sourcing platform of freelance recruiters sourcing talent for your job openings.</h5>
-					<h5>Our customers submit a job and get 10 relevant and interested candidates in 10 days! Ready for interviews</h5>
-				</div>
-				<div class="animated" data-animation="fadeInUp" data-duartion="500" data-delay="200">
-					<a href="#" class="btn btn-solid" data-toggle="modal" data-target="#myModal">Request a demo</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<section id="numbers" class="section section-bg features-list-section align-center dark-text counter-container">
-		<div class="sticker l-divider">
-          <img src="assets/img/visage/logo_only_white.svg" alt="Visage small logo" class="sticker-top is-small">
+<div id="config-module"></div>
+<div id="visage-website" class="background-image-cover home-2" ng-controller="homeController">
+    <!-- Preloader -->
+    <div class="preloader-mask">
+        <div class="preloader">
+            <div class="spin base_clr_brd">
+                <div class="clip left">
+                    <div class="circle"></div>
+                </div><!--
+                --><div class="gap">
+                <div class="circle"></div>
+            </div><!--
+                --><div class="clip right">
+                <div class="circle"></div>
+            </div>
+            </div>
         </div>
-		<div class="container">
-			<div class="clearfix animated" data-duration="500" data-animation="fadeInRight">
-				<div class="col-xs-6 col-sm-4">
-					<article class="align-center">
-						<p class="heading"><span class="highlight counter">352</span>
-						<p class="heading heading-label">Jobs</p>
-					</article>
-				</div>
-				<div class="col-xs-6 col-sm-4">
-					<article class="align-center">
-						<p class="heading"><span class="highlight"><span class="counter">540</span>k</span>
-						<p class="heading heading-label">Saved</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
-					<article class="align-center">
-						<p class="heading"><span class="highlight counter">2394</span>
-						<p class="heading heading-label">Recruiters</p>
-					</article>
-				</div>
-			</div>
-		</div>
-	</section>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav class="navigation navigation-header">
+            <div class="container">
+                <div class="navigation-brand">
+                    <div class="brand-logo">
+                        <a href="index.html" class="logo"></a><a href="index.html"
+                                                                 class="logo logo-alt"></a>
+                    </div>
+                </div>
+                <button class="navigation-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navigation-navbar collapsed">
+                    <ul class="navigation-bar navigation-bar-left">
+                        <li><a href="/">Employers</a></li>
+                        <li><a href="/recruiter.html">Recruiters</a></li>
+                        <li><a href="/pricing.html">Pricing</a></li>
+                        <!--<li><a href="/career.html">Career</a></li>-->
+                    </ul>
+                    <ul class="navigation-bar navigation-bar-right">
+                        <li><a href="https://app.visage.jobs/#/candidate">Jobs</a></li>
+                        <li><a href="https://app.visage.jobs/">Login</a></li>
+                        <li class="featured"><a class="btn btn-sm btn-solid"
+                                                href="https://app.visage.jobs/signup">Sign up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="hero" class="background-image-cover home-1 window-height light-text hero-section clearfix">
+        <div class="overlay"></div>
+        <div class="heading-block align-center centered-block saying-title-light-bg">
+            <div class="container-fluid">
+                <div class="animated" data-animation="fadeIn" data-duration="500">
+                    <h2>Tired of sifting through thousands of irrelevant CVs ?</h2>
+                    <h2>Let our Crowd of Recruiters find the talent</h2>
+                    <h5>Visage is a crowd-sourcing platform of freelance recruiters sourcing talent
+                        for your job openings.</h5>
+                    <h5>Our customers submit a job and get 10 relevant and interested candidates in
+                        10 days! Ready for interviews</h5>
+                </div>
+                <div class="animated"
+                     data-animation="fadeInUp"
+                     data-duartion="500"
+                     data-delay="200">
+                    <a href="#" class="btn btn-solid" data-toggle="modal" data-target="#myModal">Request
+                        a demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="numbers"
+             class="section section-bg features-list-section align-center dark-text counter-container">
+        <div class="sticker l-divider">
+            <img src="assets/img/visage/logo_only_white.svg"
+                 alt="Visage small logo"
+                 class="sticker-top is-small">
+        </div>
+        <div class="container">
+            <div class="clearfix animated" data-duration="500" data-animation="fadeInRight">
+                <div class="col-xs-6 col-sm-4">
+                    <article class="align-center">
+                        <p class="heading"><span class="highlight counter">352</span>
+                        <p class="heading heading-label">Jobs</p>
+                    </article>
+                </div>
+                <div class="col-xs-6 col-sm-4">
+                    <article class="align-center">
+                        <p class="heading"><span class="highlight"><span class="counter">540</span>k</span>
+                        <p class="heading heading-label">Saved</p>
+                    </article>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <article class="align-center">
+                        <p class="heading"><span class="highlight counter">2394</span>
+                        <p class="heading heading-label">Recruiters</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-	<section class="section align-center dark-text animated fadeInUp clearfix">
-		<h2>No bad apples here.<br> We only work with <span class="highlight">top</span> companies.</h2>
-		<div class="container">
-			<job-caroussel class="job-caroussel" jobs="jobs"></job-caroussel>
-		</div>
-	</section>
+    <section class="section align-center dark-text animated fadeInUp clearfix saying-title-light-bg">
+        <h2>No bad apples here.<br> We work with <span class="highlight">top</span> companies.
+        </h2>
+        <div class="container">
+            <job-caroussel class="job-caroussel" jobs="jobs"></job-caroussel>
+        </div>
+    </section>
 
-	<div id="clients" class="clients-section align-center">
-		<div class="container">
-			<ul class="list-inline logos">
-				<li><img class="animated fadeInDown" data-animation="fadeInDown" data-duration="500" src="assets/img/visage/etisalat.png" alt="etisalat" style="animation-delay: 0ms; animation-duration: 0.5s;"></li>
-				<li><img class="animated fadeInUp" data-animation="fadeInUp" data-duration="500" data-delay="200" src="assets/img/visage/fetchr.png" alt="fetchr" style="animation-delay: 200ms; animation-duration: 0.5s;"></li>
-				<li><img class="animated fadeInDown" data-animation="fadeInDown" data-duration="500" data-delay="400" src="assets/img/visage/citruss.jpeg" alt="citruss" style="animation-delay: 400ms; animation-duration: 0.5s;"></li>
-				<li><img class="animated fadeInUp" data-animation="fadeInUp" data-duration="500" data-delay="600" src="assets/img/visage/nasco.png" alt="nasco" style="animation-delay: 600ms; animation-duration: 0.5s;"></li>
-			</ul>
-		</div>
-	</div>
+    <div id="clients" class="clients-section align-center">
+        <div class="container">
+            <ul class="list-inline logos">
+                <li><img class="animated fadeInDown"
+                         data-animation="fadeInDown"
+                         data-duration="500"
+                         src="assets/img/visage/etisalat.png"
+                         alt="etisalat"
+                         style="animation-delay: 0ms; animation-duration: 0.5s;"></li>
+                <li><img class="animated fadeInUp"
+                         data-animation="fadeInUp"
+                         data-duration="500"
+                         data-delay="200"
+                         src="assets/img/visage/fetchr.png"
+                         alt="fetchr"
+                         style="animation-delay: 200ms; animation-duration: 0.5s;"></li>
+                <li><img class="animated fadeInDown"
+                         data-animation="fadeInDown"
+                         data-duration="500"
+                         data-delay="400"
+                         src="assets/img/visage/citruss.jpeg"
+                         alt="citruss"
+                         style="animation-delay: 400ms; animation-duration: 0.5s;"></li>
+                <li><img class="animated fadeInUp"
+                         data-animation="fadeInUp"
+                         data-duration="500"
+                         data-delay="600"
+                         src="assets/img/visage/nasco.png"
+                         alt="nasco"
+                         style="animation-delay: 600ms; animation-duration: 0.5s;"></li>
+            </ul>
+        </div>
+    </div>
 
-	<section id="how" class="section about-section align-center dark-text animated fadeInUp">
-		<div class="container">
-			<div>
-				<div class="section-header align-center">
-					<h2>How <span class="highlight">it</span>  works</h2>
-					<p class="sub-header animated zoomIn" data-duration="700" data-animation="zoomIn" style="animation-delay: 0ms; animation-duration: 0.7s;">
-						Lorem ipsum dolor sit atmet sit dolor greand fdanrh s
-						<br>dfs sit atmet sit dolor greand fdanrh sdfs
-					</p>
-				</div>
-				<div class="section-content row animated fadeInDown" data-duration="700" data-delay="200" data-animation="fadeInDown" style="animation-delay: 200ms; animation-duration: 0.7s;">
-					<div class="col-sm-4">
-						<article class="align-center">
-							<span class="heading">POST</span>
-							<i class="icon icon-chat-messages-14 highlight"></i>
-							<p class="light">Post your job to thousands of recruiter in real time.</p>
-						</article>
-					</div>
-					<div class="col-sm-4">
-						<article class="align-center">
-							<span class="heading">FILTER</span>
-							<i class="fa fa-filter highlight"></i>
-							<p class="light">Our proprietary 3-steps process filters the best candidates.</p>
-						</article>
-					</div>
-					<div class="col-sm-4">
-						<article class="align-center">
-							<span class="heading">HIRE</span>
-							<i class="icon icon-realestate-living-03 highlight"></i>
-							<p class="light">Interview and hire. You have 30 days to evaluate the candidates.</p>
-						</article>
-					</div>
-				</div>
-				<br>
-				<br>
-			</div>
-		</div>
-	</section>
+    <section id="how" class="section section-bg about-section align-center dark-text animated fadeInUp">
+        <div class="container">
+            <div>
+                <div class="section-header align-center">
+                    <h2>How <span class="highlight">it</span> works</h2>
+                    <p class="sub-header animated zoomIn"
+                       data-duration="700"
+                       data-animation="zoomIn"
+                       style="animation-delay: 0ms; animation-duration: 0.7s;">
+                        Agile Swift and Efficient <br> post a job and sit tight, you will review the first suitable candidates within 5 days.
+                    </p>
+                </div>
+                <div class="section-content row animated fadeInDown"
+                     data-duration="700"
+                     data-delay="200"
+                     data-animation="fadeInDown"
+                     style="animation-delay: 200ms; animation-duration: 0.7s;">
+                    <div class="col-sm-4">
+                        <article class="align-center">
+                            <span class="heading">POST</span>
+                            <i class="icon icon-chat-messages-14 highlight"></i>
+                            <p class="light">Post your job to thousands of recruiter in real
+                                time.</p>
+                        </article>
+                    </div>
+                    <div class="col-sm-4">
+                        <article class="align-center">
+                            <span class="heading">FILTER</span>
+                            <i class="fa fa-filter highlight"></i>
+                            <p class="light">Our proprietary 3-steps process filters the best
+                                candidates.</p>
+                        </article>
+                    </div>
+                    <div class="col-sm-4">
+                        <article class="align-center">
+                            <span class="heading">HIRE</span>
+                            <i class="icon icon-realestate-living-03 highlight"></i>
+                            <p class="light">Interview and hire. You have 30 days to evaluate the
+                                candidates.</p>
+                        </article>
+                    </div>
+                </div>
+                <br>
+                <br>
+            </div>
+        </div>
+    </section>
 
-	<section id="benefits" class="section section-bg process-section align-center dark-text">
+    <section id="benefits" class="section section-white process-section align-center dark-text">
 		<span class="sticker l-divider">
-          <img src="assets/img/visage/logo_only_white.svg" alt="Visage small logo" class="sticker-top is-small">
+          <img src="assets/img/visage/logo_only_white.svg"
+               alt="Visage small logo"
+               class="sticker-top is-small">
         </span>
-		<div class="container">
-			<div class="section-header">
-				<h2>BENEFITS</h2>
-			</div>
+        <div class="container">
+            <div class="section-header">
+                <h2>BENEFITS</h2>
+            </div>
 
-			<div class="section-content row">
+            <div class="section-content row">
 
-				<div class="col-sm-6 align-center animated vcenter" data-duration="500" data-animation="fadeInRight">
-					<br/><br/>
-					<article>
-						<h3><span class="highlight">FAST</span></h3>
-						<p class="sub-title">
-							Visage gets you a highly curated shortlist of interested candidates in a matter of days.
-						</p>
-					</article>
-				</div><!--
-			--><div class="col-sm-6 animated vcenter" data-duration="500" data-animation="fadeInLeft">
-				<img src="assets/img/features/content_image1.png" class="img-responsive" alt="process 3" />
-				</div>
-
-
-
-				<hr class="clearfix" />
-
-				<div class="col-sm-6 col-sm-push-6  align-center animated vcenter" data-duration="500" data-animation="fadeInRight">
-					<br/><br/>
-					<article>
-						<h3><span class="highlight">Easy</span></h3>
-						<p class="sub-title">
-							Post a job in minutes.<br/> Wait for 5 days and start interviewing candidates.
-						</p>
-					</article>
-				</div><!--
-			--><div class="col-sm-6 col-sm-pull-6 animated vcenter" data-duration="500" data-animation="fadeInLeft">
-					<img src="assets/img/features/content_image1.png" class="img-responsive" alt="process 3" />
-				</div>
-
-				<hr class="clearfix" />
+                <div class="col-sm-6 align-center animated vcenter"
+                     data-duration="500"
+                     data-animation="fadeInRight">
+                    <br/><br/>
+                    <article>
+                        <h3><span class="highlight">FAST</span></h3>
+                        <p class="sub-title">
+                            Visage gets you a highly curated shortlist of interested candidates in a
+                            matter of days.
+                        </p>
+                    </article>
+                </div><!--
+			--><div class="col-sm-6 animated vcenter"
+                     data-duration="500"
+                     data-animation="fadeInLeft">
+                    <img src="assets/img/features/employer_fast.png"
+                         class="img-responsive"
+                         alt="process 3"/>
+                </div>
 
 
-				<div class="col-sm-6 align-center animated vcenter" data-duration="500" data-animation="fadeInRight">
-					<br/><br/>
-					<article>
-						<h3><span class="highlight">AFFORDABLE</span></h3>
-						<p class="sub-title">
-							The cost to hire is below $990 per job openings.
-						</p>
-					</article>
-				</div><!--
-			--><div class="col-sm-6 animated vcenter" data-duration="500" data-animation="fadeInLeft">
-				<img src="assets/img/features/content_image1.png" class="img-responsive" alt="process 3" />
-			</div>
+                <hr class="clearfix"/>
+
+                <div class="col-sm-6 col-sm-push-6  align-center animated vcenter"
+                     data-duration="500"
+                     data-animation="fadeInRight">
+                    <br/><br/>
+                    <article>
+                        <h3><span class="highlight">Easy</span></h3>
+                        <p class="sub-title">
+                            Post a job in minutes.<br/>  Start interviewing candidates 5 days later.
+                        </p>
+                    </article>
+                </div><!--
+			--><div class="col-sm-6 col-sm-pull-6 animated vcenter"
+                     data-duration="500"
+                     data-animation="fadeInLeft">
+                    <img src="assets/img/features/employer_easy.png"
+                         class="img-responsive"
+                         alt="process 3"/>
+                </div>
+
+                <hr class="clearfix"/>
 
 
+                <div class="col-sm-6 align-center animated vcenter"
+                     data-duration="500"
+                     data-animation="fadeInRight">
+                    <br/><br/>
+                    <article>
+                        <h3><span class="highlight">AFFORDABLE</span></h3>
+                        <p class="sub-title">
+                            The cost to hire is below $990 per job openings.
+                        </p>
+                    </article>
+                </div><!--
+			--><div class="col-sm-6 animated vcenter"
+                     data-duration="500"
+                     data-animation="fadeInLeft">
+                    <img src="assets/img/features/employer_affordable.svg"
+                         class="img-responsive"
+                         alt="process 3"/>
+                </div>
 
-			</div>
-		</div>
-	</section>
 
-	<section id="feedback" class="section  align-center light-text">
-		<div class="container animated" data-animation="fadeInDown" data-duration="500">
-			<div class="section-header">
-				<h2>WHAT <span class="highlight">CLIENTS</span> SAY</h2>
-			</div>
-			<div class="section-content">
-				<!-- BEGIN SLIDER CONTENT -->
-				<div class="col-sm-10 col-sm-offset-1">
-					<div class="flexslider testimonials-slider align-center">
-						<ul class="slides">
-							<li>
-								<div class="testimonial align-center clearfix">
-									<blockquote>Well, I have found a co-founder and a sales executive in two weeks thanks to Visage. This has costed me $1,700... Unbeatable</blockquote>
-								</div>
-							</li>
-							<li>
-								<div class="testimonial align-center clearfix">
-									<blockquote>Thanks to Visage we could hire the perfect technical manager in few weeks. We really like the video, that helps to quickly choose the best profile for interviews.</blockquote>
-								</div>
-							</li>
-							<li>
-								<div class="testimonial align-center clearfix">
-									<blockquote>Visage was of great support in our hunt for a Marketing Manager. The candidates they recommended were always spot on.</blockquote>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<!-- END SLIDER -->
-			</div>
-		</div>
-	</section>
+            </div>
+        </div>
+    </section>
 
-	<section id="feedback-controls" class="section feedback-controls-section align-center light-text animated" data-animation="fadeInDown" data-duration="500">
-		<div class="container">
-			<div class="col-md-10 col-md-offset-1">
-				<!-- BEGIN CONTROLS -->
-				<div class="flex-manual">
-					<div class="col-xs-12 col-sm-4 wrap">
-						<div class="switch flex-active">
-							<img alt="client" src="assets/img/visage/avin_shahani.jpg" class="sm-pic img-circle pull-left" width="69" height="70">
-							<p>
-								<span class="highlight">Avin Shahani</span><br/>Founder @ <span class="highlight">ClassDive</span>
-							</p>
-						</div>
-					</div>
+    <section id="feedback" class="section  align-center dark-text  saying-title-light-bg">
+        <div class="container animated" data-animation="fadeInDown" data-duration="500">
+            <div class="section-header">
+                <h2>WHAT <span class="highlight">CLIENTS</span> SAY</h2>
+            </div>
+            <div class="section-content">
+                <!-- BEGIN SLIDER CONTENT -->
+                <div class="col-sm-10 col-sm-offset-1">
+                    <div class="flexslider testimonials-slider align-center">
+                        <ul class="slides">
+                            <li>
+                                <div class="testimonial align-center clearfix">
+                                    <blockquote>Well, I have found a co-founder and a sales
+                                        executive in two weeks thanks to Visage. This has costed me
+                                        $1,700... Unbeatable
+                                    </blockquote>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="testimonial align-center clearfix">
+                                    <blockquote>Thanks to Visage we could hire the perfect technical
+                                        manager in few weeks. We really like the video, that helps
+                                        to quickly choose the best profile for interviews.
+                                    </blockquote>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="testimonial align-center clearfix">
+                                    <blockquote>Visage was of great support in our hunt for a
+                                        Marketing Manager. The candidates they recommended were
+                                        always spot on.
+                                    </blockquote>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- END SLIDER -->
+            </div>
+        </div>
+    </section>
 
-					<div class="col-xs-12 col-sm-4 wrap">
-						<div class="switch pull-left">
-							<img alt="client" src="assets/img/visage/aymeric_de_guerre.png" class="sm-pic img-circle pull-left" width="69" height="70">
-							<p>
-								<span class="highlight">Aymeric de Guerre</span><br/>General Manager @ <span class="highlight">Daxium Middle East</span>
-							</p>
-						</div>
-					</div>
+    <section id="feedback-controls"
+             class="section feedback-controls-section align-center light-text animated"
+             data-animation="fadeInDown"
+             data-duration="500">
+        <div class="container">
+            <div class="col-md-10 col-md-offset-1">
+                <!-- BEGIN CONTROLS -->
+                <div class="flex-manual">
+                    <div class="col-xs-12 col-sm-4 wrap">
+                        <div class="switch flex-active">
+                            <img alt="client"
+                                 src="assets/img/visage/avin_shahani.jpg"
+                                 class="sm-pic img-circle pull-left"
+                                 width="69"
+                                 height="70">
+                            <p>
+                                <span class="highlight">Avin Shahani</span><br/>Founder @ <span
+                                    class="highlight">ClassDive</span>
+                            </p>
+                        </div>
+                    </div>
 
-					<div class="col-xs-12 col-sm-4 wrap">
-						<div class="switch">
-							<img alt="client" src="assets/img/visage/chris_bergman.jpg" class="sm-pic img-circle pull-left" width="68" height="69">
-							<p>
-								<span class="highlight">Chris Bergman</span><br/>Founder and CEO @ <span class="highlight">Exclusive Tables</span>
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- END CONTROLS -->
-			</div>
-		</div>
-	</section>
+                    <div class="col-xs-12 col-sm-4 wrap">
+                        <div class="switch pull-left">
+                            <img alt="client"
+                                 src="assets/img/visage/aymeric_de_guerre.png"
+                                 class="sm-pic img-circle pull-left"
+                                 width="69"
+                                 height="70">
+                            <p>
+                                <span class="highlight">Aymeric de Guerre</span><br/>General Manager
+                                @ <span class="highlight">Daxium Middle East</span>
+                            </p>
+                        </div>
+                    </div>
 
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<span type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
-				<div class="modal-body">
-					<div id="wufoo-z8kv0cc0ktfm9y">
-						Fill out my <a href="https://techvisage.wufoo.com/forms/z8kv0cc0ktfm9y">online form</a>.
-					</div>
-					<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">There are tons of <a href="http://www.wufoo.com/features/">Wufoo features</a> to help make your forms awesome.</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                    <div class="col-xs-12 col-sm-4 wrap">
+                        <div class="switch">
+                            <img alt="client"
+                                 src="assets/img/visage/chris_bergman.jpg"
+                                 class="sm-pic img-circle pull-left"
+                                 width="68"
+                                 height="69">
+                            <p>
+                                <span class="highlight">Chris Bergman</span><br/>Founder and CEO @
+                                <span class="highlight">Exclusive Tables</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END CONTROLS -->
+            </div>
+        </div>
+    </section>
 
-	<footer id="footer" class="footer light-text">
-		<div class="container">
-			<div class="footer-content row">
-				<div class="col-sm-4 col-xs-12">
-					<div class="logo-wrapper">
-						<img width="130" height="60" src="assets/img/visage/logo_horizontal_white.svg" alt="logo" />
-					</div>
-					<p>
-						Visage is a crowd-sourcing platform of freelance recruiters sourcing talent for your job openings.
-						Our customers submit a job and get 10 relevant and interested candidates in 10 days! Ready for interviews
-					</p>
-				</div>
-				<div class="col-sm-5 social-wrap col-xs-12">
-					<strong class="heading">Social Networks</strong>
-					<ul class="list-inline socials">
-						<li><a target="_blank" href="https://www.facebook.com/visagefinder"><span class="icon icon-socialmedia-08"></span></a></li>
-						<li><a target="_blank"  href="https://www.linkedin.com/company/visage-dmcc"><span class="icon icon-socialmedia-05"></span></a></li>
-					</ul>
-				</div>
-				<div class="col-sm-3 col-xs-12">
-					<strong class="heading">Our Contacts</strong>
-					<ul class="list-unstyled">
-						<li><span class="icon icon-chat-messages-14"></span><a href="mailto:team@visage.jobs">team@visage.jobs</a></li>
-						<li><span class="icon icon-seo-icons-34"></span>Astrolabs, Cluster R, Jumeirah Lake Towers, Dubai, United Arab Emirates</li>
-						<li><span class="icon icon-seo-icons-17"></span>+971 (0) 52 428 39 08</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="copyright">visage.jobs 2016. All rights reserved.</div>
-	</footer>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <span type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></span>
+                <div class="modal-body"id="wufoo-z8kv0cc0ktfm9y">
+                    <img src="/assets/img/loading.gif" height="50" width="50" alt="loading">
+                    <br>
+                        Fill out my <a href="https://techvisage.wufoo.com/forms/z8kv0cc0ktfm9y">online
+                        form</a>.
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
+    <footer id="footer" class="footer light-text">
+        <div class="container">
+            <div class="footer-content row">
+                <div class="col-sm-4 col-xs-12">
+                    <div class="logo-wrapper">
+                        <img width="130"
+                             height="60"
+                             src="assets/img/visage/logo_horizontal_white.svg"
+                             alt="logo"/>
+                    </div>
+                    <p>
+                        Visage is a crowd-sourcing platform of freelance recruiters sourcing talent
+                        for your job openings.
+                        Our customers submit a job and get 10 relevant and interested candidates in
+                        10 days! Ready for interviews
+                    </p>
+                </div>
+                <div class="col-sm-5 social-wrap col-xs-12">
+                    <strong class="heading">Social Networks</strong>
+                    <ul class="list-inline socials">
+                        <li><a target="_blank" href="https://www.facebook.com/visagefinder"><span
+                                class="icon icon-socialmedia-08"></span></a></li>
+                        <li><a target="_blank"
+                               href="https://www.linkedin.com/company/visage-dmcc"><span class="icon icon-socialmedia-05"></span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-xs-12">
+                    <strong class="heading">Our Contacts</strong>
+                    <ul class="list-unstyled">
+                        <li>
+                            <span class="icon icon-chat-messages-14"></span><a href="mailto:team@visage.jobs">team@visage.jobs</a>
+                        </li>
+                        <li><span class="icon icon-seo-icons-34"></span>Astrolabs, Cluster R,
+                            Jumeirah Lake Towers, Dubai, United Arab Emirates
+                        </li>
+                        <li><span class="icon icon-seo-icons-17"></span>+971 (0) 52 428 39 08</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">visage.jobs 2016. All rights reserved.</div>
+    </footer>
 
-	<!--[if lt IE 9]>
-		<script type="text/javascript" src="assets/js/jquery-1.11.3.min.js?ver=1"></script>
-	<![endif]-->
-	<!--[if (gte IE 9) | (!IE)]><!-->
-		<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js?ver=1"></script>
-	<!--<![endif]-->
+    <div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
+</div>
 
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.appear.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.plugin.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.countdown.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.waypoints.min.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
-	<script type="text/javascript" src="assets/js/toastr.min.js"></script>
-	<script type="text/javascript" src="assets/js/startuply.js"></script>
-	<script type="text/javascript" src="assets/js/custom.js"></script>
-	<script type="text/javascript" src="assets/js/angular.min.js"></script>
-	<script type="text/javascript" src="assets/js/visageControllers.js"></script>
-	<script type="text/javascript" src="assets/js/rzslider.min.js"></script>
+<!-- build:js assets/js/vendor.js -->
+<!--[if lt IE 9]>
+<script defer type="text/javascript" src="assets/js/vendor/jquery-1.11.3.min.js?ver=1"></script>
+<![endif]-->
+<!--[if (gte IE 9) | (!IE)]><!-->
+<script defer type="text/javascript" src="assets/js/vendor/jquery-2.1.4.min.js?ver=1"></script>
+<!--<![endif]-->
+<script defer type="text/javascript" src="assets/js/vendor/bootstrap.min.js"></script>
+<script defer type="text/javascript" src="assets/js/vendor/jquery.flexslider-min.js"></script>
+<script defer type="text/javascript" src="assets/js/vendor/jquery.appear.js"></script>
+<script defer type="text/javascript" src="assets/js/vendor/jquery.plugin.js"></script>
+<script defer type="text/javascript" src="assets/js/vendor/jquery.countdown.js"></script>
+<script defer type="text/javascript" src="assets/js/vendor/jquery.waypoints.min.js"></script>
+<script defer type="text/javascript" src="assets/js/vendor/jquery.validate.min.js"></script>
+<script defer type="text/javascript" src="assets/js/vendor/toastr.min.js"></script>
+<script defer type="text/javascript" src="assets/js/vendor/angular.min.js"></script>
+<script defer type="text/javascript" src="assets/js/vendor/rzslider.min.js"></script>
+<script defer type="text/javascript" src="assets/js/vendor/startuply.js"></script>
+<!-- endbuild -->
+
+<!-- build:js assets/js/scripts.js -->
+<script defer type="text/javascript" src="assets/js/custom.js"></script>
+<script defer type="text/javascript" src="assets/js/config.js"></script>
+<script defer type="text/javascript" src="assets/js/visageControllers.js"></script>
+<script defer type="text/javascript" src="assets/js/bootstrap-website.js"></script>
+<!-- endbuild -->
 
 </body>
 </html>

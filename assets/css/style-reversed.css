@@ -6658,12 +6658,31 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   }
 }
 #visage {
+  padding-top: 60px;
+}
+#visage.background-image-cover,
+#visage .background-image-cover {
   background-size: cover;
-  background-image: url("../img/logo_bg_light.svg");
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
-  padding-top: 60px;
+  background-color: white;
+}
+#visage.home-1,
+#visage .home-1 {
+  background-image: url('../img/background/home-1.jpg');
+}
+#visage.recruiter-1,
+#visage .recruiter-1 {
+  background-image: url('../img/background/recruiter-1.jpg');
+}
+#visage.home-2,
+#visage .home-2 {
+  background-image: url('../img/background/home-2.jpg');
+}
+#visage.career-1,
+#visage .career-1 {
+  background-image: url("../img/visage/career-cover.jpg");
 }
 #visage h1,
 #visage h2 {
@@ -6674,16 +6693,15 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   float: none;
   vertical-align: middle;
 }
+#visage .saying-title-light-bg {
+  background-color: rgba(255, 255, 255, 0.7);
+}
 #visage .modal .close {
   position: absolute;
   right: 6px;
   top: -6px;
   font-size: 50px;
   z-index: 1;
-}
-#visage .static-header {
-  background-color: white;
-  background-image: url("../img/logo_bg.svg");
 }
 #visage .fa.highlight {
   color: #4fa078;
@@ -6724,6 +6742,18 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 #visage .section-bg .highlight {
   color: #4fa078;
 }
+#visage .section-white {
+  background: #000000;
+}
+#visage .section-white h2,
+#visage .section-white .heading,
+#visage .section-white .sub-title,
+#visage .section-white p {
+  color: #f7f7f7;
+}
+#visage .section-white .highlight {
+  color: #4fa078;
+}
 #visage .sticker {
   display: block;
   height: 90px;
@@ -6743,6 +6773,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   font-size: 88px;
 }
 #visage .l-divider {
+  z-index: 130;
   background-color: inherit;
   border-radius: 50px;
   margin: -60px auto 4px auto;
@@ -6943,10 +6974,6 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 #visage #calculator .package-column .package-price .price .currency {
   font-size: 3vw;
   top: -24px;
-}
-#visage.career .static-header {
-  background-color: white;
-  background-image: url("../img/visage/career-cover.jpg");
 }
 #visage.career #atVisage .hidden-xs > div {
   margin-bottom: 25px;

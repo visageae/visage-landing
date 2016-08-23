@@ -1,9 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
-@import "lib/font-lineicons.css";
-@import "lib/toastr.min.css";
-@import "lib/bootstrap.min.css";
-
-/* ================================================
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);@import "lib/font-lineicons.css";@import "lib/toastr.min.css";@import "lib/bootstrap.min.css";/* ================================================
 // ************************************************
 //
 // Startuply v2.0 by Vivaco
@@ -1376,8 +1371,6 @@ input[type=submit]:not(.default).btn-no-border.pressed {
 	color: #ffffff;
 }
 
-/* Media queries */
-
 /* ----------------------------------------------------------------------------
     Whells
 ---------------------------------------------------------------------------- */
@@ -1573,8 +1566,6 @@ input[type=submit]:not(.default).btn-no-border.pressed {
 .tab-content.alt .tab-pane .btn {
 	margin-top: 15px;
 }
-
-/* Media queries */
 
 /* ----------------------------------------------------------------------------
     Panels
@@ -1990,8 +1981,6 @@ input[type=checkbox]:focus {
 	outline: none;
 }
 
-/* Media queries */
-
 /* ----------------------------------------------------------------------------
     Tables
 ---------------------------------------------------------------------------- */
@@ -2024,8 +2013,6 @@ input[type=checkbox]:focus {
 .table-striped > tbody > tr:nth-child(even) > th {
 	background: #e9e9e9;
 }
-
-/* Media queries */
 
 /* ----------------------------------------------------------------------------
     Thumbnails
@@ -2134,8 +2121,6 @@ input[type=checkbox]:focus {
 .flex-manual .switch:hover p {
 	color: #606060;
 }
-
-/* Media queries */
 
 /* ----------------------------------------------------------------------------
     Progress bars
@@ -2356,8 +2341,6 @@ input[type=checkbox]:focus {
 	text-align: center;
 }
 
-/* Media queries */
-
 /* ----------------------------------------------------------------------------
     Long blocks
 ---------------------------------------------------------------------------- */
@@ -2387,8 +2370,6 @@ input[type=checkbox]:focus {
 	font-size: 60px;
 	color: #ffffff;
 }
-
-/* Media queries */
 
 /* ----------------------------------------------------------------------------
     Featured tabs
@@ -2472,8 +2453,6 @@ input[type=checkbox]:focus {
 	display: none;
 }
 
-/* Media queries */
-
 /* ----------------------------------------------------------------------------
     Package column
 ---------------------------------------------------------------------------- */
@@ -2520,7 +2499,7 @@ input[type=checkbox]:focus {
 
 .package-column .package-price .price {
 	position: relative;
-	font-size: 115px;
+	font-size: 96px;
 	font-weight: 300;
 	line-height: 125px;
 }
@@ -2541,6 +2520,7 @@ input[type=checkbox]:focus {
 
 .package-column .package-detail {
 	padding: 30px 15% 50px;
+	height: auto !important;
 }
 
 .package-column .package-detail ul {
@@ -2548,7 +2528,7 @@ input[type=checkbox]:focus {
 }
 
 .package-column .package-detail ul li {
-	height: 56px;
+	height: 72px;
 	padding: 15px 0;
 	font-size: 16px;
 	font-weight: 500;
@@ -2616,8 +2596,6 @@ input[type=checkbox]:focus {
 	color: #ffffff;
 }
 
-/* Media queries */
-
 /* ----------------------------------------------------------------------------
     Countdowns
 ---------------------------------------------------------------------------- */
@@ -2654,8 +2632,6 @@ input[type=checkbox]:focus {
 .countdown div[class*="col-"]:last-child > .counter:after {
 	display: none;
 }
-
-/* Media queries */
 
 /* ----------------------------------------------------------------------------
     Blog
@@ -3603,8 +3579,6 @@ input[type=checkbox]:focus {
 	margin-right: 4px;
 }
 
-/* Media queries */
-
 /* ----------------------------------------------------------------------------
     Product Page
 ---------------------------------------------------------------------------- */
@@ -3775,8 +3749,6 @@ input[type=checkbox]:focus {
 	width: auto;
 	line-height: 1;
 }
-
-/* Media queries */
 
 /* ----------------------------------------------------------------------------
     Cart checkout
@@ -4191,8 +4163,6 @@ td.cart-list-item-price {
 	margin: 0 0 -46px;
 }
 
-/* Media queries */
-
 /* ----------------------------------------------------------------------------
     Jquery.mb.YTPlayer controls
 ---------------------------------------------------------------------------- */
@@ -4433,7 +4403,7 @@ td.cart-list-item-price {
 	background-size: contain;
 	display: block;
 	height: 30px;
-	background-image: url("../img/logo.png");
+	background-image: url("../img/logo.svg");
 	background-repeat: no-repeat;
 	background-position: left center;
 	line-height: 30px;
@@ -4441,7 +4411,7 @@ td.cart-list-item-price {
 
 .navigation-header .navigation-brand .brand-logo .logo.logo-alt {
 	display: none;
-	background-image: url("../img/logo-inverted.png");
+	background-image: url("../img/logo.svg");
 }
 
 .navigation-header .navigation-brand .brand-logo h4 {
@@ -4526,7 +4496,7 @@ td.cart-list-item-price {
 	font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
-	color: rgba(240, 240, 240, 0.8);
+	color: #1d1d1d;
 	line-height: 1;
 	border-bottom: 2px solid transparent;
 }
@@ -4978,8 +4948,6 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* Media queries */
-
 /* ----------------------------------------------------------------------------
     Footer
 ---------------------------------------------------------------------------- */
@@ -4990,7 +4958,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	background-size: cover;
 	padding: 0 0 30px;
 	font-weight: 300;
-	background-image: url('../img//background/low_poly_background.jpg');
+	background-color: #1ac6ff;
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-attachment: fixed;
@@ -5061,8 +5029,6 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	color: #ffffff;
 	opacity: 0.5;
 }
-
-/* Media queries */
 
 /* ----------------------------------------------------------------------------
     Modal boxes
@@ -5853,8 +5819,6 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	background-image: url("../img/logo-inverted.png");
 }
 
-/* Media queries */
-
 @media (min-width: 768px) {
 
 .team-member:hover .overlay-wrapper:before {
@@ -6368,7 +6332,7 @@ body {
 }
 
 .package-column .package-price .price {
-	font-size: 80px;
+	font-size: 70px;
 }
 
 .package-column .package-price .price .currency {

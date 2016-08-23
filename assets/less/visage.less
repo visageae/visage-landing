@@ -1,12 +1,31 @@
 
 #visage {
-
-  background-size: cover;
-  background-image: url("@{img-path}logo_bg_light.svg");
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-attachment: fixed;
   padding-top: 60px;
+
+  &.background-image-cover,.background-image-cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-color: white;
+  }
+
+  &.home-1,.home-1 {
+    background-image: url('@{img-path}background/home-1.jpg');
+  }
+  &.recruiter-1,.recruiter-1 {
+    background-image: url('@{img-path}background/recruiter-1.jpg');
+
+  }
+
+  &.home-2,.home-2 {
+    background-image: url('@{img-path}background/home-2.jpg');
+  }
+
+  &.career-1,.career-1 {
+    background-image: url("@{img-path}visage/career-cover.jpg")
+  }
+
 
   h1, h2 {
     font-weight: 500;
@@ -16,6 +35,12 @@
     display: inline-block;
     float: none;
     vertical-align: middle;
+  }
+
+
+
+  .saying-title-light-bg {
+    background-color: rgba(255, 255, 255, 0.7);
   }
 
   .modal {
@@ -28,12 +53,6 @@
     }
   }
 
-  .static-header {
-    background-color: white;
-    background-image: url("@{img-path}logo_bg.svg");
-
-  }
-
   .fa.highlight {
     color: @base-color;
   }
@@ -41,7 +60,7 @@
   .light {
     color: @text-light
   }
-  
+
   .btn-white {
     background-color: white;
     color: @visage-green;
@@ -57,7 +76,7 @@
       }
     }
     .navigation-navbar:not(.collapsed),
-    .navigation-navbar.collapsing{
+    .navigation-navbar.collapsing {
       background-color: @visage-light-grey;
       li:not(.featured) {
         a {
@@ -77,12 +96,23 @@
 
   .section-bg {
     background: @section-bgcolor;
-    h2, .heading, .sub-title, p  {
+    h2, .heading, .sub-title, p {
       color: @section-color;
     }
 
     .highlight {
       color: @base-color;
+    }
+  }
+
+  .section-white {
+    background: @section-bgcolor-light;
+    h2, .heading, .sub-title, p {
+      color: @section-color-light;
+    }
+
+    .highlight {
+      color: @header-color;
     }
   }
 
@@ -105,6 +135,7 @@
     }
   }
   .l-divider {
+    z-index: 130;
     &.l-divider-white {
       background-color: white;
     }
@@ -115,7 +146,6 @@
     border-radius: 50px;
     margin: -60px auto 4px auto;
   }
-
 
   #hero + .section {
     margin-top: -40px;
@@ -228,7 +258,7 @@
   }
 
   #apply {
-    .btn{
+    .btn {
       margin-top: 50px;
     }
   }
@@ -238,7 +268,7 @@
       &:hover {
         background-color: @visage-green;
         .package-detail {
-          .btn.btn-outline-color{
+          .btn.btn-outline-color {
             color: white;
             border-color: white;
             background-color: @visage-green;
@@ -289,7 +319,7 @@
     .carousel {
       .job-container {
         padding: 10px;
-        
+
         .job {
           position: relative;
           height: 130px;
@@ -321,7 +351,7 @@
 
   #testimonial {
     .list {
-      &> div {
+      & > div {
         &:hover {
           background-color: @visage-yellow;
           color: white;
@@ -347,9 +377,9 @@
     margin-top: 100px;
 
     .nav-tabs {
-      &>li{
-        &.active{
-          &>a {
+      & > li {
+        &.active {
+          & > a {
             color: @visage-green;
             font-weight: bold;
           }
@@ -368,7 +398,7 @@
       .rz-pointer {
         background-color: @visage-green;
 
-        &.rz-active:after{
+        &.rz-active:after {
           background-color: white;
         }
       }
@@ -392,14 +422,10 @@
   }
 
   &.career {
-    .static-header {
-      background-color: white;
-      background-image: url("@{img-path}visage/career-cover.jpg")
-    }
 
     #atVisage {
       .hidden-xs {
-        >div {
+        > div {
           margin-bottom: 25px;
         }
       }
@@ -440,7 +466,6 @@
   }
 }
 
-
 .shadow {
   -webkit-box-shadow: 0 1px 5px 0 rgba(96, 96, 96, 0.3);
   -moz-box-shadow: 0 1px 5px 0 rgba(96, 96, 96, 0.3);
@@ -448,8 +473,8 @@
 }
 
 .carousel-control-container {
-    width: 100%;
-    height: 20px;
+  width: 100%;
+  height: 20px;
   .carousel-control-left, .carousel-control-right {
     font-size: 20px;
   }
@@ -457,36 +482,65 @@
     margin-right: 5px;
   }
   .carousel-control-right {
-      margin-left: 5px;
-    }
+    margin-left: 5px;
+  }
 }
 
 @media (max-width: @screen-sm) {
   .carousel-inner {
-    .active.left { left: -100%; }
-    .next { left:  100%; }
-    .prev { left: -100%; }
-    .active > div { display:none; }
-    .active > div:first-child { display:block; }
+    .active.left {
+      left: -100%;
+    }
+    .next {
+      left: 100%;
+    }
+    .prev {
+      left: -100%;
+    }
+    .active > div {
+      display: none;
+    }
+    .active > div:first-child {
+      display: block;
+    }
   }
 
-
 }
+
 @media (min-width: @screen-sm) and (max-width: 992px ) {
   .carousel-inner {
-      .active.left { left: -50%; }
-      .next        { left:  50%; }
-      .prev		 { left: -50%; }
-      .active > div { display:none; }
-      .active > div:first-child { display:block; }
-      .active > div:first-child + div { display:block; }
+    .active.left {
+      left: -50%;
+    }
+    .next {
+      left: 50%;
+    }
+    .prev {
+      left: -50%;
+    }
+    .active > div {
+      display: none;
+    }
+    .active > div:first-child {
+      display: block;
+    }
+    .active > div:first-child + div {
+      display: block;
+    }
   }
 
 }
+
 @media (min-width: @screen-md ) {
   .carousel-inner {
-    .active.left { left: -25%; }
-    .next        { left:  25%; }
-    .prev		 { left: -25%; }
+    .active.left {
+      left: -25%;
+    }
+    .next {
+      left: 25%;
+    }
+    .prev {
+      left: -25%;
+    }
   }
 }
