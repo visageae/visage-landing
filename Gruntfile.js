@@ -13,7 +13,9 @@ module.exports = function (grunt) {
     'grunt-usemin',
     'grunt-filerev',
     'grunt-ng-annotate',
-    'grunt-contrib-htmlmin'
+    'grunt-contrib-htmlmin',
+    'grunt-contrib-imagemin',
+    'grunt-svgmin'
 
   ].forEach(function (task) {
     grunt.loadNpmTasks(task);
@@ -45,6 +47,28 @@ module.exports = function (grunt) {
       }
     },
 
+    imagemin: {
+      dist: {
+        files: [{
+          expand: true,
+          cwd: 'assets/img',
+          src: '{,*/}*.{png,jpg,jpeg,gif}',
+          dest: 'dist/assets/img'
+        }]
+      }
+    },
+
+    svgmin: {
+      dist: {
+        files: [{
+          expand: true,
+          cwd: 'assets/img',
+          src: '{,*/}*.svg',
+          dest: 'dist/assets/img'
+        }]
+      }
+    },
+
     copy: {
       dist: {
         files: [{
@@ -55,6 +79,7 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,png,txt}',
             '*.html',
+            'favicon/{,*/}*.*',
             'assets/img/{,*/}*.{webp}',
             'assets/fonts/{,*/}*.*',
             'assets/css/{,*/}*.*',
@@ -316,6 +341,8 @@ module.exports = function (grunt) {
       'less:color',
       'less:production',
       'useminPrepare',
+      'imagemin',
+      'svgmin',
       'concat',
       'ngAnnotate',
       'copy',
