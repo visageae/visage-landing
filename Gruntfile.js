@@ -83,6 +83,7 @@ module.exports = function (grunt) {
             'favicon/{,*/}*.*',
             'assets/img/{,*/}*.{webp}',
             'assets/fonts/{,*/}*.*',
+            'assets/templates/{,*/}*.*',
             'assets/json/{,*/}*.*'
           ]
         }]
@@ -155,10 +156,10 @@ module.exports = function (grunt) {
             wufoo: {
               username: "techvisage",
               forms: {
-                contact : 'z8kv0cc0ktfm9y',
-                pricing : 'm1fs4a3q0krw3pa'
+                contact: 'z8kv0cc0ktfm9y',
+                pricing: 'm1fs4a3q0krw3pa'
               },
-              host :'wufoo.com'
+              host: 'wufoo.com'
             }
           }
         }
@@ -176,10 +177,10 @@ module.exports = function (grunt) {
             wufoo: {
               username: "techvisage",
               forms: {
-                contact : 'z8kv0cc0ktfm9y',
-                pricing : 'm1fs4a3q0krw3pa'
+                contact: 'z8kv0cc0ktfm9y',
+                pricing: 'm1fs4a3q0krw3pa'
               },
-              host :'wufoo.com'
+              host: 'wufoo.com'
             }
           }
         }
@@ -197,10 +198,10 @@ module.exports = function (grunt) {
             wufoo: {
               username: "techvisage",
               forms: {
-                contact : 'z8kv0cc0ktfm9y',
-                pricing : 'm1fs4a3q0krw3pa'
+                contact: 'z8kv0cc0ktfm9y',
+                pricing: 'm1fs4a3q0krw3pa'
               },
-              host :'wufoo.com'
+              host: 'wufoo.com'
             }
           }
         }
@@ -242,8 +243,9 @@ module.exports = function (grunt) {
         src: [
           'dist/assets/js/{,*/}*.js',
           'dist/assets/css/{,*/}*.css',
-          'dist/assets/img/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
-          'dist/assets/fonts/*'
+          'dist/assets/img/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
+          //FIXME should be versionned too but I don't know why the references in the css are not
+          // replaced 'dist/assets/fonts/*'
         ]
       }
     },
@@ -290,11 +292,14 @@ module.exports = function (grunt) {
       options: {
         assetsDirs: [
           'dist',
+          'dist/assets',
           'dist/assets/img',
-          'dist/assets/css'
+          'dist/assets/css',
+          'dist/assets/fonts'
         ],
         patterns: {
-          js: [[/(assets\/img\/[^''""]*\.(png|jpg|jpeg|gif|webp|svg))/g, 'Replacing references to images']]
+          js: [[/(assets\/img\/[^''""]*\.(png|jpg|jpeg|gif|webp|svg))/g,
+            'Replacing references to images']]
         }
       }
     },
@@ -333,9 +338,8 @@ module.exports = function (grunt) {
       'connect:livereload',
       'watch']);
 
-
   grunt.registerTask('production',
-    [    'clean:dist',
+    ['clean:dist',
       'ngconstant:production',
       'less:development',
       'less:color',
