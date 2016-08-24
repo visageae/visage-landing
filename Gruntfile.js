@@ -244,7 +244,7 @@ module.exports = function (grunt) {
           'dist/assets/js/{,*/}*.js',
           'dist/assets/css/{,*/}*.css',
           'dist/assets/img/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
-          //FIXME should be versionned too but I don't know why the references in the css are not
+          //FIXME should be versionned too but I don't know why the references in the css-old are not
           // replaced 'dist/assets/fonts/*'
         ]
       }
@@ -319,14 +319,17 @@ module.exports = function (grunt) {
     },
     watch: {
       less: {
-        files: ['**/*.less'],
-        tasks: ['less:development']
-      },
-      livereload: {
         options: {
           livereload: '<%= connect.options.livereload %>'
         },
-        files: ['**']
+        files: ['assets/**/*.less'],
+        tasks: ['less:development']
+      },
+      html: {
+        options: {
+          livereload: '<%= connect.options.livereload %>'
+        },
+        files: ['./*.html','asset/**/*.html']
       }
     }
 
@@ -355,7 +358,8 @@ module.exports = function (grunt) {
       'filerev',
       'usemin',
       'htmlmin',
-      'cmq']);
+      'cmq',
+      'ngconstant:development']);
 
   grunt.registerTask('default', ['develop']);
 };
