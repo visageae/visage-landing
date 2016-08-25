@@ -225,8 +225,11 @@
         }
       }
     }
+    img {
+      margin :auto;
+    }
     .section-header {
-      margin-bottom: 10px;
+      margin-bottom: 30px;
     }
   }
 
@@ -323,25 +326,31 @@
 
         .job {
           position: relative;
-          height: 130px;
           background-color: white;
-          padding: 10px;
-          img {
-            height: 16px;
+          padding: 20px;
+          .job-avatar {
+            font-size:30px;
           }
           .job-title {
             color: black;
             font-size: 16px;
             line-height: 16px;
+            margin: 10px 0;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
           }
           .job-details {
-            position: absolute;
-            bottom: 2px;
+            //position: absolute;
+            //bottom: 2px;
             .job-location, .job-industry {
               text-align: left;
               font-size: 12px;
               line-height: 12px;
               color: #78909C;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
             }
           }
 
@@ -531,6 +540,17 @@
   }
 
 }
+
+@media (min-width: @screen-sm ) {
+  #visage {
+    #benefits {
+      .section-header {
+        margin-bottom: 100px;
+      }
+    }
+  }
+}
+
 
 @media (min-width: @screen-md ) {
   .carousel-inner {

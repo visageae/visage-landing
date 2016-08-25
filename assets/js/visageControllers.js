@@ -60,33 +60,33 @@ app.run(function (ThirdParties) {
 
 });
 
-app.controller('recruiterController', ['$scope', '$http', function ($scope, $http) {
+app.controller('recruiterController', function ($scope, $http) {
 
   $http.get("/assets/json/recruiter-faq.json").success(function (data, status) {
     $scope.faq = data;
   });
 
-}]);
+});
 
-app.controller('homeController', ['$scope', '$http', function ($scope, $http) {
+app.controller('homeController', function ($scope, $http,ENV) {
+
+  $scope.jobs = [];
+  $http.get(ENV.apiEndpoint + "/public-job-offers/active").success(function (data, status) {
+    $scope.jobs = data;
+  });
+
+});
+
+app.controller('careerController', function ($scope, $http) {
 
   $scope.jobs = [];
   $http.get("/assets/json/jobs.json").success(function (data, status) {
     $scope.jobs = data;
   });
 
-}]);
+});
 
-app.controller('careerController', ['$scope', '$http', function ($scope, $http) {
-
-  $scope.jobs = [];
-  $http.get("/assets/json/jobs.json").success(function (data, status) {
-    $scope.jobs = data;
-  });
-
-}]);
-
-app.controller('pricingController', ['$scope', '$http', function ($scope, $http) {
+app.controller('pricingController', function ($scope, $http) {
 
   $http.get("/assets/json/recruiter-faq.json").success(function (data, status) {
     $scope.faq = data;
@@ -179,7 +179,7 @@ app.controller('pricingController', ['$scope', '$http', function ($scope, $http)
   $scope.sliderSubscription = createSlider("subscription", subscriptionElements);
   $scope.sliderCredit = createSlider("credit", creditsElements);
 
-}]);
+});
 
 app.directive("jobCaroussel", function ($timeout) {
   return {
@@ -191,29 +191,34 @@ app.directive("jobCaroussel", function ($timeout) {
     },
     templateUrl: '/assets/templates/jobCaroussel.html'
     ,
-    link: function () {
-      $timeout(function () {
-        $('.carousel').carousel({
-          interval: 3000
-        });
+    link: function (scope) {
+        scope.$watch('jobs', function (newValue) {
+          if(newValue && newValue.length>0) {
+            $timeout(function () {
+              $('.carousel').carousel({
+                interval: 0
+              });
 
-        $('.carousel[data-type="multi"] .item').each(function () {
-          var next = $(this).next();
-          if (!next.length) {
-            next = $(this).siblings(':first');
+              $('.carousel[data-type="multi"] .item').each(function () {
+                var next = $(this).next();
+                if (!next.length) {
+                  next = $(this).siblings(':first');
+                }
+                next.children(':first-child').clone().appendTo($(this));
+
+                for (var i = 0; i < 2; i++) {
+                  next = next.next();
+                  if (!next.length) {
+                    next = $(this).siblings(':first');
+                  }
+
+                  next.children(':first-child').clone().appendTo($(this));
+                }
+              });
+            });
           }
-          next.children(':first-child').clone().appendTo($(this));
+        })
 
-          for (var i = 0; i < 2; i++) {
-            next = next.next();
-            if (!next.length) {
-              next = $(this).siblings(':first');
-            }
-
-            next.children(':first-child').clone().appendTo($(this));
-          }
-        });
-      });
 
     }
   };

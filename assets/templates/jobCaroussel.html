@@ -1,23 +1,53 @@
 <div class="job-caroussel">
     <div class="col-xs-12">
-        <div class="carousel slide"  id="myCarousel" data-type="multi">
+        <div class="carousel slide" id="myCarousel" data-type="multi">
             <div class="carousel-inner">
-                <div class="item clearfix" ng-repeat="job in jobs" ng-class="{true:'active'}[$index == 1]">
-                    <div class="col-md-3 col-sm-6 col-xs-12 job-container">
-                        <div class="job shadow">
-                            <p class="job-title">{{ job.title }}</p>
-                            <p><img src="assets/img/visage/nasco.png" alt="{{ job.title }}"></p>
-                            <div class="job-details">
-                                <p class="job-location"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ job.location }}</p>
-                                <p class="job-industry"><i class="fa fa-industry" aria-hidden="true"></i> {{ job.industry }}</p>
+                <div class="item clearfix"
+                     ng-repeat="job in jobs"
+                     ng-class="{true:'active'}[$index == 1]">
+                        <div class="col-md-3 col-sm-6 col-xs-12 job-container">
+                            <div class="job shadow">
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <div class="vcenter">
+                                            <i class="fa fa-suitcase highlight job-avatar" ></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-8 job-details">
+                                        <p class="job-location"><i class="fa fa-map-marker"
+                                                                   aria-hidden="true"></i>
+                                            {{job.location}}
+                                        </p>
+                                        <p class="job-industry"><i class="fa fa-industry"
+                                                                   aria-hidden="true"></i>
+                                            {{job.industry}}
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="job-title">{{ job.title }}</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <button type="button" ng-click="" class="btn btn-default"><i class="icon icon-office-51" aria-hidden="true"></i> Apply</button>
+                                    </div>
+                                    <!--<div class="col-xs-6">-->
+                                    <!--<button type="button" class="btn btn-default"><i class="icon icon-office-51" aria-hidden="true"></i> Apply</button>-->
+                                    <!--</div>-->
+                                    <!--<div class="col-xs-6">-->
+                                    <!--&lt;!&ndash;<button type="button" class="btn btn-default disabled"><span class="glyphicon glyphicon-star" aria-hidden="true"></span> Refer</button>&ndash;&gt;-->
+                                    <!--</div>-->
+                                </div>
                             </div>
+
                         </div>
-                    </div>
                 </div>
             </div>
             <div class="carousel-control-container clearfix">
-                <a class="carousel-control-left" href="#myCarousel" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-                <a class="carousel-control-right" href="#myCarousel" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                <a class="carousel-control-left"
+                   href="#myCarousel"
+                   data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                <a class="carousel-control-right"
+                   href="#myCarousel"
+                   data-slide="next"><i class="fa fa-chevron-right"></i></a>
             </div>
         </div>
     </div>
