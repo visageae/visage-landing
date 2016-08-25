@@ -196,7 +196,7 @@ app.directive("jobCaroussel", function ($timeout) {
           if(newValue && newValue.length>0) {
             $timeout(function () {
               $('.carousel').carousel({
-                interval: 0
+                interval: 3000
               });
 
               $('.carousel[data-type="multi"] .item').each(function () {
