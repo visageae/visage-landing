@@ -11,7 +11,7 @@ app.run(function (ThirdParties) {
       'async': true,
       'host': ThirdParties.wufoo.host,
       'ssl': true,
-      'header' : 'hide'
+      'header': 'hide'
     }, optionsPricingForm = {
       'userName': ThirdParties.wufoo.username,
       'formHash': ThirdParties.wufoo.forms.pricing,
@@ -19,12 +19,16 @@ app.run(function (ThirdParties) {
       'async': true,
       'host': ThirdParties.wufoo.host,
       'ssl': true,
-      'header' : 'hide'
+      'header': 'hide'
     };
-    var contactFormElement = document.getElementById('wufoo-'+ThirdParties.wufoo.forms.contact);
-    var pricingFormElement = document.getElementById('wufoo-'+ThirdParties.wufoo.forms.pricing);
-    var contactFormModal = (contactFormElement) ? angular.element(contactFormElement.parentElement.parentElement.parentElement) : null;
-    var pricingFormModal = (pricingFormElement) ? angular.element(pricingFormElement.parentElement.parentElement.parentElement) : null;
+    var contactFormElement = document.getElementById('wufoo-' + ThirdParties.wufoo.forms.contact);
+    var pricingFormElement = document.getElementById('wufoo-' + ThirdParties.wufoo.forms.pricing);
+    var contactFormModal = (contactFormElement) ?
+      angular.element(contactFormElement.parentElement.parentElement.parentElement) :
+      null;
+    var pricingFormModal = (pricingFormElement) ?
+      angular.element(pricingFormElement.parentElement.parentElement.parentElement) :
+      null;
 
     try {
       contactForm = new WufooForm();
@@ -42,12 +46,12 @@ app.run(function (ThirdParties) {
       console.error(e);
     }
 
-    if(contactFormModal) {
+    if (contactFormModal) {
       contactFormModal.on('show.bs.modal', function (event) {
         contactForm.display();
       });
     }
-    if(pricingFormModal) {
+    if (pricingFormModal) {
       pricingFormModal.on('show.bs.modal', function (event) {
         pricingForm.display();
       });
@@ -55,8 +59,6 @@ app.run(function (ThirdParties) {
   }
 
   initWufooForms();
-
-
 
 });
 
@@ -68,7 +70,7 @@ app.controller('recruiterController', function ($scope, $http) {
 
 });
 
-app.controller('homeController', function ($scope, $http,ENV) {
+app.controller('homeController', function ($scope, $http, ENV) {
 
   $scope.jobs = [];
   $http.get(ENV.apiEndpoint + "/public-job-offers/active").success(function (data, status) {
@@ -181,7 +183,7 @@ app.controller('pricingController', function ($scope, $http) {
 
 });
 
-app.directive("jobCaroussel", function ($timeout) {
+app.directive("jobCaroussel", function ($timeout, $window,$compile) {
   return {
     restrict: 'AE',
     replace: true,
@@ -192,33 +194,34 @@ app.directive("jobCaroussel", function ($timeout) {
     templateUrl: '/assets/templates/jobCaroussel.html'
     ,
     link: function (scope) {
-        scope.$watch('jobs', function (newValue) {
-          if(newValue && newValue.length>0) {
-            $timeout(function () {
-              $('.carousel').carousel({
-                interval: 3000
-              });
+      scope.$watch('jobs', function (newValue) {
+        if (newValue && newValue.length > 0) {
+          $timeout(function () {
+            var carouselElem = $('.carousel');
+            carouselElem.carousel({
+              interval: 3000
+            });
 
-              $('.carousel[data-type="multi"] .item').each(function () {
-                var next = $(this).next();
+            $('.carousel[data-type="multi"] .item').each(function () {
+              var next = $(this).next();
+              if (!next.length) {
+                next = $(this).siblings(':first');
+              }
+              next.children(':first-child').clone().appendTo($(this));
+
+              for (var i = 0; i < 2; i++) {
+                next = next.next();
                 if (!next.length) {
                   next = $(this).siblings(':first');
                 }
+
                 next.children(':first-child').clone().appendTo($(this));
-
-                for (var i = 0; i < 2; i++) {
-                  next = next.next();
-                  if (!next.length) {
-                    next = $(this).siblings(':first');
-                  }
-
-                  next.children(':first-child').clone().appendTo($(this));
-                }
-              });
+              }
             });
-          }
-        })
-
+            $compile(carouselElem.find('.job'))(scope);
+          });
+        }
+      });
 
     }
   };
