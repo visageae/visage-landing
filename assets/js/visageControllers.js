@@ -90,7 +90,7 @@ app.controller('careerController', function ($scope, $http) {
 
 app.controller('pricingController', function ($scope, $http) {
 
-  $http.get("/assets/json/recruiter-faq.json").success(function (data, status) {
+  $http.get("/assets/json/pricing-faq.json").success(function (data, status) {
     $scope.faq = data;
   });
 

@@ -10876,6 +10876,9 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 #visage .fa.highlight {
   color: #ffc107;
 }
+#visage .fa.accent {
+  color: #0fc48b;
+}
 #visage .light {
   color: #6f6f6f;
 }
@@ -10960,16 +10963,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 }
 #visage #hero h1,
 #visage #hero h2 {
-  color: #0fc48b;
-}
-#visage #hero h5 {
-  color: #0fc48b;
-  font-size: 22px;
-  margin: 10px 10%;
-}
-#visage #hero h5:first-of-type {
-  margin-bottom: 10px;
-  margin-top: 30px;
+  color: #23a779;
 }
 #visage #hero .btn {
   margin-top: 20px;
@@ -10988,6 +10982,16 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 }
 #visage #clients .logos li img {
   vertical-align: middle;
+}
+#visage #numbers h5 {
+  color: #ffffff;
+  font-size: 22px;
+  margin: 10px 10%;
+  font-weight: bold;
+}
+#visage #numbers h5:first-of-type {
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 #visage #numbers article .heading {
   color: #ffffff;

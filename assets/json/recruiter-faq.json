@@ -1,22 +1,46 @@
 [
   {
     "q": "Can anyone be a recruiter at Visage?",
-    "a": "Yes and no. We don't require you to have a background in recruitment but the quality of candidates your refer will be checked carefully."
+    "a": "Yes and no. We would prefer you to have a background in recruitment and especially where you have worked as a freelance recruiter and have a specific sector or discipline speciality, but if not and as long as the quality of candidates your refer are of relevance and top quality then we will always accept them."
   },
   {
     "q": "What do I get pay for?",
-    "a": "You get pay for every suitable candidate you refer against a job on the platform. A suitable candidate is a candidate whose CV matches with the job requirements."
+    "a": "You get paid for every suitable candidate you refer against a job requirement as specified on the platform. A suitable candidate is a candidate whose CV matches with the job requirements and will be evaluated accordingly."
   },
   {
     "q": "How and when do I get paid?",
-    "a": "We pay you on a weekly basis on the bank account of your choice or via Paypal."
+    "a": "We pay you based on a weekly milestone Monday to Sunday and on a weekly basis on the Tuesday following the Sunday Milestone cut off. We use a third party on-line Payment system which is very easy to set you up on."
   },
   {
     "q": "How much money can I make?",
-    "a": "You get paid for every relevant candidate you refer. It depends on how much you work, how quickly and how relevant your candidates are. Our top recruiters make up to $1300 a week."
+    "a": "You get paid for every relevant candidate you refer. It depends on how many roles your work, quickly you work and ultimately CV's you provide that are approved. Our top recruiters make over $1300 a week."
   },
   {
     "q": "Do you provide database accesses?",
-    "a": "We don't provide you with any database access. You will need to have your own network and database of candidates."
+    "a": "We don't provide you with any Job Board or Media based networking solutions. You will need to have your own network and database of candidates and or use Linkedin , Google deep Search or free boards such as Dubizzle to search for candidates"
+  },
+  {
+    "q": "Where and when can I work as a recruiter for Visage?",
+    "a": "We have no restrictions on where and when you work wither you commit full time, part time, evenings or weekend, at home or in a coffee shop or internet cafe the choice is yours. We do insist however that you do not breach any contractual relations you have with a current employer."
+  },
+  {
+    "q": "How do I know the status of my candidates?",
+    "a": "All of your referred candidates will be stamped with your i.d. and all of them will be validated with a 'Thumbs Up' (Approved) or 'Thumbs Down' (Disqualified with appropriate notes recorded on the candidate record). You can view the progress of your candidate on your own personal dashboard all the way to client submission."
+  },
+  {
+    "q": "How many other recruiters will work the same Role?",
+    "a": "We have a community of hundreds of recruiters but we tend to limit this to a max of 15 per role and specialism that is relevant to the requirements."
+  },
+  {
+    "q": "How many CV's can I send for any one role?",
+    "a": "W prefer that you provide up to 20 good quality CV's per role, more if you have them and they are outstanding. The better the candidates, the more you will be able to submit for the next positions."
+  },
+  {
+    "q": "What happens if another recruiter refers the same candidate?",
+    "a": "Candidates are accepted on a first come first serve basis with each candidate record being date and time stamped. First one past the post wins with duplication being determined by means of CV or email match."
+  },
+  {
+    "q": "Do I get paid a bonus or reward if my candidate is hired?",
+    "a": "No, as we are not paid on this measurement of success nor do we pay our recruiters in the event that a candidate is hired by the client."
   }
 ]
