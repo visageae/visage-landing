@@ -19,6 +19,9 @@
           fjs.parentNode.insertBefore(js, fjs);
           return deferred.promise;
         }
+        window.intercomSettings = {
+          app_id:ThirdParties.intercom.appId
+        };
         var scriptsLoaded = $q.all([insertScript('intercom-lib',
             'https://widget.intercom.io/widget/' + ThirdParties.intercom.appId),
           insertScript('wufoo-lib',

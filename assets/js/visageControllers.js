@@ -23,29 +23,33 @@ app.run(function (ThirdParties) {
     };
     var contactFormElement = document.getElementById('wufoo-' + ThirdParties.wufoo.forms.contact);
     var pricingFormElement = document.getElementById('wufoo-' + ThirdParties.wufoo.forms.pricing);
-    var contactFormModal = (contactFormElement) ?
-      angular.element(contactFormElement.parentElement.parentElement.parentElement) :
-      null;
-    var pricingFormModal = (pricingFormElement) ?
-      angular.element(pricingFormElement.parentElement.parentElement.parentElement) :
-      null;
+    //var contactFormModal = (contactFormElement) ?
+    //  angular.element(contactFormElement.parentElement.parentElement.parentElement) :
+    //  null;
+    //var pricingFormModal = (pricingFormElement) ?
+    //  angular.element(pricingFormElement.parentElement.parentElement.parentElement) :
+    //  null;
 
-    try {
-      contactForm = new WufooForm();
-      contactForm.initialize(optionsContactForm);
-      contactForm.display();
-    }
-    catch (e) {
-      console.error(e);
+    if(contactFormElement) {
+      try {
+        contactForm = new WufooForm();
+        contactForm.initialize(optionsContactForm);
+        contactForm.display();
+      }
+      catch (e) {
+        console.error(e);
+      }
     }
 
-    try {
-      pricingForm = new WufooForm();
-      pricingForm.initialize(optionsPricingForm);
-      pricingForm.display();
-    }
-    catch (e) {
-      console.error(e);
+    if(pricingFormElement) {
+      try {
+        pricingForm = new WufooForm();
+        pricingForm.initialize(optionsPricingForm);
+        pricingForm.display();
+      }
+      catch (e) {
+        console.error(e);
+      }
     }
 
     //if (contactFormModal) {
