@@ -33,6 +33,7 @@ app.run(function (ThirdParties) {
     try {
       contactForm = new WufooForm();
       contactForm.initialize(optionsContactForm);
+      contactForm.display();
     }
     catch (e) {
       console.error(e);
@@ -41,21 +42,20 @@ app.run(function (ThirdParties) {
     try {
       pricingForm = new WufooForm();
       pricingForm.initialize(optionsPricingForm);
+      pricingForm.display();
     }
     catch (e) {
       console.error(e);
     }
 
-    if (contactFormModal) {
-      contactFormModal.on('show.bs.modal', function (event) {
-        contactForm.display();
-      });
-    }
-    if (pricingFormModal) {
-      pricingFormModal.on('show.bs.modal', function (event) {
-        pricingForm.display();
-      });
-    }
+    //if (contactFormModal) {
+    //  contactFormModal.on('show.bs.modal', function (event) {
+    //  });
+    //}
+    //if (pricingFormModal) {
+    //  pricingFormModal.on('show.bs.modal', function (event) {
+    //  });
+    //}
   }
 
   initWufooForms();
@@ -183,7 +183,7 @@ app.controller('pricingController', function ($scope, $http) {
 
 });
 
-app.directive("jobCaroussel", function ($timeout, $window,$compile) {
+app.directive("jobCaroussel", function ($timeout, $window, $compile) {
   return {
     restrict: 'AE',
     replace: true,
