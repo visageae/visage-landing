@@ -10972,8 +10972,11 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   font-size: 30px;
 }
 #visage #how .section-content article i {
-  font-size: 80px;
-  height: 95px;
+  font-size: 150px;
+}
+#visage #how .section-content article .spot-on::before {
+  border: 5px solid;
+  border-radius: 5px;
 }
 #visage #clients .logos li {
   height: 150px;
