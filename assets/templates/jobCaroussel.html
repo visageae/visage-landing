@@ -26,15 +26,15 @@
                                 </div>
                                 <p class="job-title">{{ job.title }}</p>
                                 <div class="row">
-                                    <div class="col-xs-12">
-                                        <a type="button" href="{{job.syncedWith.url}}" target="_blank" class="btn btn-default"><i class="icon icon-office-51" aria-hidden="true"></i> Apply</a>
+                                    <!--<div class="col-xs-12">-->
+                                        <!--<a type="button" href="https://app.visage.jobs/#/candidate/{{job._id}}" target="_blank" class="btn btn-default"><i class="icon icon-office-51" aria-hidden="true"></i> Apply</a>-->
+                                    <!--</div>-->
+                                    <div class="col-xs-6">
+                                    <a type="button" href="https://app.visage.jobs/#/candidate/{{job._id}}" class="job-button btn btn-default"><i class="icon icon-office-51" aria-hidden="true"></i> Apply</a>
                                     </div>
-                                    <!--<div class="col-xs-6">-->
-                                    <!--<button type="button" class="btn btn-default"><i class="icon icon-office-51" aria-hidden="true"></i> Apply</button>-->
-                                    <!--</div>-->
-                                    <!--<div class="col-xs-6">-->
-                                    <!--&lt;!&ndash;<button type="button" class="btn btn-default disabled"><span class="glyphicon glyphicon-star" aria-hidden="true"></span> Refer</button>&ndash;&gt;-->
-                                    <!--</div>-->
+                                    <div class="col-xs-6">
+                                    <a type="button" href="https://app.visage.jobs/#/recruiter/job-offer/{{job._id}}" class="job-button btn btn-default"><i class="icon icon-faces-users-04" aria-hidden="true"></i> Refer</a>
+                                    </div>
                                 </div>
                             </div>
 
