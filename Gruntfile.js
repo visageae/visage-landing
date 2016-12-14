@@ -81,6 +81,7 @@ module.exports = function (grunt) {
             '*.{ico,png,txt}',
             '*.html',
             'favicon/{,*/}*.*',
+            'renewable/{,*/}*.*',
             'assets/img/{,*/}*.{webp}',
             'assets/fonts/{,*/}*.*',
             'assets/templates/{,*/}*.*',
