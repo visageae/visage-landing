@@ -84,7 +84,8 @@ module.exports = function (grunt) {
             'assets/img/{,*/}*.{webp}',
             'assets/fonts/{,*/}*.*',
             'assets/templates/{,*/}*.*',
-            'assets/json/{,*/}*.*'
+            'assets/json/{,*/}*.*',
+            'assets/public/{,*/}*.*'
           ]
         }]
       }
