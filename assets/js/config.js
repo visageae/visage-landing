@@ -2,8 +2,8 @@
 
  angular.module('config', [])
 
-.constant('ENV', {production:true,apiEndpoint:'{{PROD_VISAGE_API_ENDPOINT}}'})
+.constant('ENV', {development:true,apiEndpoint:'http://localhost:3000'})
 
-.constant('ThirdParties', {intercom:{appId:'{{PROD_INTERCOM_APP_ID}}'},wufoo:{username:'techvisage',forms:{contact:'z8kv0cc0ktfm9y',pricing:'m1fs4a3q0krw3pa'},host:'wufoo.com'}})
+.constant('ThirdParties', {intercom:{appId:'qgdnsb89'},wufoo:{username:'techvisage',forms:{contact:'z8kv0cc0ktfm9y',pricing:'m1fs4a3q0krw3pa'},host:'wufoo.com'}})
 
 ;

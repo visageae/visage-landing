@@ -6715,6 +6715,11 @@ input[type=checkbox]:focus {
 .package-column.featured > .package-detail ul li {
   color: #ffffff;
 }
+@media (min-width: 992px) {
+  .package-column-short .package-detail .list-unstyled {
+    margin-bottom: 102px;
+  }
+}
 @media (max-width: 1199px) {
   .package-column .package-detail {
     height: 425px;
@@ -10859,9 +10864,10 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 #visage #hero h1,
 #visage #hero h2 {
   color: #23a779;
+  font-weight: 300;
 }
-#visage #hero .btn {
-  margin-top: 20px;
+#visage #hero h1 {
+  font-size: 2.8em;
 }
 #visage #how .section-content article .heading {
   font-size: 30px;

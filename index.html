@@ -123,12 +123,15 @@
                      data-animation="fadeInUp"
                      data-duartion="500"
                      data-delay="200">
-                    <form id="hiring-contact-form" class="form-inline" novalidate ng-submit="$event.preventDefault()">
-                        <div class="form-group">
-                            <input type="email" placeholder="Your Email" id="hiringEmail" ng-model="vm.hiringEmail">
+                    <!--<form id="hiring-contact-form" name="hiringContactForm" class="form-inline" ng-submit="vm.showContactForm() && false">-->
+                    <div class="form-inline">
+                        <div class="form-group" ng-class="{ 'has-error': !vm.validEmail }">
+                            <input ng-class="{ 'error': !vm.validEmail }" type="email" placeholder="Your Email" id="hiringEmail" ng-model="vm.hiringEmail" ng-keyup="vm.onInputEnter($event)" required>
                         </div>
                         <a ng-click="vm.showContactForm()" class="btn btn-solid">Request a demo</a>
-                    </form>
+                        <p class="help-block text-danger" ng-show="!vm.validEmail">Please enter a valid email address.</p>
+                    </div>
+                    <!--</form>-->
                 </div>
             </div>
         </div>
