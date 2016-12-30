@@ -1,5 +1,6 @@
 var app = angular.module('visageWebsite', ['rzModule', 'config']);
-app.run(function (ThirdParties) {
+
+app.run(function (ThirdParties, WufooService) {
 
   function initWufooForms() {
     var contactForm;
@@ -20,26 +21,11 @@ app.run(function (ThirdParties) {
       'host': ThirdParties.wufoo.host,
       'ssl': true,
       'header': 'hide'
-    };
-    var contactFormElement = document.getElementById('wufoo-' + ThirdParties.wufoo.forms.contact);
-    var pricingFormElement = document.getElementById('wufoo-' + ThirdParties.wufoo.forms.pricing);
-    //var contactFormModal = (contactFormElement) ?
-    //  angular.element(contactFormElement.parentElement.parentElement.parentElement) :
-    //  null;
-    //var pricingFormModal = (pricingFormElement) ?
-    //  angular.element(pricingFormElement.parentElement.parentElement.parentElement) :
-    //  null;
+    },
+    pricingFormElement = document.getElementById('wufoo-' + ThirdParties.wufoo.forms.pricing);
 
-    if(contactFormElement) {
-      try {
-        contactForm = new WufooForm();
-        contactForm.initialize(optionsContactForm);
-        contactForm.display();
-      }
-      catch (e) {
-        console.error(e);
-      }
-    }
+    WufooService.form.contact.el = document.getElementById('wufoo-' + ThirdParties.wufoo.forms.contact);
+    WufooService.form.contact.options = angular.copy(optionsContactForm);
 
     if(pricingFormElement) {
       try {
@@ -51,18 +37,74 @@ app.run(function (ThirdParties) {
         console.error(e);
       }
     }
-
-    //if (contactFormModal) {
-    //  contactFormModal.on('show.bs.modal', function (event) {
-    //  });
-    //}
-    //if (pricingFormModal) {
-    //  pricingFormModal.on('show.bs.modal', function (event) {
-    //  });
-    //}
   }
 
   initWufooForms();
+
+});
+
+app.factory('WufooService', function () {
+    return{
+        form: {
+            contact: {
+                el: {},
+                options: {},
+                wufooForm: null
+            },
+            pricing: {}
+        }
+    }
+});
+
+app.controller('startHiringController', function ($scope, $timeout, WufooService) {
+    var vm = this;
+    vm.hiringEmail = '';
+    vm.validEmail = true;
+    var contactFormElement = WufooService.form.contact.el;
+    var contactFormModal = (contactFormElement) ?
+        angular.element(contactFormElement.parentElement.parentElement.parentElement) : null;
+
+    if (contactFormModal) {
+        contactFormModal.on('show.bs.modal', function (event) {
+            $timeout(function () {
+                if (contactFormElement) {
+                    try {
+                        WufooService.form.contact.wufooForm = new WufooForm();
+                        if (vm.hiringEmail) {
+                            WufooService.form.contact.options.defaultValues = 'Field7=' + vm.hiringEmail;
+                        }
+                        WufooService.form.contact.wufooForm.initialize(WufooService.form.contact.options);
+                        WufooService.form.contact.wufooForm.display();
+                    }
+                    catch (e) {
+                        console.error(e);
+                    }
+                }
+            })
+
+        });
+    }
+
+    vm.onInputEnter = function (keyEvent) {
+        if (keyEvent && keyEvent.keyCode == 13) {
+            vm.showContactForm();
+        }else{
+            vm.validEmail = validateEmail(vm.hiringEmail);
+        }
+    };
+
+    vm.showContactForm = function () {
+        vm.validEmail = validateEmail(vm.hiringEmail);
+        if(vm.validEmail){
+            vm.validEmail = true;
+            angular.element('#myModal').modal();
+        }
+    };
+
+    function validateEmail(email) {
+        var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+    }
 
 });
 
