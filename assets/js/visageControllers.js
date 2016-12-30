@@ -87,6 +87,8 @@ app.controller('startHiringController', function ($scope, $timeout, WufooService
     vm.onInputEnter = function (keyEvent) {
         if (keyEvent && keyEvent.keyCode == 13) {
             vm.showContactForm();
+        }else{
+            vm.validEmail = validateEmail(vm.hiringEmail);
         }
     };
 
