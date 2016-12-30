@@ -64,8 +64,18 @@ app.controller('startHiringController', function ($scope, $timeout, WufooService
     var contactFormModal = (contactFormElement) ?
         angular.element(contactFormElement.parentElement.parentElement.parentElement) : null;
 
-    if (contactFormModal) {
-        contactFormModal.on('show.bs.modal', function (event) {
+    vm.onInputEnter = function (keyEvent) {
+        if (keyEvent && keyEvent.keyCode == 13) {
+            vm.showContactForm();
+        }else{
+            vm.validEmail = validateEmail(vm.hiringEmail);
+        }
+    };
+
+    vm.showContactForm = function () {
+        vm.validEmail = validateEmail(vm.hiringEmail);
+        if(vm.validEmail){
+            vm.validEmail = true;
             $timeout(function () {
                 if (contactFormElement) {
                     try {
@@ -80,24 +90,8 @@ app.controller('startHiringController', function ($scope, $timeout, WufooService
                         console.error(e);
                     }
                 }
-            })
-
-        });
-    }
-
-    vm.onInputEnter = function (keyEvent) {
-        if (keyEvent && keyEvent.keyCode == 13) {
-            vm.showContactForm();
-        }else{
-            vm.validEmail = validateEmail(vm.hiringEmail);
-        }
-    };
-
-    vm.showContactForm = function () {
-        vm.validEmail = validateEmail(vm.hiringEmail);
-        if(vm.validEmail){
-            vm.validEmail = true;
-            angular.element('#myModal').modal();
+                angular.element('#myModal').modal();
+            });
         }
     };
 
