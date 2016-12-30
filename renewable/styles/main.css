@@ -7457,6 +7457,18 @@ footer .footer-container .contact-content .phone-contact {
 .modal .modal-dialog .modal-content .modal-body .wufoo-form-container .info {
     display: none
 }
+
+.nav{
+    position: absolute;
+    left: 200px;
+    top: 25px;
+}
+
+.nav .btn{
+    background: #53c08f;
+    color: white;
+}
+
 @media (min-width: 1200px) and (max-width: 1440px) {
     .main-folder {
         padding: 170px 120px
