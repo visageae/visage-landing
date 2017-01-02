@@ -111,7 +111,7 @@
         </nav>
     </header>
 
-    <div id="hero" class="background-image-cover home-1 window-height light-text hero-section clearfix">
+    <div ng-controller="startHiringController as vm" id="hero" class="background-image-cover home-1 window-height light-text hero-section clearfix">
         <div class="overlay"></div>
         <div class="heading-block align-center centered-block saying-title-light-bg">
             <div class="container-fluid">
@@ -123,8 +123,13 @@
                      data-animation="fadeInUp"
                      data-duartion="500"
                      data-delay="200">
-                    <a href="#" class="btn btn-solid" data-toggle="modal" data-target="#myModal">Request
-                        a demo</a>
+                    <div class="form-inline">
+                        <div class="form-group" ng-class="{ 'has-error': !vm.validEmail }">
+                            <input ng-class="{ 'error': !vm.validEmail }" type="email" placeholder="Your Email" id="hiringEmail" ng-model="vm.hiringEmail" ng-keyup="vm.onInputEnter($event)" required>
+                        </div>
+                        <a ng-click="vm.showContactForm()" class="btn btn-solid">Contact Us</a>
+                        <p class="help-block text-danger" ng-show="!vm.validEmail">Please enter a valid email address.</p>
+                    </div>
                 </div>
             </div>
         </div>
