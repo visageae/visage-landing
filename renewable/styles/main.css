@@ -7755,3 +7755,12 @@ footer .footer-container .contact-content .phone-contact {
         max-width: inherit
     }
 }
+
+.about-text ul a {
+    color: aliceblue;
+}
+.about-text ul {
+    list-style: none;
+    padding: 0;
+    color: white;
+}
