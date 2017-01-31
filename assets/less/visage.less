@@ -707,22 +707,26 @@ i.red{
   }
 }
 .step{
-    position: absolute;
-    border-radius: 50%;
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    background-color: #606060;
-    color: #fff;
-    text-align: center; 
-    line-height: 55px;
-    font-size: 38px;
-    z-index: -1;
-    left: -44px;
+  border-radius: 50%;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: lighten(#606060, 10%);
+  color: #fff;
+  text-align: center;
+  line-height: 24px;
+  font-size: 18px;
+  margin-right: 6px;
+  &+.highlight{
+    font-size: 27px;
+  }
 }
 .heading{
     position: relative;
 }
-#how .sub-header{
-padding-right: 50px;    
+
+#how{
+  .section-header{
+    margin-bottom: 50px;
+  }
 }
