@@ -182,19 +182,21 @@
             <div class="clearfix animated" data-duration="500" data-animation="fadeInRight">
                 <div class="col-sm-12 col-xs-12">
                     <article class="align-center">
-                        <h5>Talent is hard to find. But it is easier with over 1000 recruiters looking. Talent is out there.</h5>
+                        <h5>Talent is hard to find. But it's easier with over 1000 recruiters looking. <br> Talent is
+                            out there.</h5>
                         <div class="animated"
-                     data-animation="fadeInUp"
-                     data-duartion="500"
-                     data-delay="200">
-                    <div class="form-inline">
-                        <div class="form-group" ng-class="{ 'has-error': !vm.validEmail }">
-                            <input ng-class="{ 'error': !vm.validEmail }" type="email" placeholder="Your Email" id="hiringEmail" ng-model="vm.hiringEmail" ng-keyup="vm.onInputEnter($event)" required>
+                             ng-controller="startHiringController as vm"
+                             data-animation="fadeInUp"
+                             data-duartion="500"
+                             data-delay="200">
+                            <div class="form-inline">
+                                <div class="form-group" ng-class="{ 'has-error': !vm.validEmail }">
+                                    <input ng-class="{ 'error': !vm.validEmail }" type="email" placeholder="Your Email" id="hiringEmail" ng-model="vm.hiringEmail" ng-keyup="vm.onInputEnter($event)" required>
+                                </div>
+                                <a ng-click="vm.showContactForm()" class="btn btn-solid">Contact Us</a>
+                                <p class="help-block text-danger" ng-show="!vm.validEmail">Please enter a valid email address.</p>
+                            </div>
                         </div>
-                        <a ng-click="vm.showContactForm()" class="btn btn-solid">Contact Us</a>
-                        <p class="help-block text-danger" ng-show="!vm.validEmail">Please enter a valid email address.</p>
-                    </div>
-                </div>
                     </article>
                 </div>
             </div>
@@ -234,6 +236,22 @@
                     <img src="/assets/img/loading.gif" height="50" width="50" alt="loading">
                     <br>
                     Fill out my <a href="https://techvisage.wufoo.com/forms/m1fs4a3q0krw3pa">online
+                    form</a>.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <span type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></span>
+                <div class="modal-body"id="wufoo-z8kv0cc0ktfm9y">
+                    <img src="/assets/img/loading.gif" height="50" width="50" alt="loading">
+                    <br>
+                    Fill out my <a href="https://techvisage.wufoo.com/forms/z8kv0cc0ktfm9y">online
                     form</a>.
                 </div>
             </div>
