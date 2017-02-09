@@ -129,12 +129,19 @@
                 </div>
                 <div class="col-xs-12">
                     <div class="form-container">
-                        <form class="form-inline" id="hireForm">
-                            <div class="form-group">
-                                <input id="emailInput" class="custom-input" type="email" name="" placeholder="Your Email" required>
+                        <div class="animated"
+                             ng-controller="startHiringController as vm"
+                             data-animation="fadeInUp"
+                             data-duartion="500"
+                             data-delay="200">
+                            <div class="form-inline">
+                                <div class="form-group" ng-class="{ 'has-error': !vm.validEmail }">
+                                    <input ng-class="{ 'error': !vm.validEmail }" type="email" placeholder="Your Email" id="hiringEmail" ng-model="vm.hiringEmail" ng-keyup="vm.onInputEnter($event)" required>
+                                </div>
+                                <a ng-click="vm.showContactForm()" class="btn btn-solid">Contact Us</a>
+                                <p class="help-block text-danger" ng-show="!vm.validEmail">Please enter a valid email address.</p>
                             </div>
-                            <button class="green-button" type="submit">Start hiring</button>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -312,6 +319,20 @@
                 <div class="modal-body">
                     <div id="wufoo-q1gsxcg1150s39k">Fill out my <a href="https://techvisage.wufoo.com/forms/q1gsxcg1150s39k">online form</a>.</div>
                     <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block">Online contact and registration forms from <a href="http://www.wufoo.com">Wufoo</a>.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <span type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></span>
+                <div class="modal-body"id="wufoo-z8kv0cc0ktfm9y">
+                    <img src="/assets/img/loading.gif" height="50" width="50" alt="loading">
+                    <br>
+                    Fill out my <a href="https://techvisage.wufoo.com/forms/z8kv0cc0ktfm9y">online
+                    form</a>.
                 </div>
             </div>
         </div>
