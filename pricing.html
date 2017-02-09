@@ -96,11 +96,11 @@
                 </button>
                 <div class="navigation-navbar collapsed">
                     <ul class="navigation-bar navigation-bar-left">
-                        <li><a href="/recruiter.html">Become a Recruiter</a></li>
                         <li><a href="/pricing.html">Pricing</a></li>
                         <li><a href="/renewable/">Renewable</a></li>
-                        <li><a href="http://blog.visage.jobs">Blog</a></li>
+                        <li><a href="/recruiter.html">Become a recruiter</a></li>
                         <li><a href="/about.html#team">Team</a></li>
+                        <li><a href="http://blog.visage.jobs">Blog</a></li>
                     </ul>
                     <ul class="navigation-bar navigation-bar-right">
                         <li><a href="https://app.visage.jobs/">Login</a></li>
@@ -125,9 +125,9 @@
 
                 <div class="col-sm-6">
                     <div class="package-column">
-                        <div class="package-title">Pay Per Hire</div>
+                        <div class="package-title"><strong>Pay Per Hire</strong></div>
                         <div class="package-price">
-                            <h3 class="period">I NEED ONE HIRE</h3>
+                            <h3 class="period">I NEED <span>ONE</span> HIRE</h3>
                             <div class="period">(15% of first year's base salary)</div>
                         </div>
                         <div class="package-detail">
@@ -144,10 +144,10 @@
 
                 <div class="col-sm-6">
                     <div class="package-column package-column-short">
-                        <div class="package-title">Unlimited Hires</div>
+                        <div class="package-title"><strong>Unlimited Hires</strong></div>
                         <div class="package-price">
-                            <h3 class="period">I need multiple hires</h3>
-                            <div class="period">(Pay one set cost per month and hire as many people as you need)</div>
+                            <h3 class="period">I need <span>multiple</span> hires</h3>
+                            <div class="period">(Pay one set cost per month and hire as many<br>people as you need)</div>
                         </div>
                         <div class="package-detail">
                             <ul class="list-unstyled">
@@ -180,30 +180,23 @@
         </span>
         <div class="container">
             <div class="clearfix animated" data-duration="500" data-animation="fadeInRight">
-                <div class="col-sm-4 col-xs-12">
+                <div class="col-sm-12 col-xs-12">
                     <article class="align-center">
-                        <i class="icon icon-chat-messages-08 highlight"></i>
-                        <span class="heading"><strong>UNDERSTANDING</strong></span>
-                        <p class="">Job validation</p>
-                        <p class="">Copywriting and SEO</p>
-                    </article>
-                </div>
-                <div class="col-sm-4 col-xs-12">
-                    <article class="align-center">
-                        <i class="icon icon-seo-icons-11 highlight"></i>
-                        <span class="heading"><strong>CROWDSOURCING</strong></span>
-                        <p class="">Recruiters sourcing</p>
-                        <p class="">Multiposting</p>
-                        <p class="">Social media targetting</p>
-                    </article>
-                </div>
-                <div class="col-sm-4 col-xs-12">
-                    <article class="align-center">
-                        <i class="icon icon-seo-icons-07 highlight"></i>
-                        <span class="heading"><strong>FINDING TALENT</strong></span>
-                        <p class="">Filtering</p>
-                        <p class="">Shortlisting</p>
-                        <p class="">Video CV recordings</p>
+                        <h5>Talent is hard to find. But it's easier with over 1000 recruiters looking.</h5>
+                        <h5><strong>Talent <span>is</span> out there.</strong></h5>
+                        <div class="animated"
+                             ng-controller="startHiringController as vm"
+                             data-animation="fadeInUp"
+                             data-duartion="500"
+                             data-delay="200">
+                            <div class="form-inline">
+                                <div class="form-group" ng-class="{ 'has-error': !vm.validEmail }">
+                                    <input ng-class="{ 'error': !vm.validEmail }" type="email" placeholder="Your Email" id="hiringEmail" ng-model="vm.hiringEmail" ng-keyup="vm.onInputEnter($event)" required>
+                                </div>
+                                <a ng-click="vm.showContactForm()" class="btn btn-solid">Contact Us</a>
+                                <p class="help-block text-danger" ng-show="!vm.validEmail">Please enter a valid email address.</p>
+                            </div>
+                        </div>
                     </article>
                 </div>
             </div>
@@ -250,6 +243,22 @@
     </div>
 
 
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <span type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></span>
+                <div class="modal-body"id="wufoo-z8kv0cc0ktfm9y">
+                    <img src="/assets/img/loading.gif" height="50" width="50" alt="loading">
+                    <br>
+                    Fill out my <a href="https://techvisage.wufoo.com/forms/z8kv0cc0ktfm9y">online
+                    form</a>.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <footer id="footer" class="footer light-text">
         <div class="container">
             <div class="footer-content row">
@@ -259,9 +268,13 @@
                     </div>
                     <p>
                     <ul>
+                        <li><a href="/pricing.html">Pricing</a></li>
+                        <li><a href="/recruiter.html">Become a recruiter</a></li>
                         <li><a href="/about.html">About</a></li>
                         <li><a href="/about.html#team">Team</a></li>
                         <li><a href="http://blog.visage.jobs">Blog</a></li>
+                        <li><a href="/recruiter.html#faq">Employer FAQ</a></li>
+                        <li><a href="/pricing.html#faq">Recruiter FAQ</a></li>
                     </ul>
                     </p>
                 </div>
