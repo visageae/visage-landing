@@ -1,7 +1,7 @@
 var app = angular.module('visageWebsite', ['rzModule', 'config']);
 
 app.run(function (ThirdParties, WufooService) {
-
+    console.log('run')
   function initWufooForms() {
     var contactForm;
     var pricingForm;
@@ -57,6 +57,7 @@ app.factory('WufooService', function () {
 });
 
 app.controller('startHiringController', function ($scope, $timeout, WufooService) {
+    console.log('?')
     var vm = this;
     vm.hiringEmail = '';
     vm.validEmail = true;
