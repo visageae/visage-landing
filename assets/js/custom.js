@@ -59,6 +59,31 @@
 
         $('#starterModal').modal('show');
       }
+    });
+
+    var transitionInterval = 2000;
+    setInterval(function() {
+      $('.team-quotes .team-quote:gt(0)').hide();
+      $('.team-quotes .team-quote:first')
+        .fadeOut(transitionInterval)
+        .next()
+        .fadeIn(transitionInterval)
+        .end()
+        .appendTo('.team-quotes');
+    }, 5000);
+
+    $(document).scroll(function (event) {
+      var windowTop = $(this).scrollTop();
+      $('#company').each(function () {
+        var objectTop = $(this).offset().top;
+        if (objectTop < windowTop) {
+          $('#company .section-content').find('h1, .team-quotes').css('opacity', objectTop * 5  / windowTop)
+        } else {
+          if ($('#company .section-content').find('h1, .team-quotes').css("opacity") == 0) {
+            $('#company .section-content').find('h1, .team-quotes').fadeTo(200, 1);
+          }
+        }
+      })
     })
 
   });
