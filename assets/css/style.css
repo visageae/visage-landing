@@ -11393,14 +11393,26 @@ i.red {
 }
 #company {
   padding: 60px 0;
-  background-color: #23a779;
   color: #fff;
+  background: url('../img/visage/team-header.jpg') no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 #company .section-header {
   margin-bottom: 60px;
 }
 #company p {
   font-size: 1.2em;
+}
+#company h1 {
+  font-size: 2em;
+}
+#company h2 {
+  font-size: 1.3em;
+}
+#company h1,
+#company h2 {
+  font-weight: 300;
 }
 .step {
   border-radius: 50%;
@@ -11479,18 +11491,12 @@ i.red {
   margin: 0;
   line-height: 50px;
 }
-#diversity-header {
-  background: url('../img/visage/diversity-header.jpg') no-repeat center;
-  -webkit-background-size: cover;
-  background-size: cover;
+.team-quotes {
+  position: relative;
+  height: 100px;
 }
-#diversity-header .section-header {
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
-  color: #fff;
-}
-#diversity-header h3 {
-  font-weight: 500;
-}
-#diversity h4 {
-  color: #23a779;
+.team-quote {
+  position: absolute;
+  left: 0;
+  right: 0;
 }

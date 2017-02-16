@@ -113,26 +113,58 @@
     <section id="company" class="section product-section align-center dark-text animated" data-animation="fadeInUp"
              data-duration="500">
         <div class="container">
-            <div class="section-header">
-                <h2>The Company</h2>
-            </div>
             <div class="section-content row">
+                <div class="col-sm-12">
+                    <h1><strong>Our mission is to help great employers hire the best talent out there</strong></h1>
+                    <!--<div class="team-quotes">-->
+                        <!--<h2 class="team-quote">"Visage builds and manages your candidate pipeline with the best talent" - Product Manager</h2>-->
 
-                <div class="col-sm-offset-2 col-sm-8">
-                    <p>Visage is a crowd-sourcing platform of freelance recruiters sourcing talent for your job openings. Our customers submit a job and get 10 relevant and interested candidates in 10 days! Ready for interviews</p>
+                        <!--<h2 class="team-quote" style="display: none;">"Visage understands your hiring needs and supports your goal to hire top talent" - Product Manager</h2>-->
+
+                        <!--<h2 class="team-quote" style="display: none;">"Visage uses recruiters around the world to refer hundreds of top candidates to your pipeline" - Product Manager</h2>-->
+                    <!--</div>-->
+
                 </div>
                 <div class="col-xs-12">
                     <div class="form-container">
-                        <form class="form-inline" id="hireForm">
-                            <div class="form-group">
-                                <input id="emailInput" class="custom-input" type="email" name="" placeholder="Your Email" required>
+                        <div class="animated"
+                             ng-controller="startHiringController as vm"
+                             data-animation="fadeInUp"
+                             data-duartion="500"
+                             data-delay="200">
+                            <div class="form-inline">
+                                <div class="form-group" ng-class="{ 'has-error': !vm.validEmail }">
+                                    <input ng-class="{ 'error': !vm.validEmail }" type="email" placeholder="Your Email" id="hiringEmail" ng-model="vm.hiringEmail" ng-keyup="vm.onInputEnter($event)" required>
+                                </div>
+                                <a ng-click="vm.showContactForm()" class="btn btn-solid">Contact Us</a>
+                                <p class="help-block text-danger" ng-show="!vm.validEmail">Please enter a valid email address.</p>
                             </div>
-                            <button class="green-button" type="submit">Start hiring</button>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id="our-mission" class="section align-center dark-text animated" data-animation="fadeInUp"
+             data-duration="500">
+        <div class="container">
+            <div class="section-content row">
+                <div class="col-sm-12">
+
+                    <p>70% of businesses can’t find the right talent. At Visage, we believe that talent is out there but it’s challenging to identify and engage with.</p>
+
+                    <p>Our mission is to help great employers hire the best talent out there.</p>
+
+                    <p>We create a strong and diverse candidate pipeline so that employers can focus on interviewing and assessing talent rather than searching for it.</p>
+
+                    <p>We solve this through our crowd sourcing solution. Our community of international freelance recruiters have access to over 100 websites and millions of passive candidates. We leave no stone unturned.</p>
+
+                    <p>We help you find the top talent out there and send only the qualified and committed candidates ready to interview.</p>
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <section id="team" class="section product-section align-center dark-text animated" data-animation="fadeInUp"
@@ -254,7 +286,6 @@
                             </ul>
                         </div>
                     </div>
-
                 </div>
                 <div class="col-sm-3 social-wrap col-xs-12">
                     <strong class="heading">Social Networks</strong>
@@ -307,6 +338,20 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <span type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></span>
+                <div class="modal-body"id="wufoo-z8kv0cc0ktfm9y">
+                    <img src="/assets/img/loading.gif" height="50" width="50" alt="loading">
+                    <br>
+                    Fill out my <a href="https://techvisage.wufoo.com/forms/z8kv0cc0ktfm9y">online
+                    form</a>.
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
 </div>
 
@@ -332,6 +377,8 @@
 <script defer type="text/javascript" src="assets/js/visageControllers.js"></script>
 <script defer type="text/javascript" src="assets/js/bootstrap-website.js"></script>
 <!-- endbuild -->
+<script defer type="text/javascript">
 
+</script>
 </body>
 </html>
