@@ -159,10 +159,26 @@
         <div class="container">
             <div class="section-content text-left row">
                 <div class="col-sm-6 col-sm-push-6 col-xs-12">
-                    <h4>Visage supports anonymous screening for every company</h4>
+                    <h4>Visage supports anonymous screening</h4>
                     <p>Maintaining diversity throughout the hiring process is essential to supporting diversity within the workplace.</p>
                     <p>Visage allows all employers to support this process with our anonymous screening option. We still provide you with top quality candidate profiles while eliminating certain candidate information; such as their names, nationality, education, contact details and profile pictures. This promotes 100% bias from the hiring team.
                     </p>
+                    <div class="animated"
+                         ng-controller="startHiringController as vm"
+                         data-animation="fadeInUp"
+                         data-duartion="500"
+                         data-delay="200">
+                        <div class="form-inline">
+                            <div class="form-group" ng-class="{ 'has-error': !vm.validEmail }">
+                                <input ng-class="{ 'error': !vm.validEmail }" type="email" placeholder="Your Email"
+                                       id="hiringEmail" ng-model="vm.hiringEmail" ng-keyup="vm.onInputEnter($event)"
+                                       required>
+                            </div>
+                            <a ng-click="vm.showContactForm()" class="btn btn-solid">Contact Us</a>
+                            <p class="help-block text-danger" ng-show="!vm.validEmail">Please enter a valid email
+                                address.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-6 col-sm-pull-6 col-xs-12">
                     <img class="img-responsive" src="/assets/img/visage/diverisity-anon.png" alt="Visage diversity">
