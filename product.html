@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -14,7 +13,7 @@
     <!--[if IE]>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-    <title>Visage | Pricing</title>
+    <title>Visage | Diversity</title>
     <meta name="description" content="Visage is a cost effective platform, 10 times cheaper than a recruitment agency.">
     <meta name="keywords" content="pricing, prices, price, plan, job, job credit, sourcing, source, junior, middle, senior">
 
@@ -54,7 +53,7 @@
     <![endif]-->
 </head>
 
-<body id="visage" class="visage pricing" data-sticky-menu-mode="false">
+<body id="visage" class="visage about" data-sticky-menu-mode="false">
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WX69C8"
@@ -86,8 +85,7 @@
             <div class="container">
                 <div class="navigation-brand">
                     <div class="brand-logo">
-                        <a href="index.html" class="logo"></a><a href="index.html"
-                                                                 class="logo logo-alt"></a>
+                        <a href="index.html" class="logo"></a><a href="index.html" class="logo logo-alt"></a>
                     </div>
                 </div>
                 <button class="navigation-toggle">
@@ -104,26 +102,90 @@
                     </ul>
                     <ul class="navigation-bar navigation-bar-right">
                         <li><a href="https://app.visage.jobs/">Login</a></li>
-                        <li class="featured"><a class="btn btn-sm btn-solid"
-                                                href="https://app.visage.jobs/#/signup">Sign up</a></li>
+                        <li class="featured">
+                            <a class="btn btn-sm btn-solid" href="https://app.visage.jobs/#/signup">Sign up</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-
-    <section id="product" class="section product-section align-center dark-text animated" data-animation="fadeInUp"
+    <section id="product-simple" class="section product-section align-center dark-text animated product-section" data-animation="fadeInUp"
              data-duration="500">
         <div class="container">
-            <div class="section-header">
-                <h2>Terms and conditions</h2>
+            <div class="section-content text-center row">
+                <div class="col-sm-6 col-xs-12">
+                    <h4>Simple</h4>
+                    <p>A streamlined & simple user interface allows you, the employer to focus on the important things - hiring your next team member!</p>
+                    <p>With an easy to view dashboard & fast job posting option, you can have your next open role posted within a few minutes.</p>
+                    <div class="animated"
+                         ng-controller="startHiringController as vm"
+                         data-animation="fadeInUp"
+                         data-duartion="500"
+                         data-delay="200">
+                        <div class="form-inline">
+                            <a ng-click="vm.showContactForm()" class="btn btn-solid">Contact Us</a>
+                            <p class="help-block text-danger" ng-show="!vm.validEmail">Please enter a valid email
+                                address.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <img class="img-responsive" src="/assets/img/visage/product_1.png" alt="Visage diversity">
+                </div>
             </div>
-            <div class="section-content row">
-                <iframe src="https://docs.google.com/document/d/1TetASBBapy3jBzKOfvPg0yfT-69FV2DyJJKMEBGryP4/pub?embedded=true" width="100%" height="5800px"></iframe>            </div>
         </div>
     </section>
-
-
+    <section id="product-easy" class="section product-section align-center dark-text animated product-section" data-animation="fadeInUp"
+             data-duration="500">
+        <div class="container">
+            <div class="section-content text-center row">
+                <div class="col-sm-6 col-xs-12">
+                    <img class="img-responsive" src="/assets/img/visage/product_2.png" alt="Visage diversity">
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <h4>Easy & Fast Screening</h4>
+                    <p>Review your 10 sample profiles within 48 hours & simply thumbs up or thumbs down each candidate within minutes.</p>
+                    <div class="animated"
+                         ng-controller="startHiringController as vm"
+                         data-animation="fadeInUp"
+                         data-duartion="500"
+                         data-delay="200">
+                        <div class="form-inline">
+                            <a ng-click="vm.showContactForm()" class="btn btn-solid">Contact Us</a>
+                            <p class="help-block text-danger" ng-show="!vm.validEmail">Please enter a valid email
+                                address.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="product-control" class="section product-section align-center dark-text animated product-section" data-animation="fadeInUp"
+             data-duration="500">
+        <div class="container">
+            <div class="section-content text-center row">
+                <div class="col-sm-6 col-xs-12">
+                    <h4>You're in Control</h4>
+                    <p>With updated features you can now provide individual comments on each candidate, quickly have a look at their social profiles and conveniently request to connect with any candidate you wish to.</p>
+                    <div class="animated"
+                         ng-controller="startHiringController as vm"
+                         data-animation="fadeInUp"
+                         data-duartion="500"
+                         data-delay="200">
+                        <div class="form-inline">
+                            <a ng-click="vm.showContactForm()" class="btn btn-solid">Contact Us</a>
+                            <p class="help-block text-danger" ng-show="!vm.validEmail">Please enter a valid email
+                                address.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <img class="img-responsive" src="/assets/img/visage/product_3.png" alt="Visage diversity">
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer id="footer" class="footer light-text">
         <div class="container">
@@ -193,10 +255,38 @@
         </div>
         <div class="copyright">visage.jobs 2016. All rights reserved.</div>
     </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="starterModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="wufoo-q1gsxcg1150s39k">Fill out my <a href="https://techvisage.wufoo.com/forms/q1gsxcg1150s39k">online form</a>.</div>
+                    <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block">Online contact and registration forms from <a href="http://www.wufoo.com">Wufoo</a>.</div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <span type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></span>
+                <div class="modal-body"id="wufoo-z8kv0cc0ktfm9y">
+                    <img src="/assets/img/loading.gif" height="50" width="50" alt="loading">
+                    <br>
+                    Fill out my <a href="https://techvisage.wufoo.com/forms/z8kv0cc0ktfm9y">online
+                    form</a>.
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
 </div>
-
 
 <!-- build:js assets/js/vendor.js -->
 <script defer type="text/javascript" src="assets/js/vendor/jquery-2.1.4.min.js"></script>
