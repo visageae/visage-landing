@@ -99,7 +99,6 @@
                         <li><a href="/pricing.html">Pricing</a></li>
                         <li><a href="/recruiter.html">Become a recruiter</a></li>
                         <li><a href="/diversity.html">Diversity</a></li>
-                        <li><a href="/product.html">Product</a></li>
                     </ul>
                     <ul class="navigation-bar navigation-bar-right">
                         <li><a href="https://app.visage.jobs/">Login</a></li>
@@ -272,6 +271,65 @@
                 </div>
                 <br>
                 <br>
+            </div>
+        </div>
+    </section>
+    <section id="product-simple" class="section align-left dark-text animated product-section" data-animation="fadeInUp"
+             data-duration="500">
+        <div class="container">
+            <div class="section-content text-left row">
+                <div class="col-sm-6 col-xs-12">
+                    <h4>Simple</h4>
+                    <p>A streamlined & simple user interface allows you, the employer to focus on the important things - hiring your next team member!</p>
+                    <p>With an easy to view dashboard & fast job posting option, you can have your next open role posted within a few minutes.</p>
+                    <div class="animated"
+                         ng-controller="startHiringController as vm"
+                         data-animation="fadeInUp"
+                         data-duartion="500"
+                         data-delay="200">
+                        <div class="form-inline">
+                            <div class="form-group" ng-class="{ 'has-error': !vm.validEmail }">
+                                <input ng-class="{ 'error': !vm.validEmail }" type="email" placeholder="Your Email"
+                                       id="hiringEmail" ng-model="vm.hiringEmail" ng-keyup="vm.onInputEnter($event)"
+                                       required>
+                            </div>
+                            <a ng-click="vm.showContactForm()" class="btn btn-solid">Contact Us</a>
+                            <p class="help-block text-danger" ng-show="!vm.validEmail">Please enter a valid email
+                                address.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <img class="img-responsive zoom-in" src="/assets/img/visage/product_3.png" alt="Visage diversity">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="product-easy" class="section align-left dark-text animated product-section" data-animation="fadeInUp"
+             data-duration="500">
+        <div class="container">
+            <div class="section-content text-left row">
+                <div class="col-sm-6 col-xs-12">
+                    <img class="img-responsive zoom-in" src="/assets/img/visage/product_2.png" alt="Visage diversity">
+                </div>
+                <div class="col-sm-6 col-xs-12 align-easy">
+                    <h4>Easy & Fast Screening</h4>
+                    <p>Review your 10 sample profiles within 48 hours & simply thumbs up or thumbs down each candidate within minutes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="product-control" class="section align-left dark-text animated product-section" data-animation="fadeInUp"
+             data-duration="500">
+        <div class="container">
+            <div class="section-content text-left row">
+                <div class="col-sm-6 col-xs-12">
+                    <h4>You're in Control</h4>
+                    <p>With updated features you can now provide individual comments on each candidate, quickly have a look at their social profiles and conveniently request to connect with any candidate you wish to.</p>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <img class="img-responsive zoom-in" src="/assets/img/visage/product_1.png" alt="Visage diversity">
+                </div>
             </div>
         </div>
     </section>
