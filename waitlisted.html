@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -12,10 +13,11 @@
     <meta charset="utf-8">
     <!--[if IE]>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-    <title>Visage | About</title>
-    <meta name="description" content="Visage is a cost effective platform, 10 times cheaper than a recruitment agency.">
-    <meta name="keywords" content="pricing, prices, price, plan, job, job credit, sourcing, source, junior, middle, senior">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <title>Visage | Waitlisted</title>
+    <meta name="description" content="Visage allows you to earn cash referring candidates.">
+    <meta name="keywords" content="recruiters, recruiter, cash, money, referral, refer candidates, referrals, freelance, freelances">
 
     <link rel="alternate" href="https://www.visage.jobs" hreflang="en-us" />
 
@@ -54,7 +56,7 @@
     <![endif]-->
 </head>
 
-<body id="visage" class="visage about" data-sticky-menu-mode="false">
+<body id="visage" class="landing-page visage background-image-cover recruiter-1 waitlist">
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WX69C8"
@@ -62,7 +64,7 @@
 <!-- End Google Tag Manager (noscript) -->
 
 <div id="config-module"></div>
-<div id="visage-website" ng-controller="pricingController">
+<div id="visage-website" ng-controller="recruiterController">
     <!-- Preloader -->
     <div class="preloader-mask">
         <div class="preloader">
@@ -71,11 +73,11 @@
                     <div class="circle"></div>
                 </div><!--
                 --><div class="gap">
-                <div class="circle"></div>
-            </div><!--
+                    <div class="circle"></div>
+                </div><!--
                 --><div class="clip right">
-                <div class="circle"></div>
-            </div>
+                    <div class="circle"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -111,124 +113,47 @@
         </nav>
     </header>
 
-    <section id="company" class="section product-section align-center dark-text animated" data-animation="fadeInUp"
-             data-duration="500">
+    <div id="hero"
+         class="background-image-cover recruiter-1 recruiter window-height image-version light-text clearfix hero-section base-clr-bg">
         <div class="container">
-            <div class="section-content row">
-                <div class="col-sm-12">
-                    <h1><strong>Our mission is to help great employers hire the best talent out there</strong></h1>
-                    <!--<div class="team-quotes">-->
-                        <!--<h2 class="team-quote">"Visage builds and manages your candidate pipeline with the best talent" - Product Manager</h2>-->
-
-                        <!--<h2 class="team-quote" style="display: none;">"Visage understands your hiring needs and supports your goal to hire top talent" - Product Manager</h2>-->
-
-                        <!--<h2 class="team-quote" style="display: none;">"Visage uses recruiters around the world to refer hundreds of top candidates to your pipeline" - Product Manager</h2>-->
-                    <!--</div>-->
-
+            <div class="heading-block animated align-center"
+                 data-animation="fadeIn"
+                 data-duration="700"
+                 style="padding-top: 135px;">
+                <h1>Get Waitlisted</h1>
+                <h5><strong>Please fill out your details below so that we can contact you</strong></h5>
+                <div id="wufoo-r19q4npc0floewu">
+                    Fill out my <a href="https://techvisage.wufoo.com/forms/r19q4npc0floewu">online form</a>.
                 </div>
-                <div class="col-xs-12">
-                    <div class="form-container">
-                        <div class="animated"
-                             ng-controller="startHiringController as vm"
-                             data-animation="fadeInUp"
-                             data-duartion="500"
-                             data-delay="200">
-                            <div class="form-inline">
-                                <div class="form-group" ng-class="{ 'has-error': !vm.validEmail }">
-                                    <input ng-class="{ 'error': !vm.validEmail }" type="email" placeholder="Your Email" id="hiringEmail" ng-model="vm.hiringEmail" ng-keyup="vm.onInputEnter($event)" required>
-                                </div>
-                                <a ng-click="vm.showContactForm()" class="btn btn-solid">Contact Us</a>
-                                <p class="help-block text-danger" ng-show="!vm.validEmail">Please enter a valid email address.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <script type="text/javascript">var r19q4npc0floewu;(function(d, t) {
+                    var s = d.createElement(t), options = {
+                        'userName':'techvisage',
+                        'formHash':'r19q4npc0floewu',
+                        'autoResize':true,
+                        'height':'260',
+                        'async':true,
+                        'host':'wufoo.com',
+                        'header':'hide',
+                        'ssl':true};
+                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                    s.onload = s.onreadystatechange = function() {
+                        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                        try { r19q4npc0floewu = new WufooForm();r19q4npc0floewu.initialize(options);r19q4npc0floewu.display(); } catch (e) {}};
+                    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                })(document, 'script');</script>
             </div>
+            <!--<div class="image-wrapper">-->
+                <!--<div class="container">-->
+                    <!--<img src="assets/img/features/recruiter_dashboard_desktop.png"-->
+                         <!--alt="video"-->
+                         <!--class="img-responsive animated"-->
+                         <!--data-animation="fadeInUp"-->
+                         <!--data-delay="400"-->
+                         <!--data-duration="700"/>-->
+                <!--</div>-->
+            <!--</div>-->
         </div>
-    </section>
-
-    <section id="our-mission" class="section align-center dark-text animated" data-animation="fadeInUp"
-             data-duration="500">
-        <div class="container">
-            <div class="section-content row">
-                <div class="col-sm-12">
-
-                    <p>70% of businesses can’t find the right talent. At Visage, we believe that talent is out there but it’s challenging to identify and engage with.</p>
-
-                    <p>Our mission is to help great employers hire the best talent out there.</p>
-
-                    <p>We create a strong and diverse candidate pipeline so that employers can focus on interviewing and assessing talent rather than searching for it.</p>
-
-                    <p>We solve this through our crowd sourcing solution. Our community of international freelance recruiters have access to over 100 websites and millions of passive candidates. We leave no stone unturned.</p>
-
-                    <p>We help you find the top talent out there and send only the qualified and committed candidates ready to interview.</p>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section id="team" class="section product-section align-center dark-text animated" data-animation="fadeInUp"
-             data-duration="500">
-        <div class="container">
-            <div class="section-header">
-                <h2>The Team</h2>
-            </div>
-            <div class="section-content row">
-                <div class="col-lg-4  col-md-4 col-sm-offset-2 col-sm-4 col-xs-12 profile">
-                    <div class="img-box">
-                        <img src="assets/img/team/Joss.jpg" class="img-responsive">
-                    </div>
-                    <div class="social-icon">
-                        <a href="https://www.linkedin.com/in/joss-leufrancois-45a8391" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                    <h1>Joss Leufrancois</h1>
-                    <h2>Co-founder & CEO </h2>
-                    <h2 class="previous-exp">Prev. Co-founder & COO @ Aldelia</h2>
-                    <p>10 years in Recruitment. Co-founded Aldelia, a $50M recruitment business established in 9 countries (exited in 2014). Managed 75 recruiters.
-                        Master Business Administration @ Kedge – 2005</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 profile">
-                    <div class="img-box">
-                        <img src="assets/img/team/Emmanuel.jpg" class="img-responsive">
-                    </div>
-                    <div class="social-icon">
-                        <a href="https://www.linkedin.com/in/emmanuelmarboeuf" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                    <h1>Emmanuel Marboeuf</h1>
-                    <h2>Co-founder & CTO </h2>
-                    <h2 class="previous-exp">Prev. Lead Developer @ Thales</h2>
-                    <p>One of the youngest Thales employee rated “Excellency" in less than 3 years. Designed and implemented a widely use front-end framework for building high end applications featuring 3D, data viz and cartography
-                        University of Science - Master’s degree in Business Informatics - 2012.</p>
-                </div>
-                <div class="clearfix visible-sm visible-lg visible-md"></div>
-                <div class=" col-lg-4  col-md-4 col-sm-offset-2 col-sm-4 col-xs-12 profile">
-                    <div class="img-box">
-                        <img src="assets/img/team/Jeanita.jpg" class="img-responsive">
-                    </div>
-                     <div class="social-icon">
-                        <a href="https://www.linkedin.com/in/jeanita-artz" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                    <h1>Jeanita Artz</h1>
-                    <h2>Product Marketing Manager</h2>
-                    <h2 class="previous-exp">Prev. Operations Coordinator @ Astrolabs & Co-founder @ ClassDive DMCC</h2>
-                    <p>Experience working with the Saudi Royal Family as Physiotherapist and PA. Transitioned to tech startups with experience in Customer Success and a passion for Product Management.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 profile">
-                    <div class="img-box">
-                        <img src="assets/img/team/Haley-new.jpg" class="img-responsive">
-                    </div>
-                    <div class="social-icon">
-                        <a href="https://www.linkedin.com/in/haley-reese-5a449712" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                    <h1>Haley Reese </h1>
-                    <h2>Senior Recruiter </h2>
-                    <h2 class="previous-exp">Prev. Senior Internal Recruiter and Sales Trainer @ Frank Recruitment Group</h2>
-                    <p>Managed full-desk recruitment for all Microsoft Dynamics GP clients & candidates in California and the Southwest region. Promoted to Senior Internal Recruiter and Sales Trainer for the San Francisco office.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
 
     <footer id="footer" class="footer light-text">
         <div class="container">
@@ -260,6 +185,7 @@
                             </ul>
                         </div>
                     </div>
+
                 </div>
                 <div class="col-sm-3 social-wrap col-xs-12">
                     <strong class="heading">Social Networks</strong>
@@ -297,38 +223,10 @@
         </div>
         <div class="copyright">visage.jobs 2016. All rights reserved.</div>
     </footer>
-    <!-- Modal -->
-    <div class="modal fade" id="starterModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div id="wufoo-q1gsxcg1150s39k">Fill out my <a href="https://techvisage.wufoo.com/forms/q1gsxcg1150s39k">online form</a>.</div>
-                    <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block">Online contact and registration forms from <a href="http://www.wufoo.com">Wufoo</a>.</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <span type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                        aria-hidden="true">&times;</span></span>
-                <div class="modal-body"id="wufoo-z8kv0cc0ktfm9y">
-                    <img src="/assets/img/loading.gif" height="50" width="50" alt="loading">
-                    <br>
-                    Fill out my <a href="https://techvisage.wufoo.com/forms/z8kv0cc0ktfm9y">online
-                    form</a>.
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
-</div>
 
+    <div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
+
+</div>
 
 <!-- build:js assets/js/vendor.js -->
 <script defer type="text/javascript" src="assets/js/vendor/jquery-2.1.4.min.js"></script>
@@ -351,8 +249,7 @@
 <script defer type="text/javascript" src="assets/js/visageControllers.js"></script>
 <script defer type="text/javascript" src="assets/js/bootstrap-website.js"></script>
 <!-- endbuild -->
-<script defer type="text/javascript">
 
-</script>
+
 </body>
 </html>
