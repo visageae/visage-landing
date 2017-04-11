@@ -10839,32 +10839,27 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   }
 }
 
-
-#wufooFormr19q4npc0floewu {
-  height: 80px;
-}
-
-#wufooFormr19q4npc0floewu form {
+form[action^="https://techvisage.wufoo.com/embed/r19q4npc0floewu"] {
   background: #0fc48b;
 }
-#wufooFormr19q4npc0floewu .wufoo input.text {
+form[action^="https://techvisage.wufoo.com/embed/r19q4npc0floewu"] input.text {
   background: #fff;
 }
 
-#wufooFormr19q4npc0floewu .wufoo li {
+form[action^="https://techvisage.wufoo.com/embed/r19q4npc0floewu"] li {
   width: 35%;
   display: inline-block;
 }
 
-#wufooFormr19q4npc0floewu .wufoo li label{
+form[action^="https://techvisage.wufoo.com/embed/r19q4npc0floewu"] li label{
   display: none;
 }
 
-#wufooFormr19q4npc0floewu .wufoo ul {
+form[action^="https://techvisage.wufoo.com/embed/r19q4npc0floewu"] ul {
   text-align: center;
 }
 
-#wufooFormr19q4npc0floewu .wufoo #saveForm {
+form[action^="https://techvisage.wufoo.com/embed/r19q4npc0floewu"] #saveForm {
   background-color: #ffc107;
   color: #fff;
 }
