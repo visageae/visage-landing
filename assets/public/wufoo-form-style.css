@@ -10839,27 +10839,24 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   }
 }
 
-form[action^="https://techvisage.wufoo.com/embed/r19q4npc0floewu"] {
-  background: #0fc48b;
-}
-form[action^="https://techvisage.wufoo.com/embed/r19q4npc0floewu"] input.text {
+.embed form.wufoo[action^="https://techvisage.wufoo.com/embed/r19q4npc0floewu"] input.text {
   background: #fff;
 }
 
-form[action^="https://techvisage.wufoo.com/embed/r19q4npc0floewu"] li {
+.embed form.wufoo[action^="https://techvisage.wufoo.com/embed/r19q4npc0floewu"] li {
   width: 35%;
   display: inline-block;
 }
 
-form[action^="https://techvisage.wufoo.com/embed/r19q4npc0floewu"] li label{
+.embed form.wufoo[action^="https://techvisage.wufoo.com/embed/r19q4npc0floewu"] li label{
   display: none;
 }
 
-form[action^="https://techvisage.wufoo.com/embed/r19q4npc0floewu"] ul {
+.embed form.wufoo[action^="https://techvisage.wufoo.com/embed/r19q4npc0floewu"] ul {
   text-align: center;
 }
 
-form[action^="https://techvisage.wufoo.com/embed/r19q4npc0floewu"] #saveForm {
+.embed form.wufoo[action^="https://techvisage.wufoo.com/embed/r19q4npc0floewu"] #saveForm {
   background-color: #ffc107;
   color: #fff;
 }
