@@ -195,7 +195,7 @@
     }
     h3{
       color: #606060;
-      font-size: 0.8em;
+      font-size: 1em;
       letter-spacing: 5px;
       font-weight: 500;
       margin-top: 0px;
@@ -951,56 +951,79 @@ i.red {
 .cl-title{
   color: #606060;
 }
-#hero form{
 
+#hero form{
   position: relative;
   left:10px;
-  margin-top: -20px;
-  width: 80%;
+  //margin-top: -20px;
+  //width: 80%;
   input{
-    width:120%;
-    height:25px;
-    font-size:10px;
+    //width:120%;
+    //height:25px;
+    font-size: 14px;
     padding-left: 5px;
+    padding: 0 10px;
+    height: 40px;
   }
-  legend{
-    font-size:15px;
+  legend {
+    //font-size:15px;
     color: #606060;
     text-align: center;
-    padding-left: 60px;
+    //padding-left: 60px;
+    font-size: 18px;
     margin-bottom: 15px;
-    font-weight:700;
+    font-weight: 700;
     font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
   }
 }
 #hero button {
   background-color: #ffc107;
   color:white;
-  height:25px;
-  font-size: 10px;
+  //height:25px;
+  //font-size: 10px;
   text-align: center;
   padding-top:8px;
   border-radius: 0;
   margin-left: 30px;
 }
-#hero #request{
-  margin-left: -2px;
-  }
-#hero #signUp{
+
+#hero #request {
+  //margin-left: -2px;
+}
+
+#hero #signUp {
   margin-left: 5px;
 }
-.bg-green{
-  position: absolute;
-  left: 677px;
-  top: 65px;
+
+.form-background.bg-green {
   z-index: 0;
-  height: 800px;
-  width: 250px;
   background-color: rgba(15, 196, 139, 0.5);
+  position: absolute;
+  height: 110%;
+  left: 0;
+  right: 5%;
+  top: -10px;
+
+  @media screen and (max-width: 767px){
+    right: 0;
+  }
+
 }
 
+#form-demo{
+  .form-group{
+    //text-align: center;
+  }
+  .col-sm-8.col-md-6, .col-md-4{
+    float: none;
+    display: inline-block;
+  }
+  button{
+    margin-left: 0;
+  }
+}
 
+.heading-block:not(.centered-block) {
+  padding-top: 0;
 
-
-
-
+}
