@@ -176,7 +176,10 @@
     //margin-top: -40px;
   }
   #hero {
-    margin-top: 80px;
+    margin-top: 20px;
+    @media screen and (min-width: 768px) {
+      margin-top: 80px;
+    }
     h1, h2 {
       color: @visage-dark-green;
       font-weight: 300;
@@ -184,15 +187,18 @@
     }
     h1, h3 {
       text-align: left;
-      margin-left: 30px;
+      @media screen and (min-width: 768px){
+        margin-left: 30px;
+      }
 
     }
     h1 {
       font-size: 2.5em;
       font-weight: 700;
       letter-spacing: 2px;
-      margin-top: 50px;
-
+      @media screen and (min-width: 768px){
+        margin-top: 50px;
+      }
     }
     h3{
       color: #606060;
@@ -233,6 +239,9 @@
         img {
           vertical-align: middle;
           max-height: 75px;
+          @media screen and (max-width: 767px) {
+            max-width: 100%;
+          }
         }
       }
       li:nth-child(3),
@@ -991,9 +1000,10 @@ i.red {
 #hero #request {
   //margin-left: -2px;
 }
-
-#hero #signUp {
-  margin-left: 5px;
+@media screen and (min-width: 768px){
+  #hero #signUp {
+    margin-left: 5px;
+  }
 }
 
 .form-background.bg-green {
@@ -1033,7 +1043,9 @@ i.red {
 
 .col-sm-6.animated.vcenteranimated .form-group{
   margin-top: 60px;
-  padding-left: 30px;
+  @media screen and (min-width: 768px) {
+    padding-left: 30px;
+  }
   a{
     background-color: #ffc107;
     color: #fff;
