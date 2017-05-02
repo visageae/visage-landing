@@ -1074,3 +1074,22 @@ i.red {
     font-weight: 600;
   }
 }
+
+.circle-display{
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  img{
+    max-width: 60px;
+  }
+  &.circle-display-last img{
+    max-width: 50px;
+  }
+}
