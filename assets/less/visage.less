@@ -1100,7 +1100,7 @@ i.red {
 }
 
 #visage #why-visage {
-  background-color: #fff;
+  background-color: #0fc48b;
   padding: 0;
   .background-carousel{
     padding: 0;
@@ -1114,7 +1114,7 @@ i.red {
   }
 
   .side {
-    background-color: #4FD1BD;
+    background-color: #0fc48b;
     height: 100%;
     min-height: 500px;
     position: relative;
@@ -1128,10 +1128,14 @@ i.red {
       h4{
         margin-bottom: 60px;
       }
+      p{
+        font-size: 1.2em;
+      }
     }
     .pager {
       text-align: left;
       overflow: hidden;
+      margin-top: 40px;
       & > div {
         display: block;
         margin-bottom: 20px;
@@ -1145,13 +1149,15 @@ i.red {
         }
         &.cycle-pager-active a{
           color: #ffc107;
-          &:before {
-            position: absolute;
-            width: 40px;
-            top: 16px;
-            border-bottom: 3px #ffc107 solid;
-            padding-bottom: 5px;
-          }
+          border-bottom: 3px #ffc107 solid;
+          padding-bottom: 5px;
+          //&:before {
+          //  position: absolute;
+          //  width: 40px;
+          //  top: 16px;
+          //  border-bottom: 3px #ffc107 solid;
+          //  padding-bottom: 5px;
+          //}
         }
       }
     }
