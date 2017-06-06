@@ -117,6 +117,13 @@ app.controller('recruiterPrivateController', function ($scope, $http) {
     });
 
 });
+app.controller('emailFAQController', function ($scope, $http) {
+
+    $http.get("/assets/json/email-faq.json").success(function (data, status) {
+        $scope.faq = data;
+    });
+
+});
 
 app.controller('homeController', function ($scope, $http, ENV) {
 

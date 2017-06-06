@@ -1,0 +1,42 @@
+[
+  {
+    "q": "How do I claim a job?",
+    "a": "Log into your Visage account. Navigate to the top left corner of your dashboard and select the drop down menu which will provide you a list of options. Select ‘OPEN JOBS’ Decide which ‘Open Job’ you would like to work on (can be all of them or just one of them). Select the job by clicking on it and select ‘CLAIM’ You can now refer candidates for this job."
+  },
+  {
+    "q": "How do I refer candidates?",
+    "a": "After claiming a job, you select ‘REFER CANDIDATES’ at the end of the job description. You can now refer candidates for this job. To upload CV’s/Resumes, you simply click on the ‘+’ icon in the top right of the screen and upload the CV/Resume and complete the rest of the details requested."
+  },
+  {
+    "q": "Do I need to contact candidates?",
+    "a": "No, you do not need to contact candidates at all. Just upload their CV/Resume and details requested."
+  },
+  {
+    "q": "How are my referrals assessed?",
+    "a": "We have Experts that will assess your referrals. They are assessed based on the requirements in the job description and Experts validation is final. Expert validation is completed within about 48 hours."
+  },
+  {
+    "q": "What is ‘Success Rate Standard’? And how does it affect me?",
+    "a": "Your Success Rate Standard is a % you need to achieve every month in order to continue referring candidates for Visage. You need to achieve a Success Rate Standard of 35% or more. If you do not reach this %, you will no longer be able to refer candidates. If you fully read and understand the job requirements and refer candidates that fit those requirements, then you will be able to reach this %."
+  },
+  {
+    "q": "How can I check my performance?",
+    "a": "Log into your Visage account. Navigate to the top left corner of your dashboard and select the drop down menu which will provide you a list of options. Select ‘Activity’ and choose the dates (only for the week before) and click on ‘SEARCH’. You will see your Success % and reasons from the Expert for Disqualified candidates."
+  },
+  {
+    "q": "How do I get paid?",
+    "a": "We use  a secure, online third party payment system, Payoneer. You will need to sign up in order to receive your weekly payments. You will be paid on a weekly basis every Monday for the work you completed the week before. You will be paid $3 per approved submission."
+  },
+  {
+    "q": "Will Experts change their assessments of my submission?",
+    "a": "Experts validation is final. We ensure they are well trained and fully understand the requirements and will assess based on the requirements."
+  },
+  {
+    "q": "How do I know the status of my referrals?",
+    "a": "You can view your weeks activity on your dashboard by in your navigation menu on the top left corner of your dashboard. Select ‘ACTIVITY’ and select the dates and click on ‘SEARCH’."
+  },
+  {
+    "q": "When do roles open for sourcing? And how will I be notified?",
+    "a": "Anytime we open or close a role to sourcing you will be notified by email."
+  }
+]
