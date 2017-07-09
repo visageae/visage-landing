@@ -1093,3 +1093,69 @@ i.red {
     max-width: 50px;
   }
 }
+
+.team-member-card{
+  position: relative;
+  height: 120px;
+  margin-bottom: 20px;
+  .team-member-pic{
+    height: 116px;
+    width: 112px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    z-index: 2;
+    span{
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      border: 4px solid #0fc48b;
+      display: inline-block;
+    }
+    img{
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+
+    }
+  }
+  .team-member-box{
+    background-color: rgba(142, 142, 142, 0.8);
+    color: #fff;
+    position: absolute;
+    left: 88px;
+    height: 120px;
+    right: 0;
+    p{
+      margin: 0;
+      line-height: 16px;
+      font-size: 1em;
+    }
+  }
+  .team-member-name{
+    font-size: 1.3em;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 10px;
+    span{
+      color: #ffc107;
+    }
+  }
+  .team-member-position{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  .team-member-desc{
+
+  }
+}
