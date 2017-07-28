@@ -1,13 +1,5 @@
 [
   {
-    "q": "How do I claim a job?",
-    "a": "Log into your Visage account. Navigate to the top left corner of your dashboard and select the drop down menu which will provide you a list of options. Select ‘OPEN JOBS’ Decide which ‘Open Job’ you would like to work on (can be all of them or just one of them). Select the job by clicking on it and select ‘CLAIM’ You can now refer candidates for this job."
-  },
-  {
-    "q": "How do I refer candidates?",
-    "a": "After claiming a job, you select ‘REFER CANDIDATES’ at the end of the job description. You can now refer candidates for this job. To upload CV’s/Resumes, you simply click on the ‘+’ icon in the top right of the screen and upload the CV/Resume and complete the rest of the details requested."
-  },
-  {
     "q": "Do I need to contact candidates?",
     "a": "No, you do not need to contact candidates at all. Just upload their CV/Resume and details requested."
   },
