@@ -13,7 +13,11 @@
   },
   {
     "q": "How do I get paid?",
-    "a": "We use  a secure, online third party payment system, Payoneer. You will need to sign up in order to receive your weekly payments. You will be paid on a weekly basis every Monday for the work you completed the week before. You will be paid $3 per approved submission."
+    "a": "We use  a secure, online third party payment system, Payoneer. You will need to sign up in order to receive your weekly payments. You will be paid on a weekly basis every Monday for the work you completed the week before. You will be paid $3 per approved submission. In any case that there is a delay or Payoneer issue, we will inform you all."
+  },
+  {
+    "q": "Why would I not have received a payment on Monday PST?",
+    "a": "Either there was a delay, in which case, please check emails for an announcement from us. Or, you have not yet signed up to Payoneer via the link on your dashboard, or if you have signed up recently, you may still be inactive, and you will need to contact Payoneer directly."
   },
   {
     "q": "Will Experts change their assessments of my submission?",
@@ -26,5 +30,9 @@
   {
     "q": "When do roles open for sourcing? And how will I be notified?",
     "a": "Anytime we open or close a role to sourcing you will be notified by email."
+  },
+  {
+    "q": "I received an email that a role is open, but now it is closed, why?",
+    "a": "Submissions are on a first-come-first serve basis, if it is now closed, this means the numbers were achieved already and it is closed again."
   }
 ]
