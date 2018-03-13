@@ -46,5 +46,17 @@
   {
     "q": "When will new roles open for sourcing?",
     "a": "We have new roles opening weekly. They open and close as needed in order to achieve our pipeline goals. You will be automatically notified each time a role opens and closes."
+  },
+  {
+    "q": "How many candidates can I submit per jobs?",
+    "a": "Every day you can submit a limited number of candidates per job. Recruiting sourcers have 5 slots per job when they signs up with Visage. Visage will give you more slots if your success rate is higher than other sourcers on the same job. The number of slots is displayed in your dashboard: https://app.visage.jobs/#/recruiter/activity"
+  },
+  {
+    "q": "How can I submit more candidates per jobs?",
+    "a": "The number of candidates you can submit  depends directly on the quality of the candidates you have submitted the previous week. The better your candidates, the higher you will rank among the other recruiters. A better rank means more submissions and more cash for you! On the contrary, poor performances  will have a negative impact on the number of candidates you will be able to submit next week. So when you start working on a job, read carefully the job description, the must haves and the sourcing tips and make sure you submit your best candidates!"
+  },
+  {
+    "q": "Shall I pick the easy jobs to maintain my rank? ",
+    "a": "Absolutely not! Our algorithm compares your candidate approval rate on jobs to the other recruiters approval rate on the same jobs. If you perform better than other recruiters on the jobs you have worked on, you will rank higher and will have the opportunity to submit more candidates."
   }
 ]
