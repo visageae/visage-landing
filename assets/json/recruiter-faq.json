@@ -1,7 +1,7 @@
 [
   {
-    "q": "Can anyone be a sourcer for Visage?",
-    "a": "Yes. We would prefer that you have a background in recruitment, especially if you have worked as a freelance sourcer. If you do not have a background in recruitment, but are able to refer quality candidates that are relevant to the requirements, you can still be successful with us."
+    "q": "Can anyone be a recruiting sourcer for Visage?",
+    "a": "Yes. We would prefer that you have a background in recruitment, especially if you have worked as a freelance recruiter. If you do not have a background in recruitment, but are able to refer quality candidates that are relevant to the requirements, you can still be successful with us."
   },
   {
     "q": "What do I get paid for? ",
@@ -9,7 +9,7 @@
   },
   {
     "q": "How do I get paid?",
-    "a": "We use a secure payment platform called Payoneer. When you sign up to be a sourcer with us, you will be directed to setup your account.."
+    "a": "We use a secure, online third party payment system, Payoneer. Once you sign up with Visage, you will need to also sign up for an account with Payoneer.  You will be paid on a weekly basis every Monday PST for the work you completed the week before. You will be paid per approved submission, the amount can differ depending on the job."
   },
   {
     "q": "When do I get paid?",
@@ -17,22 +17,18 @@
   },
   {
     "q": "Do you provide any recruitment tools? ",
-    "a": "We don't provide you with any Job Board or media-based recruitment tools. Since all of our Sourcers  are freelance professionals, you will need to have your own network and database of candidates, such as LinkedIn, Google Search or job boards."
+    "a": "We don't provide you with any Job Board or media-based recruitment tools. Since all of our recruiting sourcers are freelance professionals, you will need to have your own network and database of candidates, such as LinkedIn, Google Search or job boards."
   },
   {
     "q": "When and where can I work for Visage?",
-    "a": "Anytime and anywhere! We have no restrictions on when or where you work. Whether you commit full time, part time, evenings or weekend, at home or in a coffee shop the choice is yours. We do recommend however that you do not breach any contractual relations you have with a current employer."
+    "a": "Anytime and anywhere! Really!  We have no restrictions on when or where you work. Whether you commit full time, part time, evenings or weekend, at home or in a coffee shop the choice is yours. We do recommend, however, that you do not breach any contractual relations you have with a current employer by working with us."
   },
   {
     "q": "How do I know the status of my submitted candidates?",
-    "a": "All of your referred candidates will be stamped with your Sourcer i.d. and will be validated with a 'Thumbs Up' (Approved) or 'Thumbs Down' (Disqualified with appropriate notes recorded on the candidate record). You can view the status of each candidate on your own personal dashboard."
-  },
-  {
-    "q": "How many candidate profiles can I submit to the same role?",
-    "a": "You can submit up to 100 candidate profiles at a time. Once you have submitted the maximum number of candidate profiles, you will have to wait to submit more until the Expert has validated the current batch."
+    "a": "All of your referred candidates will be stamped with your Recruiter I.D. and will be validated with a 'Thumbs Up' (Approved) or 'Thumbs Down' (Disqualified with appropriate notes recorded on the candidate record). You can view the status of each candidate on your own personal dashboard."
   },
   {
     "q": "What happens if another sourcer refers the same candidate?",
-    "a": "Candidates are accepted on a first come first serve basis with each candidate record being date and time stamped. If two or more Sourcers submit the same candidate, only the first one submitted will be considered."
+    "a": "Candidates are accepted on a first come first serve basis with each candidate record being date and time stamped. If two or more Recruiters submit the same candidate, only the first one submitted will be considered."
   }
 ]

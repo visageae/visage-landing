@@ -9,43 +9,27 @@
   },
   {
     "q": "How do I get paid?",
-    "a": "We use a secure payment platform called Payoneer. When you sign up to be a Recruiter with us, you will be directed to setup your account.."
+    "a": "We use a secure, online third party payment system, Payoneer. Once you sign up with Visage, you will need to also sign up for an account with Payoneer.  You will be paid on a weekly basis every Monday PST for the work you completed the week before. You will be paid per approved submission, the amount can differ depending on the job."
   },
   {
-    "q": "When do I get paid?",
-    "a": "You are paid on a weekly basis for every 'Approved' candidate profile you submitted per Monday-Sunday pay period."
+    "q": "Why didn’t I receive my weekly payment on Monday PST?",
+    "a": "You have probably not yet signed up to Payoneer via the link on your Visage profile.  If you have signed up recently, you may still be inactive in Payoneer’s system, and you will need to contact Payoneer directly. If you still haven’t received your payment after a few days reach out directly to us recruiters.support@visage.jobs"
   },
   {
     "q": "Do you provide any recruitment tools? ",
-    "a": "We don't provide you with any Job Board or media-based recruitment tools. Since all of our Recruiters are freelance professionals, you will need to have your own network and database of candidates, such as LinkedIn, Google Search or job boards."
+    "a": "We don't provide you with any Job Board or media-based recruitment tools. Since all of our recruiting sourcers are freelance professionals, you will need to have your own network and database of candidates, such as LinkedIn, Google Search or job boards."
   },
   {
     "q": "When and where can I work for Visage?",
-    "a": "Anytime and anywhere! We have no restrictions on when or where you work. Whether you commit full time, part time, evenings or weekend, at home or in a coffee shop the choice is yours. We do recommend however that you do not breach any contractual relations you have with a current employer."
+    "a": "Anytime and anywhere! Really!  We have no restrictions on when or where you work. Whether you commit full time, part time, evenings or weekend, at home or in a coffee shop the choice is yours. We do recommend, however, that you do not breach any contractual relations you have with a current employer by working with us."
   },
   {
     "q": "How do I know the status of my submitted candidates?",
-    "a": "All of your referred candidates will be stamped with your Recruiter i.d. and will be validated with a 'Thumbs Up' (Approved) or 'Thumbs Down' (Disqualified with appropriate notes recorded on the candidate record). You can view the status of each candidate on your own personal dashboard."
-  },
-  {
-    "q": "How many candidate profiles can I submit to the same role?",
-    "a": "You can submit up to 100 candidate profiles at a time. Once you have submitted the maximum number of candidate profiles, you will have to wait to submit more until the Expert has validated the current batch."
+    "a": "All of your referred candidates will be stamped with your Recruiter I.D. and will be validated with a 'Thumbs Up' (Approved) or 'Thumbs Down' (Disqualified with appropriate notes recorded on the candidate record). You can view the status of each candidate on your own personal dashboard."
   },
   {
     "q": "What happens if another recruiter refers the same candidate?",
     "a": "Candidates are accepted on a first come first serve basis with each candidate record being date and time stamped. If two or more Recruiters submit the same candidate, only the first one submitted will be considered."
-  },
-  {
-    "q": "How do I refer a fellow recruiter?",
-    "a": "You can email us at refer@visage.jobs  with your referral's name and email address. This has to be done within a week of them signing up with Visage."
-  },
-  {
-    "q": "How do I get paid for referring another recruiter?",
-    "a": "In order for your referral to count towards a bonus pay you need to make sure you inform us through the correct process. Once that referral has signed up within a week and reached 100 'approved' resumes, you will be paid a bonus."
-  },
-  {
-    "q": "When will new roles open for sourcing?",
-    "a": "We have new roles opening weekly. They open and close as needed in order to achieve our pipeline goals. You will be automatically notified each time a role opens and closes."
   },
   {
     "q": "How many candidates can I submit per jobs?",
@@ -58,5 +42,36 @@
   {
     "q": "Shall I pick the easy jobs to maintain my rank? ",
     "a": "Absolutely not! Our algorithm compares your candidate approval rate on jobs to the other recruiters approval rate on the same jobs. If you perform better than other recruiters on the jobs you have worked on, you will rank higher and will have the opportunity to submit more candidates."
+  },
+  {
+    "q": "How do I refer a fellow recruiter?",
+    "a": "You can email us at refer@visage.jobs with your referral's name and email address."
+  },
+  {
+    "q": "When will new roles open for sourcing?",
+    "a": "We have new roles opening weekly. They open and close as needed in order to achieve our pipeline goals.  When we open brand new roles you will be notified initially by email."
+  },
+  {
+    "q": "I received an email that a role is open, but now it is closed, why?",
+    "a": "Submissions are on a first-come-first serve basis, if you received an email, but the role is now closed, this means the numbers were achieved already and it is closed again.  Roles open and close continuously, it is recommended to check back often."
+  },
+  {
+    "q": "How do I start referring my first candidates?",
+    "a": "Log into your Visage account. A list of OPEN JOBS will appear on your dashboard. To upload CV’s/Resumes, you simply click on the yellow circle ‘+’ icon in the top right corner of the screen or drag and drop your CVs. You will be asked to submit the email ID. You will then be asked to verify the rest of the candidates details and update them if necessary.. Once you have submitted a candidate for a role, it will now appear on your Jobs view as a claimed job."
+  },
+  {
+    "q": "How are my referrals assessed?",
+    "a": "We have Experts that will assess your referrals. They are assessed based on the requirements in the job description and Experts validation is final. Expert validation is completed within about 48 hours."
+  },
+  {
+    "q": "How can I check my performance?",
+    "a": "Log into your Visage account. Click on the ‘Dashboard’ menu item. You will see your current score, rank, Success % and reasons from the Expert for Disqualified candidates from the previous weeks."
+  },
+  {
+    "q": "Will Experts change their assessments of my submission?",
+    "a": "Experts validation is final. We ensure they are well trained and fully understand the requirements and will assess based on the requirements. In the event you believe that your submissions have been misjudged several times, reach out to us at: recruiters.support@visage.jobs with a detailed explanation and we will check with the expert that reviewed your submissions."
+  },
+  {
+    "q": "Do not contact candidates as per our T’s & C’s"
   }
 ]
