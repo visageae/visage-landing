@@ -11811,3 +11811,57 @@ i.red {
 .subtitle-recruiter {
   color: #ffc107;
 }
+
+.c-bar-graph {
+  text-align: center;
+  color: gray;
+  font-size: .9rem;
+  width: 100%;
+  margin-bottom: 3em;
+}
+@media (min-width: 45em) {
+  .c-bar-graph {
+    font-size: 1.1rem;
+  }
+}
+.c-bar-graph__footer {
+  border-top: 1px solid lightgray;
+}
+.c-bar-graph__footer td {
+  line-height: 1.3em;
+  font-size: 1.25rem;
+  vertical-align: top;
+  padding: .4rem 0;
+  font-weight: 700;
+  color: #fff;
+}
+.c-bar-graph__cell {
+  height: 200px;
+  vertical-align: bottom;
+  padding-bottom: 0;
+  color: white;
+}
+.c-bar-graph__data {
+  height: 30px;
+  line-height: 30px;
+  font-size: .9rem;
+  display: block;
+  margin: 0 10%;
+  max-height: 100%;
+  color: #fff;
+  background: #FCC12D;
+  position: relative;
+  transition: height 1s ease-out;
+}
+.c-bar-graph__helper {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  clear: both;
+  display: block;
+}
+@media (min-width: 45em) {
+  .c-bar-graph__helper {
+    display: none;
+  }
+}
