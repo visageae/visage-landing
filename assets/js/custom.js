@@ -84,7 +84,25 @@
           }
         }
       })
-    })
+    });
+    var $plan1 = $('.my_plan1');
+    var $plan2 = $('.my_plan2');
+
+    $plan1.on('mouseover', function () {
+        $plan1.addClass('my_plan_hovering')
+    });
+
+    $plan1.on('mouseleave', function () {
+        $plan1.removeClass('my_plan_hovering')
+    });
+
+    $plan2.on('mouseover', function () {
+        $plan2.addClass('my_plan_hovering')
+    });
+
+    $plan2.on('mouseleave', function () {
+        $plan2.removeClass('my_plan_hovering')
+    });
 
   });
 })();
