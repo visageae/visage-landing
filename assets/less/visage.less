@@ -1065,7 +1065,7 @@ i.red {
   padding-top: 0;
 }
 
-#visage #hero .signup-side{
+#visage #hero .signup-side {
   h2 {
     font-size: 2em;
     text-align: center;
@@ -1075,7 +1075,7 @@ i.red {
     color: #606060;
   }
 
-  h3{
+  h3 {
     letter-spacing: 0;
     text-align: center;
     margin-left: 0;
@@ -1115,14 +1115,14 @@ i.red {
 .team-member-card {
   position: relative;
   height: 120px;
-  margin-bottom:  20px;
+  margin-bottom: 20px;
   .team-member-pic {
     height: 116px;
     width: 112px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    border: 4px solid  #fff;
+    border: 4px solid #fff;
     box-sizing: border-box;
     position: absolute;
     left: 0;
@@ -1163,7 +1163,7 @@ i.red {
     text-transform: uppercase;
     margin-bottom: 0;
     margin-top: 10px;
-    span { 
+    span {
       color: #ffc107;
     }
   }
@@ -1193,15 +1193,150 @@ i.red {
   }
 }
 
-.gray{
+.gray {
   color: #606060;
 }
 
-.candidates{
+.candidates {
   max-height: 45px;
   display: inline-block;
 }
 
-.subtitle-recruiter{
+.subtitle-recruiter {
   color: #ffc107;
+}
+
+/* Use a wide full screen for small screens like tablets. */
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    width: initial;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+/* --- Plans ---------------------------- */
+
+.my_planHeader {
+  text-align: center;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0;
+  padding-right: 0;
+  -webkit-transition: background 0.25s ease-in-out;
+  -moz-transition: background 0.25s ease-in-out;
+  -o-transition: background 0.25s ease-in-out;
+  transition: background 0.25s ease-in-out;
+  border: 1px solid #f0f0f0;
+  background-color: #f7f7f7;
+  color: #474747;
+  &:hover{
+    color: #fff;
+    background-color: #0fc48b;
+    .my_planTitle h3{
+      color: #fff;
+      background-color: rgba(71,72,76, 0.2);
+    }
+    a{
+      color: #fff;
+      border-color: #fff;
+      background-color: #0fc48b;
+    }
+  }
+  a{
+    color: #0fc48b;
+    border-color: #0fc48b;
+  }
+}
+
+.my_planTitle {
+  font-size: 28px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  h3{
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    -o-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+    padding: 15px;
+    font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    background-color: rgba(171,172,179, 0.1);
+  }
+}
+
+.my_planPrice {
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.my_planDuration {
+  padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .my_planTitle {
+    font-size: small;
+  }
+}
+
+/* --- Features ------------------------- */
+
+.my_feature {
+  line-height: 2.8em;
+}
+
+@media (max-width: 768px) {
+  .my_feature {
+    text-align: center
+  }
+}
+
+.my_featureRow {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  border: 1px solid #f0f0f0;
+  background-color: #f7f7f7;
+}
+
+.my_planFeature {
+  text-align: center;
+  font-size: 2em;
+  -webkit-transition: background 0.25s ease-in-out;
+  -moz-transition: background 0.25s ease-in-out;
+  -o-transition: background 0.25s ease-in-out;
+  transition: background 0.25s ease-in-out;
+}
+
+.my_planFeature i.my_check {
+  color: #0fc48b;
+}
+
+.my_plan_hovering {
+  color: #fff;
+  background-color: #0fc48b;
+  .my_planTitle h3{
+    color: #fff;
+    background-color: rgba(71,72,76, 0.2);
+  }
+  a{
+    color: #fff;
+    border-color: #fff;
+    background-color: #0fc48b;
+  }
+  &.my_planFeature{
+    background-color: #0fc48b;
+    i.my_check {
+      color: #ffc107;
+    }
+  }
+}
+
+.my_feature_name{
+  font-weight: 500;
+  color: #4c4c4c;
+}
+.my_feature.text-left h5{
+  font-weight: 400;
 }
