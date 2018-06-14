@@ -79,6 +79,37 @@
                 .end()
                 .appendTo('.team-quotes');
         }, 5000);
+        $(document).scroll(function (event) {
+            var windowTop = $(this).scrollTop();
+            $('#company').each(function () {
+                var objectTop = $(this).offset().top;
+                if (objectTop < windowTop) {
+                    $('#company .section-content').find('h1, .team-quotes').css('opacity', objectTop * 5 / windowTop)
+                } else {
+                    if ($('#company .section-content').find('h1, .team-quotes').css("opacity") == 0) {
+                        $('#company .section-content').find('h1, .team-quotes').fadeTo(200, 1);
+                    }
+                }
+            })
+        });
+        var $plan1 = $('.my_plan1');
+        var $plan2 = $('.my_plan2');
+
+        $plan1.on('mouseover', function () {
+            $plan1.addClass('my_plan_hovering')
+        });
+
+        $plan1.on('mouseleave', function () {
+            $plan1.removeClass('my_plan_hovering')
+        });
+
+        $plan2.on('mouseover', function () {
+            $plan2.addClass('my_plan_hovering')
+        });
+
+        $plan2.on('mouseleave', function () {
+            $plan2.removeClass('my_plan_hovering')
+        });
 
         $(document).scroll(function (event) {
             var windowTop = $(this).scrollTop();
