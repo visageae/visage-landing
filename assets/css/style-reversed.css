@@ -11772,7 +11772,9 @@ i.red {
 .subtitle-recruiter {
   color: #ffc107;
 }
-<<<<<<< HEAD
+#visage.rpo {
+  color: #ffc107;
+}
 #visage.rpo .subtitle-recruiter {
   color: #ffc107;
 }
@@ -11964,7 +11966,7 @@ i.red {
 #visage.rpo #feedback-controls .switch img {
   max-height: 54px;
   margin: 0 auto;
-=======
+}
 /* Use a wide full screen for small screens like tablets. */
 @media (min-width: 768px) and (max-width: 992px) {
   .container {
@@ -12084,5 +12086,4 @@ i.red {
 }
 .my_feature.text-left h5 {
   font-weight: 400;
->>>>>>> master
 }
