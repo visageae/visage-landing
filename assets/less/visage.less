@@ -230,6 +230,15 @@
       }
 
     }
+    img {
+      height: 60px;
+      width: 60px;
+    }
+    .sub-header {
+      font-size: 14px;
+      line-height: 16px;
+      color: #606060;
+    }
   }
 
   #clients {
@@ -257,7 +266,6 @@
   }
   #numbers {
     h5 {
-      color: @section-color;
       font-size: 22px;
       margin: 10px 10%;
       font-weight: bold;
@@ -265,6 +273,9 @@
         margin-bottom: 40px;
         margin-top: 30px;
       }
+    }
+    h6 {
+      color: #000;
     }
     article {
       .heading {
@@ -279,6 +290,19 @@
         line-height: 1;
         margin-top: -28px;
       }
+    }
+    #triangle-process{
+      position: relative;
+    }
+    #triangle-process:before {
+      content: ' ';
+      background: url(./../img/visage/arrow.png) no-repeat;
+      width: 95px;
+      height: 100px;
+      background-size: cover;
+      position: absolute;
+      left: -10%;
+      top: 25%;
     }
   }
 
@@ -310,6 +334,13 @@
           color: black;
         }
       }
+    }
+    color: #606060;
+    h2 {
+      font-weight: 600;
+    }
+    .highlight {
+      color: #0fc48b;
     }
   }
 
@@ -813,15 +844,16 @@ i.red {
 
 .step {
   border-radius: 50%;
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  background-color: #fff;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #fdc006;
   color: #0ec48b;
   text-align: center;
   line-height: 24px;
   font-size: 18px;
-  margin-right: 6px;
+  margin: 0 auto;
+  margin-bottom: 8px;
   & + .highlight {
     font-size: 27px;
   }
@@ -848,7 +880,10 @@ i.red {
   }
   .heading .highlight {
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    display: inline-block;
   }
 }
 
@@ -909,6 +944,16 @@ i.red {
 #visage #numbers h5 {
   margin: 0;
   line-height: 50px;
+}
+
+#visage #numbers h4 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#visage #numbers .circle-recruiter + h4 + p {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .team-quotes {
@@ -1065,7 +1110,7 @@ i.red {
   padding-top: 0;
 }
 
-#visage #hero .signup-side{
+#visage #hero .signup-side {
   h2 {
     font-size: 2em;
     text-align: center;
@@ -1075,7 +1120,7 @@ i.red {
     color: #606060;
   }
 
-  h3{
+  h3 {
     letter-spacing: 0;
     text-align: center;
     margin-left: 0;
@@ -1088,7 +1133,7 @@ i.red {
   }
 
   h6 {
-    color: #fff;
+    color: #000;
     font-weight: 600;
   }
 }
@@ -1115,14 +1160,14 @@ i.red {
 .team-member-card {
   position: relative;
   height: 120px;
-  margin-bottom:  20px;
+  margin-bottom: 20px;
   .team-member-pic {
     height: 116px;
     width: 112px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    border: 4px solid  #fff;
+    border: 4px solid #fff;
     box-sizing: border-box;
     position: absolute;
     left: 0;
@@ -1163,7 +1208,7 @@ i.red {
     text-transform: uppercase;
     margin-bottom: 0;
     margin-top: 10px;
-    span { 
+    span {
       color: #ffc107;
     }
   }
@@ -1193,19 +1238,18 @@ i.red {
   }
 }
 
-.gray{
+.gray {
   color: #606060;
 }
 
-.candidates{
+.candidates {
   max-height: 45px;
   display: inline-block;
 }
 
-.subtitle-recruiter{
-  color: #ffc107;
+.subtitle-recruiter {
+  color: @visage-yellow;
 }
-
 
 .c-bar-graph {
   text-align: center;
@@ -1215,14 +1259,17 @@ i.red {
   margin-bottom: 0;
   height: 320px;
 }
+
 @media (min-width: 45em) {
   .c-bar-graph {
     font-size: 1.1rem;
   }
 }
+
 .c-bar-graph__footer {
   //border-top: 1px solid lightgray;
 }
+
 .c-bar-graph__footer td {
   line-height: 1.3em;
   font-size: 1.25rem;
@@ -1231,12 +1278,14 @@ i.red {
   font-weight: 700;
   color: #fff;
 }
+
 .c-bar-graph__cell {
   max-height: 400px;
   vertical-align: bottom;
   padding-bottom: 0;
   color: white;
 }
+
 .c-bar-graph__data {
   height: 30px;
   line-height: 30px;
@@ -1244,8 +1293,8 @@ i.red {
   display: block;
   margin: 0 10%;
   max-height: 100%;
-  color: #fff;
-  background: #FCC12D;
+  color: #4F4F4F;
+  background: @visage-yellow;
   position: relative;
   font-weight: bold;
   transition: height 1s ease-out;
@@ -1254,6 +1303,16 @@ i.red {
     top: -20px;
   }
 }
+
+#sourcing-managers .c-bar-graph__data {
+  color: #fff;
+  background: #0fc48b;
+}
+
+#sourcing-managers {
+  color: #606060;
+}
+
 .c-bar-graph__helper {
   font-weight: 400;
   font-size: 12px;
@@ -1261,6 +1320,7 @@ i.red {
   clear: both;
   display: block;
 }
+
 @media (min-width: 45em) {
   .c-bar-graph__helper {
     display: none;
@@ -1276,17 +1336,16 @@ i.red {
   max-width: 80%;
 }
 
-
 .stat-count {
 
-  span{
+  span {
     display: block;
-    border-bottom: #ffc107 3px solid;
+    border-bottom: @visage-yellow 3px solid;
     color: #fff;
     font-size: 2.6em;
     margin-bottom: 12px;
   }
-  span + p{
+  span + p {
     color: #fff;
     font-size: 1em;
     line-height: 1.3em;
@@ -1294,15 +1353,14 @@ i.red {
   }
 }
 
-
 #visage #sourcing-support.section-bg,
 #visage #sourcing-managers.section-bg {
   padding-bottom: 60px;
   position: relative;
 }
 
-#visage #sourcing-support.section-bg{
-  background-color: #727272;
+#visage #sourcing-support.section-bg {
+  background-color: #4F4F4F;
 }
 
 #visage #sourcing-support .section-content,
@@ -1310,13 +1368,96 @@ i.red {
   padding: 40px 70px;
 }
 
-#sourcing-support > .container > .row > div + div:before,
-#sourcing-managers > .container > .row > div + div:before {
-  content: " ";
-  display: inline-block;
-  position: absolute;
-  border-left: 1px solid #fff;
-  height: 100%;
-  left: 20px;
-  top: 0px;
+#sourcing-support {
+  .highlight {
+    color: @visage-yellow;
+  }
+  h2, h3, h4, h5 {
+    color: #fff;
+  }
+  h3 {
+    font-weight: 600;
+  }
+  h5 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .stat-count span {
+    border-bottom-color: #0fc48b;
+  }
+}
+
+#sourcing-managers {
+  .highlight {
+    color: #0fc48b;
+  }
+  h2, h3, h4, h5, .stat-count span, .stat-count p, .c-bar-graph__footer td, .c-bar-graph__data span {
+    color: #606060;
+  }
+  h3 {
+    font-weight: 600;
+  }
+  h5 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+}
+
+#candidate-stats {
+  background: url('../img/visage/wall.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 10px 0 30px 0;
+  p {
+    width: 60%;
+    margin: 0 10px !important;
+    border-top: 3px solid #0fc48b;
+    display: inline-block;
+    font-size: 1.2em;
+  }
+}
+
+#feedback {
+  padding: 90px 0;
+
+  blockquote:before,
+  blockquote:after {
+    content: none;
+  }
+  blockquote {
+    font-weight: 600;
+    font-size: 1.6em;
+    padding: 0;
+    color: #606060;
+  }
+  .container {
+    display: table;
+  }
+  .row {
+    display: table-row;
+    vertical-align: middle;
+  }
+  .section-header,
+  .section-content {
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+  }
+  .section-header,
+  .section-header h2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .flexslider {
+    margin: 0;
+  }
+}
+
+#feedback-controls {
+  padding: 70px 0;
+  .switch img {
+    max-height: 54px;
+    margin: 0 auto;
+  }
 }

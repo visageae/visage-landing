@@ -11058,6 +11058,15 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   border: 5px solid;
   border-radius: 5px;
 }
+#visage #how img {
+  height: 60px;
+  width: 60px;
+}
+#visage #how .sub-header {
+  font-size: 14px;
+  line-height: 16px;
+  color: #606060;
+}
 #visage #clients {
   padding: 40px 0;
 }
@@ -11076,7 +11085,6 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   }
 }
 #visage #numbers h5 {
-  color: #ffffff;
   font-size: 22px;
   margin: 10px 10%;
   font-weight: bold;
@@ -11084,6 +11092,9 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 #visage #numbers h5:first-of-type {
   margin-bottom: 40px;
   margin-top: 30px;
+}
+#visage #numbers h6 {
+  color: #000;
 }
 #visage #numbers article .heading {
   color: #ffffff;
@@ -11096,6 +11107,19 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   font-size: 26px;
   line-height: 1;
   margin-top: -28px;
+}
+#visage #numbers #triangle-process {
+  position: relative;
+}
+#visage #numbers #triangle-process:before {
+  content: ' ';
+  background: url(../img/visage/arrow.png) no-repeat;
+  width: 95px;
+  height: 100px;
+  background-size: cover;
+  position: absolute;
+  left: -10%;
+  top: 25%;
 }
 #visage #benefits .section-content .vcenter h3 {
   font-size: 2em;
@@ -11111,8 +11135,17 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 #visage #benefits .section-header {
   margin-bottom: 30px;
 }
+#visage #feedback {
+  color: #606060;
+}
 #visage #feedback .section-content .flexslider .flex-viewport {
   color: black;
+}
+#visage #feedback h2 {
+  font-weight: 600;
+}
+#visage #feedback .highlight {
+  color: #0fc48b;
 }
 #visage #pay .section-header p {
   font-size: 22px;
@@ -11490,15 +11523,16 @@ i.red {
 }
 .step {
   border-radius: 50%;
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  background-color: #fff;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #fdc006;
   color: #0ec48b;
   text-align: center;
   line-height: 24px;
   font-size: 18px;
-  margin-right: 6px;
+  margin: 0 auto;
+  margin-bottom: 8px;
 }
 .step + .highlight {
   font-size: 27px;
@@ -11518,7 +11552,10 @@ i.red {
 }
 #visage #how .heading .highlight {
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 5px;
+  display: inline-block;
 }
 #product .section-header {
   margin-bottom: 40px;
@@ -11568,6 +11605,14 @@ i.red {
 #visage #numbers h5 {
   margin: 0;
   line-height: 50px;
+}
+#visage #numbers h4 {
+  font-size: 22px;
+  font-weight: bold;
+}
+#visage #numbers .circle-recruiter + h4 + p {
+  width: 80%;
+  margin: 0 auto;
 }
 .team-quotes {
   position: relative;
@@ -11702,7 +11747,7 @@ i.red {
   font-size: 1em;
 }
 .features-list-section h6 {
-  color: #fff;
+  color: #000;
   font-weight: 600;
 }
 .circle-display {
@@ -11734,7 +11779,7 @@ i.red {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  border: 4px solid  #fff;
+  border: 4px solid #fff;
   box-sizing: border-box;
   position: absolute;
   left: 0;
@@ -11845,8 +11890,8 @@ i.red {
   display: block;
   margin: 0 10%;
   max-height: 100%;
-  color: #fff;
-  background: #FCC12D;
+  color: #4F4F4F;
+  background: #ffc107;
   position: relative;
   font-weight: bold;
   transition: height 1s ease-out;
@@ -11854,6 +11899,13 @@ i.red {
 .c-bar-graph__data span {
   position: relative;
   top: -20px;
+}
+#sourcing-managers .c-bar-graph__data {
+  color: #fff;
+  background: #0fc48b;
+}
+#sourcing-managers {
+  color: #606060;
 }
 .c-bar-graph__helper {
   font-weight: 400;
@@ -11894,19 +11946,102 @@ i.red {
   position: relative;
 }
 #visage #sourcing-support.section-bg {
-  background-color: #727272;
+  background-color: #4F4F4F;
 }
 #visage #sourcing-support .section-content,
 #visage #sourcing-managers .section-content {
   padding: 40px 70px;
 }
-#sourcing-support > .container > .row > div + div:before,
-#sourcing-managers > .container > .row > div + div:before {
-  content: " ";
+#sourcing-support .highlight {
+  color: #ffc107;
+}
+#sourcing-support h2,
+#sourcing-support h3,
+#sourcing-support h4,
+#sourcing-support h5 {
+  color: #fff;
+}
+#sourcing-support h3 {
+  font-weight: 600;
+}
+#sourcing-support h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+#sourcing-support .stat-count span {
+  border-bottom-color: #0fc48b;
+}
+#sourcing-managers .highlight {
+  color: #0fc48b;
+}
+#sourcing-managers h2,
+#sourcing-managers h3,
+#sourcing-managers h4,
+#sourcing-managers h5,
+#sourcing-managers .stat-count span,
+#sourcing-managers .stat-count p,
+#sourcing-managers .c-bar-graph__footer td,
+#sourcing-managers .c-bar-graph__data span {
+  color: #606060;
+}
+#sourcing-managers h3 {
+  font-weight: 600;
+}
+#sourcing-managers h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+#candidate-stats {
+  background: url('../img/visage/wall.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 10px 0 30px 0;
+}
+#candidate-stats p {
+  width: 60%;
+  margin: 0 10px !important;
+  border-top: 3px solid #0fc48b;
   display: inline-block;
-  position: absolute;
-  border-left: 1px solid #fff;
-  height: 100%;
-  left: 20px;
-  top: 0px;
+  font-size: 1.2em;
+}
+#feedback {
+  padding: 90px 0;
+}
+#feedback blockquote:before,
+#feedback blockquote:after {
+  content: none;
+}
+#feedback blockquote {
+  font-weight: 600;
+  font-size: 1.6em;
+  padding: 0;
+  color: #606060;
+}
+#feedback .container {
+  display: table;
+}
+#feedback .row {
+  display: table-row;
+  vertical-align: middle;
+}
+#feedback .section-header,
+#feedback .section-content {
+  display: table-cell;
+  float: none;
+  vertical-align: middle;
+}
+#feedback .section-header,
+#feedback .section-header h2 {
+  margin: 0;
+  padding: 0;
+}
+#feedback .flexslider {
+  margin: 0;
+}
+#feedback-controls {
+  padding: 70px 0;
+}
+#feedback-controls .switch img {
+  max-height: 54px;
+  margin: 0 auto;
 }
