@@ -11058,6 +11058,18 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   border: 5px solid;
   border-radius: 5px;
 }
+#visage #how .sub-header {
+  color: #fff;
+}
+#visage.rpo #how img {
+  height: 60px;
+  width: 60px;
+}
+#visage.rpo #how .sub-header {
+  font-size: 14px;
+  line-height: 16px;
+  color: #606060;
+}
 #visage #clients {
   padding: 40px 0;
 }
@@ -11075,8 +11087,23 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
     max-width: 100%;
   }
 }
+#visage.rpo #numbers h6 {
+  color: #000;
+}
+#visage.rpo #numbers #triangle-process {
+  position: relative;
+}
+#visage.rpo #numbers #triangle-process:before {
+  content: ' ';
+  background: url(../img/visage/arrow.png) no-repeat;
+  width: 95px;
+  height: 100px;
+  background-size: cover;
+  position: absolute;
+  left: -10%;
+  top: 25%;
+}
 #visage #numbers h5 {
-  color: #ffffff;
   font-size: 22px;
   margin: 10px 10%;
   font-weight: bold;
@@ -11110,6 +11137,15 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 }
 #visage #benefits .section-header {
   margin-bottom: 30px;
+}
+#visage.rpo #feedback {
+  color: #606060;
+}
+#visage.rpo #feedback h2 {
+  font-weight: 600;
+}
+#visage.rpo #feedback .highlight {
+  color: #0fc48b;
 }
 #visage #feedback .section-content .flexslider .flex-viewport {
   color: black;
@@ -11488,6 +11524,19 @@ i.red {
 #our-mission h3 {
   margin-bottom: 40px;
 }
+#visage.rpo .step {
+  border-radius: 50%;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #fdc006;
+  color: #0ec48b;
+  text-align: center;
+  line-height: 24px;
+  font-size: 18px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
 .step {
   border-radius: 50%;
   display: inline-block;
@@ -11519,6 +11568,13 @@ i.red {
 #visage #how .heading .highlight {
   color: #fff;
   font-size: 20px;
+}
+#visage.rpo #how .heading .highlight {
+  color: #fff;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 5px;
+  display: inline-block;
 }
 #product .section-header {
   margin-bottom: 40px;
@@ -11566,8 +11622,20 @@ i.red {
   color: #fff;
 }
 #visage #numbers h5 {
+  color: #fff;
   margin: 0;
   line-height: 50px;
+}
+#visage.rpo #numbers h5 {
+  color: inherit;
+}
+#visage.rpo #numbers h4 {
+  font-size: 22px;
+  font-weight: bold;
+}
+#visage.rpo #numbers .circle-recruiter + h4 + p {
+  width: 80%;
+  margin: 0 auto;
 }
 .team-quotes {
   position: relative;
@@ -11705,6 +11773,9 @@ i.red {
   color: #fff;
   font-weight: 600;
 }
+#visage.rpo .features-list-section h6 {
+  color: #000;
+}
 .circle-display {
   background-color: #fff;
   width: 100px;
@@ -11811,6 +11882,199 @@ i.red {
 .subtitle-recruiter {
   color: #ffc107;
 }
+<<<<<<< HEAD
+#visage.rpo .subtitle-recruiter {
+  color: #ffc107;
+}
+#visage.rpo .c-bar-graph {
+  text-align: center;
+  color: gray;
+  font-size: .9rem;
+  width: 100%;
+  margin-bottom: 0;
+  height: 320px;
+}
+@media (min-width: 45em) {
+  #visage.rpo .c-bar-graph {
+    font-size: 1.1rem;
+  }
+}
+#visage.rpo .c-bar-graph__footer td {
+  line-height: 1.3em;
+  font-size: 1.25rem;
+  vertical-align: top;
+  padding: .4rem 0;
+  font-weight: 700;
+  color: #fff;
+}
+#visage.rpo .c-bar-graph__cell {
+  max-height: 400px;
+  vertical-align: bottom;
+  padding-bottom: 0;
+  color: white;
+}
+#visage.rpo .c-bar-graph__data {
+  height: 30px;
+  line-height: 30px;
+  font-size: .9rem;
+  display: block;
+  margin: 0 10%;
+  max-height: 100%;
+  color: #4F4F4F;
+  background: #ffc107;
+  position: relative;
+  font-weight: bold;
+  transition: height 1s ease-out;
+}
+#visage.rpo .c-bar-graph__data span {
+  position: relative;
+  top: -20px;
+}
+#visage.rpo #sourcing-managers .c-bar-graph__data {
+  color: #fff;
+  background: #0fc48b;
+}
+#visage.rpo #sourcing-managers {
+  color: #606060;
+}
+#visage.rpo .c-bar-graph__helper {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  clear: both;
+  display: block;
+}
+@media (min-width: 45em) {
+  #visage.rpo .c-bar-graph__helper {
+    display: none;
+  }
+}
+#visage.rpo .bar-chart-over-title {
+  position: absolute;
+  top: 25px;
+  left: 150px;
+  font-size: 2em;
+  z-index: 2;
+  max-width: 80%;
+}
+#visage.rpo .stat-count span {
+  display: block;
+  border-bottom: #ffc107 3px solid;
+  color: #fff;
+  font-size: 2.6em;
+  margin-bottom: 12px;
+}
+#visage.rpo .stat-count span + p {
+  color: #fff;
+  font-size: 1em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+}
+#visage.rpo #sourcing-support.section-bg,
+#visage.rpo #sourcing-managers.section-bg {
+  padding-bottom: 60px;
+  position: relative;
+}
+#visage.rpo #sourcing-support.section-bg {
+  background-color: #4F4F4F;
+}
+#visage.rpo #sourcing-support .section-content,
+#visage.rpo #sourcing-managers .section-content {
+  padding: 40px 70px;
+}
+#visage.rpo #sourcing-support .highlight {
+  color: #ffc107;
+}
+#visage.rpo #sourcing-support h2,
+#visage.rpo #sourcing-support h3,
+#visage.rpo #sourcing-support h4,
+#visage.rpo #sourcing-support h5 {
+  color: #fff;
+}
+#visage.rpo #sourcing-support h3 {
+  font-weight: 600;
+}
+#visage.rpo #sourcing-support h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+#visage.rpo #sourcing-support .stat-count span {
+  border-bottom-color: #0fc48b;
+}
+#visage.rpo #sourcing-managers .highlight {
+  color: #0fc48b;
+}
+#visage.rpo #sourcing-managers h2,
+#visage.rpo #sourcing-managers h3,
+#visage.rpo #sourcing-managers h4,
+#visage.rpo #sourcing-managers h5,
+#visage.rpo #sourcing-managers .stat-count span,
+#visage.rpo #sourcing-managers .stat-count p,
+#visage.rpo #sourcing-managers .c-bar-graph__footer td,
+#visage.rpo #sourcing-managers .c-bar-graph__data span {
+  color: #606060;
+}
+#visage.rpo #sourcing-managers h3 {
+  font-weight: 600;
+}
+#visage.rpo #sourcing-managers h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+#visage.rpo #candidate-stats {
+  background: url('../img/visage/wall.png') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 10px 0 30px 0;
+}
+#visage.rpo #candidate-stats p {
+  width: 60%;
+  margin: 0 10px !important;
+  border-top: 3px solid #0fc48b;
+  display: inline-block;
+  font-size: 1.2em;
+}
+#visage.rpo #feedback {
+  padding: 90px 0;
+}
+#visage.rpo #feedback blockquote:before,
+#visage.rpo #feedback blockquote:after {
+  content: none;
+}
+#visage.rpo #feedback blockquote {
+  font-weight: 600;
+  font-size: 1.6em;
+  padding: 0;
+  color: #606060;
+}
+#visage.rpo #feedback .container {
+  display: table;
+}
+#visage.rpo #feedback .row {
+  display: table-row;
+  vertical-align: middle;
+}
+#visage.rpo #feedback .section-header,
+#visage.rpo #feedback .section-content {
+  display: table-cell;
+  float: none;
+  vertical-align: middle;
+}
+#visage.rpo #feedback .section-header,
+#visage.rpo #feedback .section-header h2 {
+  margin: 0;
+  padding: 0;
+}
+#visage.rpo #feedback .flexslider {
+  margin: 0;
+}
+#visage.rpo #feedback-controls {
+  padding: 70px 0;
+}
+#visage.rpo #feedback-controls .switch img {
+  max-height: 54px;
+  margin: 0 auto;
+=======
 /* Use a wide full screen for small screens like tablets. */
 @media (min-width: 768px) and (max-width: 992px) {
   .container {
@@ -11930,4 +12194,5 @@ i.red {
 }
 .my_feature.text-left h5 {
   font-weight: 400;
+>>>>>>> master
 }
