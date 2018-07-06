@@ -12087,3 +12087,6 @@ i.red {
 .my_feature.text-left h5 {
   font-weight: 400;
 }
+.legal-links ul li {
+  display: inline-block;
+}

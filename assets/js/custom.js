@@ -130,6 +130,6 @@
             var cellHeight = (cell / max) * 100;
             $('span', this).height(cellHeight + '%');
         });
-        $('.counter').countTo();
+        //$('.counter').countTo();
     });
 })();
