@@ -1,6 +1,7 @@
 'use strict';
 
 (function () {
+
   angular.element(document).ready(function () {
     angular.module('config-module', ['config'])
       .run(function (ENV, $q, ThirdParties) {
@@ -16,6 +17,7 @@
             deferred.resolve();
           };
           js.src = url;
+          js.defer = true;
           fjs.parentNode.insertBefore(js, fjs);
           return deferred.promise;
         }
@@ -23,10 +25,7 @@
           app_id:ThirdParties.intercom.appId
         };
         var scriptsLoaded = $q.all([insertScript('intercom-lib',
-            'https://widget.intercom.io/widget/' + ThirdParties.intercom.appId),
-          insertScript('wufoo-lib',
-            ('https:' == document.location.protocol ? 'https://' : 'http://') +
-            'www.wufoo.com/scripts/embed/form.js')
+            'https://widget.intercom.io/widget/' + ThirdParties.intercom.appId)
         ]);
         scriptsLoaded.then(function () {
           angular.bootstrap(document.getElementById('visage-website'), ['visageWebsite'], {
