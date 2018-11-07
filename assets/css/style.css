@@ -11585,6 +11585,9 @@ i.red {
 .footer .footer-content > div:last-child .heading {
   text-align: left;
 }
+.big {
+  font-size: 58px;
+}
 .social-icon a {
   width: 40px;
   height: 40px;
