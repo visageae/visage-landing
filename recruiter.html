@@ -225,24 +225,6 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
         <!-- endbuild -->
     </noscript>
-
-    <script>
-      var loadDeferredStyles = function() {
-        var addStylesNode = document.getElementsByClassName("deferred-styles");
-        for (var i = 0; i < addStylesNode.length; i++) {
-          var addStylesNodeElement = addStylesNode[i];
-          var replacement = document.createElement("div");
-          replacement.innerHTML = addStylesNodeElement.textContent;
-          document.body.appendChild(replacement);
-          addStylesNodeElement.parentElement.removeChild(addStylesNodeElement);
-        }
-      };
-      var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
-        window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
-      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-      else window.addEventListener('load', loadDeferredStyles);
-    </script>
-
     <!--[if lt IE 9]>
     <script src="assets/js/vendor/html5shiv.js"></script>
     <script src="assets/js/vendor/respond.min.js"></script>
@@ -711,6 +693,23 @@
     <div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
 
 </div>
+
+<script>
+  var loadDeferredStyles = function() {
+    var addStylesNode = document.getElementsByClassName("deferred-styles");
+    for (var i = 0; i < addStylesNode.length; i++) {
+      var addStylesNodeElement = addStylesNode[i];
+      var replacement = document.createElement("div");
+      replacement.innerHTML = addStylesNodeElement.textContent;
+      document.body.appendChild(replacement);
+      addStylesNodeElement.parentElement.removeChild(addStylesNodeElement);
+    }
+  };
+  var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+    window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+  if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+  else window.addEventListener('load', loadDeferredStyles);
+</script>
 
 <!-- build:js assets/js/vendor.js -->
 <script defer type="text/javascript" src="assets/js/vendor/jquery-2.1.4.min.js"></script>

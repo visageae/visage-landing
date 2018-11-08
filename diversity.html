@@ -38,15 +38,192 @@
     <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=2">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- build:css(.) assets/css/vendor.css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/custom-animations.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/lib/rzslider.min.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/lib/toastr.min.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/lib/bootstrap.min.css"/>
-    <!-- endbuild -->
-    <!-- build:css(.) assets/css/main.css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-    <!-- endbuild -->
+    <style>
+        .clearfix {
+            zoom: 1;
+        }
+        .clearfix:before,
+        .clearfix:after {
+            content: "";
+            display: table;
+        }
+        .clearfix:after {
+            clear: both;
+        }
+        body {
+            overflow-x: hidden;
+            min-height: 100px;
+        }
+        body > .container {
+            padding-top: 65px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        div {
+            display: block;
+        }
+
+        .base-clr-bd,
+        .preloader-mask .preloader .spin,
+        .navigation-header .navigation-bar.navigation-bar-left > li.active > a,
+        .navigation-bar > .dropdown:not(.featured) > .dropdown-toggle:before,
+        .navigation-header .navigation-bar li.dropdown:not(.featured),
+        .navigation-header.white-dropdown .navigation-bar li.dropdown:not(.featured),
+        .navigation-header .navigation-bar li.dropdown:not(.featured) > .dropdown-menu > .dropdown,
+        .navigation-header.white-dropdown .navigation-bar li.dropdown:not(.featured) > .dropdown-menu > .dropdown,
+        .fixed-menu .navigation-header .btn.btn-outline,
+        .fixed-menu .navigation-header .navigation-bar.navigation-bar-left > li.active:not(.featured) > a,
+        .fixed-menu .navigation-header.white-dropdown .navigation-bar.navigation-bar-left > li.active:not(.featured) > a,
+        .navigation-header.white-header .btn.btn-outline,
+        .form-register.form-register-small .form-control {
+            border-color: #ffc107;
+        }
+
+        /* ----------------------------------------------------------------------------
+    Preloader
+---------------------------------------------------------------------------- */
+
+        @-webkit-keyframes container-rotate{ to { -webkit-transform: rotate(360deg); }}
+        @-moz-keyframes container-rotate{ to { -moz-transform: rotate(360deg); }}
+        @-o-keyframes container-rotate{ to { -o-transform: rotate(360deg); }}
+        @keyframes container-rotate{ to {-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);-ms-transform: rotate(360deg);transform: rotate(360deg); }}
+
+        @-webkit-keyframes fill-unfill-rotate{ 12.5% { -webkit-transform: rotate(135deg); } 25% { -webkit-transform: rotate(270deg); } 37.5% { -webkit-transform: rotate(405deg); } 50% { -webkit-transform: rotate(540deg); } 62.5% { -webkit-transform: rotate(675deg); } 75% { -webkit-transform: rotate(810deg); } 87.5% { -webkit-transform: rotate(945deg); } to { -webkit-transform: rotate(1080deg); }}
+        @-moz-keyframes fill-unfill-rotate{ 12.5% { -moz-transform: rotate(135deg); } 25% { -moz-transform: rotate(270deg); } 37.5% { -moz-transform: rotate(405deg); } 50% { -moz-transform: rotate(540deg); } 62.5% { -moz-transform: rotate(675deg); } 75% { -moz-transform: rotate(810deg); } 87.5% { -moz-transform: rotate(945deg); } to { -moz-transform: rotate(1080deg); }}
+        @-o-keyframes fill-unfill-rotate{ 12.5% { -o-transform: rotate(135deg); } 25% { -o-transform: rotate(270deg); } 37.5% { -o-transform: rotate(405deg); } 50% { -o-transform: rotate(540deg); } 62.5% { -o-transform: rotate(675deg); } 75% { -o-transform: rotate(810deg); } 87.5% { -o-transform: rotate(945deg); } to { -o-transform: rotate(1080deg); }}
+        @keyframes fill-unfill-rotate{ 12.5% {-webkit-transform: rotate(135deg);-moz-transform: rotate(135deg);-ms-transform: rotate(135deg);transform: rotate(135deg); } 25% {-webkit-transform: rotate(270deg);-moz-transform: rotate(270deg);-ms-transform: rotate(270deg);transform: rotate(270deg); } 37.5% {-webkit-transform: rotate(405deg);-moz-transform: rotate(405deg);-ms-transform: rotate(405deg);transform: rotate(405deg); } 50% {-webkit-transform: rotate(540deg);-moz-transform: rotate(540deg);-ms-transform: rotate(540deg);transform: rotate(540deg); } 62.5% {-webkit-transform: rotate(675deg);-moz-transform: rotate(675deg);-ms-transform: rotate(675deg);transform: rotate(675deg); } 75% {-webkit-transform: rotate(810deg);-moz-transform: rotate(810deg);-ms-transform: rotate(810deg);transform: rotate(810deg); } 87.5% {-webkit-transform: rotate(945deg);-moz-transform: rotate(945deg);-ms-transform: rotate(945deg);transform: rotate(945deg); } to {-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);-ms-transform: rotate(1080deg);transform: rotate(1080deg);}}
+
+        @-webkit-keyframes left-spin{ from { -webkit-transform: rotate(130deg); } 50% { -webkit-transform: rotate(-5deg); } to { -webkit-transform: rotate(130deg); }}
+        @-moz-keyframes left-spin{ from { -moz-transform: rotate(130deg); } 50% { -moz-transform: rotate(-5deg); } to { -moz-transform: rotate(130deg); }}
+        @-o-keyframes left-spin{ from { -o-transform: rotate(130deg); } 50% { -o-transform: rotate(-5deg); } to { -o-transform: rotate(130deg); }}
+        @keyframes left-spin{ from {-webkit-transform: rotate(130deg);-moz-transform: rotate(130deg);-ms-transform: rotate(130deg);transform: rotate(130deg); } 50% {-webkit-transform: rotate(-5deg);-moz-transform: rotate(-5deg);-ms-transform: rotate(-5deg);transform: rotate(-5deg); } to {-webkit-transform: rotate(130deg);-moz-transform: rotate(130deg);-ms-transform: rotate(130deg);transform: rotate(130deg); }}
+
+        @-webkit-keyframes right-spin{ from { -webkit-transform: rotate(-130deg); } 50% { -webkit-transform: rotate(5deg); } to { -webkit-transform: rotate(-130deg); }}
+        @-moz-keyframes right-spin{ from { -moz-transform: rotate(-130deg); } 50% { -moz-transform: rotate(5deg); } to { -moz-transform: rotate(-130deg); }}
+        @-o-keyframes right-spin{ from { -o-transform: rotate(-130deg); } 50% { -o-transform: rotate(5deg); } to { -o-transform: rotate(-130deg); }}
+        @keyframes right-spin{ from {-webkit-transform: rotate(-130deg);-moz-transform: rotate(-130deg);-ms-transform: rotate(-130deg);transform: rotate(-130deg); } 50% {-webkit-transform: rotate(5deg);-moz-transform: rotate(5deg);-ms-transform: rotate(5deg);transform: rotate(5deg); } to {-webkit-transform: rotate(-130deg);-moz-transform: rotate(-130deg);-ms-transform: rotate(-130deg);transform: rotate(-130deg); }}
+
+        .preloader-mask {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #f7f7f7;
+            z-index: 10000;
+            height: 100%;
+        }
+        .preloader-mask .preloader {
+            -webkit-animation: container-rotate 1.4s linear infinite;
+            -moz-animation: container-rotate 1.4s linear infinite;
+            -o-animation: container-rotate 1.4s linear infinite;
+            animation: container-rotate 1.4s linear infinite;
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -18px 0 0 -18px;
+            width: 36px;
+            height: 36px;
+        }
+        .preloader-mask .preloader .spin {
+            -webkit-animation: fill-unfill-rotate 4.8s cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+            -moz-animation: fill-unfill-rotate 4.8s cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+            -o-animation: fill-unfill-rotate 4.8s cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+            animation: fill-unfill-rotate 4.8s cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 1;
+        }
+        .preloader-mask .preloader .circle {
+            border-radius: 50%;
+        }
+        .preloader-mask .preloader .gap {
+            position: absolute;
+            top: 0;
+            left: 45%;
+            width: 10%;
+            height: 100%;
+            overflow: hidden;
+            border-color: inherit;
+        }
+        .preloader-mask .preloader .gap .circle {
+            width: 1000%;
+            left: -450%;
+        }
+        .preloader-mask .preloader .clip {
+            position: relative;
+            display: inline-block;
+            width: 50%;
+            height: 100%;
+            overflow: hidden;
+            border-color: inherit;
+        }
+        .preloader-mask .preloader .clip .circle {
+            -webkit-animation: none;
+            -moz-animation: none;
+            -o-animation: none;
+            animation: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 200%;
+            height: 100%;
+            border-width: 3px;
+            border-style: solid;
+            border-color: inherit;
+            border-bottom-color: transparent;
+            border-radius: 50%;
+        }
+        .preloader-mask .preloader .clip.left .circle {
+            -webkit-transform: rotate(129deg);
+            -moz-transform: rotate(129deg);
+            -o-transform: rotate(129deg);
+            -ms-transform: rotate(129deg);
+            transform: rotate(129deg);
+            -webkit-animation: left-spin 1.2s cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+            -moz-animation: left-spin 1.2s cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+            -o-animation: left-spin 1.2s cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+            animation: left-spin 1.2s cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+            left: 0;
+            border-right-color: transparent;
+        }
+        .preloader-mask .preloader .clip.right .circle {
+            -webkit-transform: rotate(-129deg);
+            -moz-transform: rotate(-129deg);
+            -o-transform: rotate(-129deg);
+            -ms-transform: rotate(-129deg);
+            transform: rotate(-129deg);
+            -webkit-animation: right-spin 1.2s cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+            -moz-animation: right-spin 1.2s cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+            -o-animation: right-spin 1.2s cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+            animation: right-spin 1.2s cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+            left: -100%;
+            border-left-color: transparent;
+        }
+
+        .section .section-header {
+            margin: 30px 0 80px;
+        }
+
+
+    </style>
+    <noscript class="deferred-styles">
+        <!-- build:css(.) assets/css/vendor.css -->
+        <link rel="stylesheet" type="text/css" href="assets/css/custom-animations.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/lib/rzslider.min.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/lib/toastr.min.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/lib/bootstrap.min.css"/>
+        <!-- endbuild -->
+        <!-- build:css(.) assets/css/main.css -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+        <!-- endbuild -->
+    </noscript>
 
     <!--[if lt IE 9]>
     <script src="assets/js/vendor/html5shiv.js"></script>
@@ -292,6 +469,23 @@
     </div>
     <div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
 </div>
+
+<script>
+  var loadDeferredStyles = function() {
+    var addStylesNode = document.getElementsByClassName("deferred-styles");
+    for (var i = 0; i < addStylesNode.length; i++) {
+      var addStylesNodeElement = addStylesNode[i];
+      var replacement = document.createElement("div");
+      replacement.innerHTML = addStylesNodeElement.textContent;
+      document.body.appendChild(replacement);
+      addStylesNodeElement.parentElement.removeChild(addStylesNodeElement);
+    }
+  };
+  var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+    window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+  if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+  else window.addEventListener('load', loadDeferredStyles);
+</script>
 
 <!-- build:js assets/js/vendor.js -->
 <script defer type="text/javascript" src="assets/js/vendor/jquery-2.1.4.min.js"></script>
