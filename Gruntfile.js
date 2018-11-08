@@ -274,6 +274,11 @@ module.exports = function (grunt) {
     useminPrepare: {
       html: ['./index.html'],
       options: {
+        blockReplacements: {
+          css: function (block) {
+            return '<noscript class="deferred-styles"><link rel="stylesheet" href="' + block.dest + '"></noscript>';
+          }
+        },
         dest: 'dist',
         flow: {
           html: {

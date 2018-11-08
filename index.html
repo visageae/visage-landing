@@ -213,7 +213,7 @@
 
 
     </style>
-    <noscript id="deferred-styles">
+    <noscript class="deferred-styles">
          <!-- build:css(.) assets/css/vendor.css -->
         <link rel="stylesheet" type="text/css" href="assets/css/custom-animations.css"/>
         <link rel="stylesheet" type="text/css" href="assets/css/lib/rzslider.min.css"/>
@@ -226,11 +226,14 @@
     </noscript>
     <script>
       var loadDeferredStyles = function() {
-        var addStylesNode = document.getElementById("deferred-styles");
-        var replacement = document.createElement("div");
-        replacement.innerHTML = addStylesNode.textContent;
-        document.body.appendChild(replacement);
-        addStylesNode.parentElement.removeChild(addStylesNode);
+        var addStylesNode = document.getElementsByClassName("deferred-styles");
+        for (var i = 0; i < addStylesNode.length; i++) {
+          var addStylesNodeElement = addStylesNode[i];
+          var replacement = document.createElement("div");
+          replacement.innerHTML = addStylesNodeElement.textContent;
+          document.body.appendChild(replacement);
+          addStylesNode.parentElement.removeChild(addStylesNodeElement);
+        }
       };
       var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
         window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
