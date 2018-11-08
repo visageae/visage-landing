@@ -232,7 +232,7 @@
           var replacement = document.createElement("div");
           replacement.innerHTML = addStylesNodeElement.textContent;
           document.body.appendChild(replacement);
-          addStylesNode.parentElement.removeChild(addStylesNodeElement);
+          addStylesNodeElement.parentElement.removeChild(addStylesNodeElement);
         }
       };
       var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
