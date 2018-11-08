@@ -57,7 +57,6 @@ app.factory('WufooService', function () {
 });
 
 app.controller('startHiringController', function ($scope, $timeout, WufooService) {
-    console.log('?')
     var vm = this;
     vm.hiringEmail = '';
     vm.validEmail = true;
@@ -134,10 +133,7 @@ app.controller('onboardDocController', function ($scope, $http) {
 
 app.controller('homeController', function ($scope, $http, ENV) {
 
-  $scope.jobs = [];
-  $http.get(ENV.apiEndpoint + "/public-job-offers/active").success(function (data, status) {
-    $scope.jobs = data;
-  });
+//nothing
 
 });
 
