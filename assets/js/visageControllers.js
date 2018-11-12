@@ -1,7 +1,6 @@
-var app = angular.module('visageWebsite', ['rzModule', 'config']);
+var app = angular.module('visageWebsite', ['config']);
 
 app.run(function (ThirdParties, WufooService) {
-    console.log('run')
   function initWufooForms() {
     var contactForm;
     var pricingForm;
