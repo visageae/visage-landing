@@ -11,13 +11,19 @@
   }
 
   &.home-1, .home-1 {
-    background-image: url('@{img-path}background/home-1.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
   }
-  &.recruiter-1, .recruiter-1 {
-    background-image: url('@{img-path}background/recruiter-4.jpg');
 
+  .no-webp &.home-1, .home-1  {
+    background-image: url("@{img-path}background/home-1.jpg");
+  }
+
+  .webp &.home-1, .home-1 {
+    background-image: url("@{img-path}background/home-1.webp");
+  }
+
+  &.recruiter-1, .recruiter-1 {
     &#hero h1 {
       color: #fff;
       text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
@@ -34,12 +40,28 @@
     }
   }
 
-  &.home-2, .home-2 {
+  .no-webp &.recruiter-1, .recruiter-1  {
+    background-image: url("@{img-path}background/recruiter-4.jpg");
+  }
+
+  .webp &.recruiter-1, .recruiter-1 {
+    background-image: url("@{img-path}background/recruiter-4.webp");
+  }
+
+  .no-webp &.home-2, .home-2 {
     background-image: url('@{img-path}background/home-2.jpg');
   }
 
-  &.career-1, .career-1 {
+  .webp &.home-2, .home-2 {
+    background-image: url('@{img-path}background/home-2.webp');
+  }
+
+  .no-webp &.career-1, .career-1 {
     background-image: url("@{img-path}visage/career-cover.jpg")
+  }
+
+  .webp &.career-1, .career-1 {
+    background-image: url("@{img-path}visage/career-cover.webp")
   }
 
   h1, h2 {
@@ -816,10 +838,17 @@ i.red {
   font-size: .9em;
 }
 
+.no-webp #company {
+  background: url('../img/visage/team-header.jpg') no-repeat center;
+}
+
+.webp #company {
+  background: url('../img/visage/team-header.webp') no-repeat center;
+}
+
 #company {
   padding: 60px 0;
   color: #fff;
-  background: url('../img/visage/team-header.jpg') no-repeat center;
   -webkit-background-size: cover;
   background-size: cover;
   .section-header {
@@ -1009,8 +1038,15 @@ i.red {
 
 }
 
-#diversity-header {
+.no-webp #diversity-header {
   background: url('../img/visage/diversity-header.jpg') no-repeat center;
+}
+
+.webp #diversity-header {
+  background: url('../img/visage/diversity-header.webp') no-repeat center;
+}
+
+#diversity-header {
   -webkit-background-size: cover;
   background-size: cover;
 

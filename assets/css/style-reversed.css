@@ -10753,13 +10753,16 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 }
 #visage.home-1,
 #visage .home-1 {
-  background-image: url('../img/background/home-1.jpg');
   background-position: bottom;
   background-repeat: no-repeat;
 }
-#visage.recruiter-1,
-#visage .recruiter-1 {
-  background-image: url('../img/background/recruiter-4.jpg');
+.no-webp #visage.home-1,
+#visage .home-1 {
+  background-image: url("../img/background/home-1.jpg");
+}
+.webp #visage.home-1,
+#visage .home-1 {
+  background-image: url("../img/background/home-1.webp");
 }
 #visage.recruiter-1#hero h1,
 #visage .recruiter-1#hero h1 {
@@ -10776,13 +10779,29 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 #visage .recruiter-1 .saying-title-light-bg {
   background-color: #ffffff;
 }
-#visage.home-2,
+.no-webp #visage.recruiter-1,
+#visage .recruiter-1 {
+  background-image: url("../img/background/recruiter-4.jpg");
+}
+.webp #visage.recruiter-1,
+#visage .recruiter-1 {
+  background-image: url("../img/background/recruiter-4.webp");
+}
+.no-webp #visage.home-2,
 #visage .home-2 {
   background-image: url('../img/background/home-2.jpg');
 }
-#visage.career-1,
+.webp #visage.home-2,
+#visage .home-2 {
+  background-image: url('../img/background/home-2.webp');
+}
+.no-webp #visage.career-1,
 #visage .career-1 {
   background-image: url("../img/visage/career-cover.jpg");
+}
+.webp #visage.career-1,
+#visage .career-1 {
+  background-image: url("../img/visage/career-cover.webp");
 }
 #visage h1,
 #visage h2 {
@@ -11383,10 +11402,15 @@ i.red {
 .profile p {
   font-size: .9em;
 }
+.no-webp #company {
+  background: url('../img/visage/team-header.jpg') no-repeat center;
+}
+.webp #company {
+  background: url('../img/visage/team-header.webp') no-repeat center;
+}
 #company {
   padding: 60px 0;
   color: #fff;
-  background: url('../img/visage/team-header.jpg') no-repeat center;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -11539,8 +11563,13 @@ i.red {
   left: 0;
   right: 0;
 }
-#diversity-header {
+.no-webp #diversity-header {
   background: url('../img/visage/diversity-header.jpg') no-repeat center;
+}
+.webp #diversity-header {
+  background: url('../img/visage/diversity-header.webp') no-repeat center;
+}
+#diversity-header {
   -webkit-background-size: cover;
   background-size: cover;
 }

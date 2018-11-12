@@ -16,7 +16,8 @@ module.exports = function (grunt) {
     'grunt-contrib-htmlmin',
     'grunt-contrib-imagemin',
     'grunt-svgmin',
-    'grunt-contrib-cssmin'
+    'grunt-contrib-cssmin',
+    'grunt-cwebp'
 
   ].forEach(function (task) {
     grunt.loadNpmTasks(task);
@@ -24,6 +25,21 @@ module.exports = function (grunt) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+
+    cwebp: {
+      dynamic: {
+        options: {
+          // Quality of WebP images:
+          q: 75
+        },
+        files: [{
+          expand: true,
+          cwd: 'assets/img',
+          src: '{,*/}*.{png,jpg,jpeg}',
+          dest: 'dist/assets/img'
+        }]
+      }
+    },
 
     clean: {
       dev: {
@@ -356,6 +372,7 @@ module.exports = function (grunt) {
       'less:color',
       'less:production',
       'useminPrepare',
+      'cwebp',
       'imagemin',
       'svgmin',
       'concat',
