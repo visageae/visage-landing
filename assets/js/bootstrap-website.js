@@ -17,7 +17,7 @@
             deferred.resolve();
           };
           js.src = url;
-          js.defer = true;
+          js.async = true;
           fjs.parentNode.insertBefore(js, fjs);
           return deferred.promise;
         }
