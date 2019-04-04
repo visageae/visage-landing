@@ -33,7 +33,11 @@ input.medium {
     font-family: inherit;
 }
 
-input[type=text], input[type=email], input[type=tel] {
+input[type=text], input[type=email], input[type=tel], input[type=url], input[type=textarea] {
+    border-color: #ffc107;
+}
+
+textarea {
     border-color: #ffc107;
 }
 
@@ -47,7 +51,7 @@ input[type=text], input[type=email], input[type=tel] {
     background-color: #ffc107;
 }
 
-input[type=text], input[type=email], input[type=tel] {
+input[type=text], input[type=email], input[type=tel], input[type=url] {
     -webkit-transition: color 0.2s ease, background 0.3s ease;
     -moz-transition: color 0.2s ease, background 0.3s ease;
     -o-transition: color 0.2s ease, background 0.3s ease;
@@ -85,13 +89,20 @@ input[type=tel]:focus {
     color: #000000;
 }
 
-input[type=tel],input[type=email],input[type=text]:not(textarea) {
+input[type=tel],input[type=email],input[type=url],input[type=text]:not(textarea) {
     height: 46px;
     padding: 0 10px 0 20px;
     line-height: 44px;
 }
 
 .wufoo input.text {
+    background: inherit;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.wufoo textarea {
     background: inherit;
     color: inherit;
     font-size: inherit;
