@@ -10,10 +10,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.visage.jobs/waitlisted.html</loc>
-        <priority>0.9</priority>
-    </url>
-    <url>
         <loc>https://www.visage.jobs/about.html</loc>
         <priority>0.9</priority>
     </url>
