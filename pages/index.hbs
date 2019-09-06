@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>enduro.js page</title>
+		<link rel="stylesheet" href="/assets/css/general.css">
+		<link rel="stylesheet" href="/assets/css/nav.scss">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />
+		<style type="text/css"></style>
+	</head>
+	<body>
+
+		<nav id="navigation-menu" class="navigation-menu" js-navigation-menu>
+            <div class="navigation-menu__container">
+                <div class="navigation-menu__left">
+                    <a href="#">
+                        <img class="navigation-menu__logo" src="../assets/img/logo.svg">
+                    </a>
+                    <ul class="navigation-menu__links hidden-sm">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="recruiters/index.html">Recruiters</a>
+                        </li>
+                        <li>
+                            <a href="about/index.html">About</a>
+                        </li>
+                        <li>
+                            <a href="pricing/index.html">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navigation-menu__links-cont"  js-navbar-links>
+                    <ul class="navigation-menu__links">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="recruiters/index.html">Recruiters</a>
+                        </li>
+                        <li>
+                            <a href="about/index.html">About</a>
+                        </li>
+                        <li>
+                            <a href="pricing/index.html">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navigation-menu__right">
+                    <a class="btn-round btn-primary-dark hidden-sm" href="https://app.visage.jobs/login" aria-label="Sign Up">
+                        Sign Up
+                    </a>
+                    <a class="navigation-menu__toggle hidden-xl" js-navbar-toggle>
+                        &equiv;
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+
+	{{#with homepagehero}}
+		<section id="homepage-hero" class="homepage-hero">
+			<div class="homepage-hero__bg"></div>
+			<div class="container">
+				<div class="homepage-hero__contents">
+					<div class="homepage-hero__info">
+						<div class="homepage-hero__info-wrap">
+							<h1 class="homepage-hero__title">{{ header }}</h1>
+							<h3 class="homepage-hero__subtitle">
+								Our crowdSOURCING Platform combines the expertise of 3,500 recruiting sourcers and unique algorithms to deliver 
+								<strong>high-quality candidates profiles to your company within 24 hours</strong>
+							</h3>
+							<a class="btn-round btn-primary-dark" href="#" aria-label="Request a demo">
+								Request a Demo
+							</a>
+						</div>
+					</div>
+					<div class="homepage-hero__visual">
+						<img class="homepage-hero__illustrastion" src="{{ featured_image_url }}">
+					</div>
+				</div>
+			</div>
+		</section>
+	{{/with}}
+
+
+    {{#with homepage_features}}
+		<section id="features-showcase" class="features-showcase">
+			<div class="container">
+				<div class="features-showcase__head">
+					<h2 class="features-showcase__title">Leverage the power of the crowd</h2>
+					<div class="features-showcase__statement-wrapper">
+                        {{#each statements}}
+						<div class="features-showcase__statement">
+							<span>{{header}}</span>
+							<p>{{copy}}</p>
+						</div>
+                        {{/each}}
+					</div>
+				</div>
+                <div class="features-showcase__contents" js-features-slider>
+                {{#each list_of_features}}
+                    <div class="features-showcase__tile-wrap">
+                        <div class="features-showcase__tile">
+                            <span class="features-showcase__tile-number">{{number}}</span>
+                            <img class="features-showcase__tile-icon" src="{{icon_url}}">
+                            <h3 class="features-showcase__tile-title">{{title}}</h3>
+                            <p class="features-showcase__tile-copy">{{copy}}</p>
+                        </div>
+                    </div>
+                {{/each}}
+                </div>
+			</div>
+		</section>
+	{{/with}}
+
+    {{#with main_advantages}}
+    <section class="main-advantages">
+        <div class="container">
+            <h2 class="main-advantages__heading">{{header}}</h2>
+            <div class="main-advantages__content">
+                <div class="main-advantages__features">
+                    {{#each list_of_advantages}}
+                        <div class="main-advantages__features-item">
+                            <div class="main-advantages__features-img">
+                                <img src="{{img_url}}">
+                            </div>
+                            <div class="main-advantages__features-text">
+                                <h3>{{header}}</h3>
+                                <p>{{copy}}</p>
+                            </div>
+                        </div>
+                    {{/each}}
+                </div>
+                <div>
+                    <img src="{{featured_img_url}}" class="main-advantages__image">
+                </div>
+            </div>
+        </div>
+    </section>
+    {{/with}}
+
+
+    {{#with main_showcase}}
+    <section class="main-showcase">
+        <div class="container">
+            <div class="main-showcase__wrapper">
+                <div class="main-showcase__demo">
+                    <h2>{{left_header}}</h2>
+                    <a class="btn-sm-round btn-primary-dark" href="#" aria-label="Request a demo">
+                        Request a Demo
+                    </a>
+                </div>
+                <div class="main-showcase__info">
+                    <div class="main-showcase__info-text">
+                        <h2>{{middle_header}}</h2>
+                        <hr class="header-hr">
+                        <p>{{middle_text}}</p>
+                    </div>
+                </div>
+                <div class="main-showcase__features">
+                    <div class="main-showcase__features-item">
+                        <h2>{{features_header}}</h2>
+                        <hr class="header-hr">
+                    </div>
+                    {{#each list_of_features}}
+                        <div class="main-showcase__features-item">
+                            <img src="{{icon_url}}">
+                            <p>{{copy}}</p>
+                        </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </section>
+    {{/with}}
+
+
+    {{#with main_users}}
+        <section class="main-users">
+            <div class="container">
+                <div class="main-users__wrapper">
+                    <div class="main-users__heading">
+                        <h2>{{header}}</h2>
+                    </div>
+                    <div class="main-users__content">
+                        {{#each list_of_users}}
+                            <div class="main-users__item">
+                                <div class="main-users__item-img">
+                                    <img src="{{img_url}}">
+                                </div>
+                                <div class="main-users__item-text">
+                                    <h3>{{header}}</h3>
+                                    <p>{{copy}}</p>
+                                </div>
+                            </div>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </section>
+    {{/with}}
+
+
+    {{#with our_clients}}
+        <section class="clients-showcase">
+            <div class="container">
+                <div class="clients-showcase__wrapper">
+                    <div class="clients-showcase__heading">
+                        <h2>{{header}}</h2>
+                    </div>
+                    <div class="clients-showcase__content">
+                        {{#each list_of_clients}}
+                            <img class="clients-showcase__item" src="{{img_url}}">
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </section>
+    {{/with}}
+
+    {{#with company_members}}
+        <section class="members">
+            <div class="container">
+                <div class="members__team">
+                    {{#each list_of_members}}
+                        <div class="members__team-tile">
+                            <div class="members__tile-img">
+                                <img src="{{img_url}}">
+                                <a class="members__tile-link" href="{{link}}">
+                                    <img src="../assets/img/linkedin-logo.svg">
+                                </a>
+                            </div>
+                            <div class="members__tile-data">
+                                <h3>{{name}}</h3>
+                                <span>{{job}}</span>
+                            </div>
+                        </div>
+                    {{/each}}
+                </div>
+            </div>
+        </section>
+    {{/with}}
+
+    {{#with accordion}}
+        <section class="faq">
+            <div class="container">
+                <h2 class="faq__heading">FAQs</h2>
+                <div class="faq__wrapper">
+                    <div class="faq__accordion">
+                        {{#each panel}}
+                            <button class="accordion">{{out}}</button>
+                            <div class="panel">
+                                <p>{{in}}</p>
+                            </div>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </section>
+    {{/with}}
+
+    <section class="video-showcase">
+        <div class="container-sm">
+            <iframe  src="https://www.youtube.com/embed/k36RhQniviA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+
+    {{#with testimonials}}
+        <section class="main-testimonials">
+            <div class="container">
+                <div class="main-testimonials__wrapper">
+                    <div class="main-testimonials__header">
+                        <h2>{{header}}</h2>
+                        <hr>
+                    </div>
+                    <div class="main-testimonials__content">
+                        <div class="main-testimonials__slider-wrap" js-testimonials-slider>
+                            {{#each list_of_testimonials}}
+                                <div class="testimonials__slide">
+                                    <div class="testimonials__slide-wrapper">
+                                        <div class="testimonials__slide-img">
+                                            <img src="{{img_url}}">
+                                        </div>
+                                        <div class="testimonials__slide-text">
+                                            <p>{{copy}}</p>
+                                            <span class="testimonials__slide-name">{{name}}</span>
+                                            <span class="testimonials__slide-job">{{job}}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    {{/with}}
+
+
+    {{#with footer}}
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-left">
+                        <img src="../assets/img/logo-gray.svg">
+                        <h3>visage.jobs 2019</h3>
+                        <span>visage.jobs 2019</span>
+                        <span>Terms & conditions • Privacy Policy</span>
+                    </div>
+                    <div class="footer-right">
+                        {{#each column}}
+                            <div class="footer-right__col">
+                                <span>{{header}}</span>
+                                {{#each data}}
+                                    <a href="{{link}}">{{copy}}</a>
+                                {{/each}}
+                            </div>
+                        {{/each}}
+                    
+                        <div class="footer-right__col-spc">
+                            <span>Contact Us</span>
+                            <p>2nd Floor, 180 Sansome St, San Francisco, CA 94104</p>
+                            <a>team@visage.jobs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    {{/with}}
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0=" crossorigin="anonymous"></script>
+<script>
+    /*$('[js-testimonials-slider]').slick({
+        arrows: false,
+        fade: true
+    });
+
+    $('[js-testimonials-prev]').click(function(){
+        $("[js-testimonials-slider]").slick('slickPrev');
+    });
+
+    $('[js-testimonials-next]').click(function(){
+        $("[js-testimonials-slider]").slick('slickNext');
+    });*/
+
+    const $dom = {};
+    $dom.navbar = document.querySelector('[js-navigation-menu]');
+    console.log('NAVBAR', $dom.navbar.classList);
+
+    window.addEventListener("scroll", function(event) {
+        if(window.scrollY != 0){
+            if(!$dom.navbar.classList.contains('scrolled')){
+                $dom.navbar.classList.add('scrolled');
+            }
+        }else{
+            if($dom.navbar.classList.contains('scrolled')){
+                $dom.navbar.classList.remove('scrolled');
+            }
+        }
+    }, false);
+
+     var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+            });
+        }
+
+    (function() {
+        let $ = document.querySelector.bind(document);
+        let $dom = {};
+
+        $dom.navbarLinks = $('[js-navbar-links]');
+        $dom.navbarToggle = $('[js-navbar-toggle]');
+
+        // Toggles the state of the mobile navbar
+        let navbarToggle = () => {
+        if($dom.navbarLinks.classList.contains('is-shown')){
+                $dom.navbarLinks.classList.remove('is-shown')
+        }else{
+            $dom.navbarLinks.classList.add('is-shown')
+        }
+        };
+
+        window.addEventListener('DOMContentLoaded', () => {
+            $dom.navbarToggle.addEventListener('click', navbarToggle);
+        });
+    })();
+</script>
+	</body>
+
+</html>

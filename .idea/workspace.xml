@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a58baa6-22f6-4a18-b908-429f6eaa765e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/enduro.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/colors/berry.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/colors/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/colors/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/colors/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/colors/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/custom-animations.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/lib/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/lib/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/lib/font-lineicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/lib/rzslider.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/lib/toastr.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/min/custom-animations.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/min/style-berry-color.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/min/style-blue-color.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/min/style-green-color.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/min/style-orange-color.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/min/style-pink-color.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/min/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style-berry-color.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style-blue-color.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style-green-color.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style-orange-color.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style-pink-color.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style-reversed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style-reversed.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/wufoo-form-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/line-icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/line-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/line-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/line-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Haley.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/background/home-1-bck.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/background/home-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/background/home-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/background/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/background/pattern-icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/background/recruiter-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/background/recruiter-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/background/recruiter-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/background/recruiter-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cheering_minions.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/More_Reach_Avatar_Example_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/Save_Time_Avatar_Example_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/best-talent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/best.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/candidates.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/claudia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/corporate-recruiters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/employer_affordable.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/employer_easy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/employer_fast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/fast_real_cheetah.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/iPhone_recruiter_fast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/linda.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/more-reach.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/party-recruiters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/recruiter_dashboard_desktop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/recruiter_fast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/save-time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/save-time.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/success-flow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/testimonial_recruiter_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/testimonial_recruiter_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/testimonial_recruiter_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features/unlimited_earning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/quotes-a-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/quotes-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/quotes-b-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/quotes-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/step-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/step-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/step-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/yt_controls_40x40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/yt_play_big_56x82.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo-inverted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo_bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo_bg_light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo_font_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/magnify-cur.cur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/magnify-cur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/paypal-133x35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/separator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/Barry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/David.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/Emmanuel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/Haley-new.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/Jeanita.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/Joss.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/The_Company_background_pic_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/group-picture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/nicolas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/AMN-healthcare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/Adecco.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/Digital-Genius.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/Mark-Webster-gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/Mark-Webster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/Monster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/Quantam_Space_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/Rocket-Space.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/RocketSpace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/WorkdayLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/adecco_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/ai-human-intel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/avin_shahani.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/boston-scientific.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/calypso-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/cancel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/careem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/career-cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/career-office-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/career-office-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/career-office-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/citruss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/crowdsource-candidates.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/crowdsourcing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/crowsourcing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/diverisity-anon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/diverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/diversity-header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/diversity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/domain-experts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/domainexperts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/eric-davis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/etisalat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/example_desktop-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/fetchr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/godaddy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/interview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/logo_horizontal_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/logo_only_grey.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/logo_only_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/nasco.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/omnicom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/outreach.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/post-job.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/snapcard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/team-header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/tesla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/testimonial_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/testimonial_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/testimonial_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/triangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/virgin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/visage/wall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap-website.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/angular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery-1.11.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery-1.11.3.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery-2.1.4.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery-ui-slider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.appear.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.bxslider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.countTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.countdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.flexslider-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.mb.YTPlayer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/modal-box.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/modernizr-custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/rzslider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/startuply.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/toastr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vendor/toastr.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/visageControllers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/json/email-faq.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/json/pricing-faq.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/json/recruiter-faq.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/json/recruiterprivate-faq.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/animations.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/back-to-top.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/base-colors/berry.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/base-colors/blue.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/base-colors/green.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/base-colors/orange.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/base-colors/pink.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/base-colors/visage-reversed.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/base-colors/visage.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/base-colors/visage_base.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/blog.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/cart-checkout.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/common.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/countdowns.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/dropdowns.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/featured-tabs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/fonts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/footer.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/header.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/icon-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/long-blocks.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/modal-boxes.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/navs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/package-columns.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/preloader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/product-list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/product.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/progress-bars.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/reset-wufoo.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/startuply.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/style-switcher.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/styles/style-berry-color.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/styles/style-blue-color.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/styles/style-green-color.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/styles/style-orange-color.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/styles/style-pink-color.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/styles/style-reversed.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/styles/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/tables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/team.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/testimonials-slider.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/thumbnails.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/typography.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors/css-reset.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors/fontawesome/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors/fontawesome/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors/fontawesome/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors/fontawesome/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors/fontawesome/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors/fontawesome/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors/fontawesome/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors/fontawesome/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors/fontawesome/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors/fontawesome/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors/fontawesome/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors/fontawesome/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors/fontawesome/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors/fontawesome/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors/jquery.bxslider.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors/lesshat.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/vendors/line-icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/visage.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/wells.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less/yt-player-controls.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/public/wufoo-form-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/templates/jobCaroussel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/career.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diversity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/expert-onboarddoc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/android-chrome-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/android-chrome-36x36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/android-chrome-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/android-chrome-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/android-chrome-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/apple-touch-icon-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/apple-touch-icon-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/apple-touch-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/apple-touch-icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/apple-touch-icon-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/apple-touch-icon-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/apple-touch-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/apple-touch-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/apple-touch-icon-76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/favicon-194x194.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/favicon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/mstile-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/mstile-310x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/mstile-310x310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/mstile-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/non-discrimination-equal-opportunity-policy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/privacy-policy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recruiter-old.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/Montserrat-Black.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/Montserrat-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/Montserrat-ExtraBold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/Montserrat-ExtraLight.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/Montserrat-Light.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/Montserrat-Medium.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/Montserrat-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/Montserrat-SemiBold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/Montserrat-Thin.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/Montserrat-UltraLight.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/MontserratAlternates-Black.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/MontserratAlternates-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/MontserratAlternates-ExtraBold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/MontserratAlternates-ExtraLight.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/MontserratAlternates-Light.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/MontserratAlternates-Medium.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/MontserratAlternates-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/MontserratAlternates-SemiBold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/MontserratAlternates-Thin.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/MontserratAlternates-UltraLight.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/fonts/montserrat/SIL Open Font License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/images/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/images/items/coup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/images/items/interview.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/images/items/people.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/images/linkedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/images/logo-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/images/main-background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/images/more.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/images/quotation-end.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/images/quotation-start.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/images/reference-user.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/images/second-background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/images/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/scripts/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/scripts/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/scripts/vendor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/scripts/vendor/modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renewable/styles/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terms-conditions-recruiters.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terms-conditions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/waitlisted-thank-you.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/waitlisted.html" beforeDir="false" />
+    </list>
+    <ignored path="visage-website.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2113515980">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="5" />
+          <entry key="html" value="27" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="13" />
+          <entry key="json" value="1" />
+          <entry key="less" value="7" />
+          <entry key="png" value="1" />
+          <entry key="svg" value="2" />
+          <entry key="txt" value="1" />
+          <entry key="webp" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="27" />
+          <entry key="Image" value="3" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="13" />
+          <entry key="Less" value="6" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="SVG" value="2" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="105" />
+          <entry key="html" value="3094" />
+          <entry key="js" value="138" />
+          <entry key="less" value="91" />
+          <entry key="xml" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="105" />
+          <entry key="HTML" value="3094" />
+          <entry key="JavaScript" value="138" />
+          <entry key="Less" value="91" />
+          <entry key="XML" value="20" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="visage-website" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>url(&quot;</find>
+      <find>/assets</find>
+      <find>diverisi</find>
+      <find>s3</find>
+      <find>&lt;img.*alt=.*src=&quot;(.+)\.(jpg|png)&quot;[\s\S]*?&gt;</find>
+      <find>&lt;img[\s\S]*?src=&quot;(.+)\.(jpg|png)&quot;[\s\S]*?&gt;</find>
+      <find>picture</find>
+      <find>&lt;img</find>
+      <find>ven</find>
+      <find>vendor</find>
+      <find>image/jpg</find>
+      <find>url(</find>
+      <find>rzslider</find>
+      <find>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/css/lib/rzslider.min.css&quot;/&gt;</find>
+      <find>&lt;script defer type=&quot;text/javascript&quot; src=&quot;assets/js/vendor/rzslider.min.js&quot;&gt;&lt;/script&gt;</find>
+      <find>rzsli</find>
+      <find>angular</find>
+      <find>script</find>
+      <find>aitlisted</find>
+      <find>r19q4npc0floewu</find>
+      <find>background</find>
+      <find>recruiter.html</find>
+      <find>/recruiter.html</find>
+      <find>/pricing</find>
+      <find>900</find>
+      <find>/waitlist</find>
+      <find>become</find>
+      <find>/waitlisted.html</find>
+      <find>http://help.visage.jobs/#faq</find>
+      <find>https://help.visage.jobs/</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>input[type=text],input[type=email],input[type=tel]</replace>
+      <replace>&lt;picture&gt;\n&lt;source srcset=&quot;$1.webp&quot; type=&quot;image/webp&quot;&gt;\n&lt;source srcset=&quot;$1.$2&quot; type=&quot;image/$2&quot;&gt;\n$0\n&lt;/picture&gt;</replace>
+      <replace>assets</replace>
+      <replace>&lt;picture&gt;\n&lt;source srcset=&quot;$1.webp&quot; type=&quot;image/webp&quot;&gt;\n&lt;source srcset=&quot;$1.$2&quot; type=&quot;image/$2&quot;&gt;\n&lt;img src=&quot;$1.$2&quot;&gt;\n&lt;/picture&gt;</replace>
+      <replace>image/jpeg</replace>
+      <replace>/waitlisted.html</replace>
+      <replace />
+      <replace>https://app.visage.jobs</replace>
+      <replace>http://help.visage.jobs/</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/assets/less</dir>
+      <dir>$PROJECT_DIR$/assets/js</dir>
+      <dir>$PROJECT_DIR$/assets/css</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/assets/less/base-colors/berry.less" />
+        <option value="$PROJECT_DIR$/assets/less/base-colors/blue.less" />
+        <option value="$PROJECT_DIR$/assets/less/base-colors/green.less" />
+        <option value="$PROJECT_DIR$/assets/less/base-colors/orange.less" />
+        <option value="$PROJECT_DIR$/assets/less/base-colors/pink.less" />
+        <option value="$PROJECT_DIR$/assets/js/bootstrap.js" />
+        <option value="$PROJECT_DIR$/assets/js/startuply.js" />
+        <option value="$PROJECT_DIR$/assets/less/base-colors/visage.less" />
+        <option value="$PROJECT_DIR$/assets/less/base-colors/visage-reversed.less" />
+        <option value="$PROJECT_DIR$/assets/js/vendor/custom.js" />
+        <option value="$PROJECT_DIR$/dist/pricing.html" />
+        <option value="$PROJECT_DIR$/assets/js/custom.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/assets/less/fonts.less" />
+        <option value="$PROJECT_DIR$/assets/less/vendors.less" />
+        <option value="$PROJECT_DIR$/assets/less/vendors/simple-line-icons.less" />
+        <option value="$PROJECT_DIR$/assets/less/vendors/line-icons.less" />
+        <option value="$PROJECT_DIR$/assets/less/vendors/fontawesome/variables.less" />
+        <option value="$PROJECT_DIR$/assets/less/base-colors/visage_base.less" />
+        <option value="$PROJECT_DIR$/assets/json/pricing-faq.json" />
+        <option value="$PROJECT_DIR$/assets/templates/jobCaroussel.html" />
+        <option value="$PROJECT_DIR$/assets/json/recruiter-faq.json" />
+        <option value="$PROJECT_DIR$/assets/json/recruiterprivate-faq.json" />
+        <option value="$PROJECT_DIR$/assets/js/config.js" />
+        <option value="$PROJECT_DIR$/RPO.html" />
+        <option value="$PROJECT_DIR$/pricing.html" />
+        <option value="$PROJECT_DIR$/recruiter-faq.html" />
+        <option value="$PROJECT_DIR$/career.html" />
+        <option value="$PROJECT_DIR$/terms-conditions.html" />
+        <option value="$PROJECT_DIR$/terms-conditions-recruiters.html" />
+        <option value="$PROJECT_DIR$/privacy-policy.html" />
+        <option value="$PROJECT_DIR$/assets/js/vendor/startuply.js" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/recruiter.html" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/dist/diversity.html" />
+        <option value="$PROJECT_DIR$/diversity.html" />
+        <option value="$PROJECT_DIR$/assets/js/visageControllers.js" />
+        <option value="$PROJECT_DIR$/assets/js/bootstrap-website.js" />
+        <option value="$PROJECT_DIR$/waitlisted.html" />
+        <option value="$PROJECT_DIR$/assets/public/wufoo-form-style.css" />
+        <option value="$PROJECT_DIR$/assets/less/visage.less" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sitemap.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1775" />
+    <option name="y" value="23" />
+    <option name="width" value="1772" />
+    <option name="height" value="956" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="visage-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visage-website" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/index.html&#10;gruntfi&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/Gruntfile.js&#10;wufoo&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/public/wufoo-form-style.css&#10;visage.&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/less/visage.less&#10;waitli&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/waitlisted.html&#10;visage.less&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/less/visage.less&#10;grun&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/Gruntfile.js&#10;diver&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/diversity.html&#10;gruntf&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/Gruntfile.js&#10;center&#9;null&#9;null&#10;grunt&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/Gruntfile.js&#10;right&#9;null&#9;null&#10;recr&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/recruiter.html&#10;visage&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/less/visage.less&#10;recrui&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/recruiter.html&#10;faq&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/recruiter-faq.html&#10;config&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/js/config.js&#10;email-fa&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/json/email-faq.json&#10;recruiter-fa&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/json/recruiterprivate-faq.json&#10;terms&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/terms-conditions.html&#10;pricing&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/pricing.html&#10;inde&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/index.html&#10;recru&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/recruiter.html&#10;career&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/career.html&#10;boot&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/js/bootstrap-website.js&#10;visa&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/less/base-colors/visage_base.less&#10;recruit&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/recruiter.html&#10;visage_ba&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/less/base-colors/visage_base.less&#10;jo&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/templates/jobCaroussel.html&#10;job-ca&#9;null&#9;null&#10;jobc&#9;null&#9;null&#10;recruite&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/recruiter.html&#10;custom&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/css/min/custom-animations.min.css&#10;vi&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/less/visage.less&#10;vari&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/less/vendors/fontawesome/variables.less&#10;aweso&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/less/vendors/fontawesome/font-awesome.less&#10;ven&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/less/vendors.less&#10;simp&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/less/vendors/simple-line-icons.less&#10;ve&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/less/vendors.less&#10;fonts.l&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/less/fonts.less&#10;style.le&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/less/styles/style.less&#10;vendors.&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/less/vendors.less&#10;style.&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/less/styles/style.less&#10;pack&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/package.json&#10;pac&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/package.json&#10;gr&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/Gruntfile.js&#10;pricin&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/pricing.html&#10;vis&#9;FILE&#9;file:///Users/manu/Documents/visage/visage-website/assets/less/visage.less" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="$PROJECT_DIR$/node_modules/grunt-cli" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/visage" />
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/assets/css" />
+      <recent name="$PROJECT_DIR$/assets/css-old/lib" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/js/vendor" />
+      <recent name="$PROJECT_DIR$/assets/img/features" />
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/public" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.diversity.html">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration name="diversity.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/visage-website/dist/diversity.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="recruiter.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/visage-website/dist/recruiter.html">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="default" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <tasks>
+        <task value="default" />
+      </tasks>
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="develop" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <tasks>
+        <task value="develop" />
+      </tasks>
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="watch" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <tasks>
+        <task value="watch" />
+      </tasks>
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter />
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.diversity.html" />
+      <item itemvalue="JavaScript Debug.recruiter.html" />
+      <item itemvalue="Grunt.js.default" />
+      <item itemvalue="Grunt.js.watch" />
+      <item itemvalue="Grunt.js.develop" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Grunt.js.develop" />
+        <item itemvalue="Grunt.js.watch" />
+        <item itemvalue="Grunt.js.default" />
+        <item itemvalue="JavaScript Debug.diversity.html" />
+        <item itemvalue="JavaScript Debug.recruiter.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a58baa6-22f6-4a18-b908-429f6eaa765e" name="Default" comment="" />
+      <created>1471757827446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1471757827446</updated>
+      <workItem from="1483659464584" duration="474000" />
+      <workItem from="1488334797614" duration="1312000" />
+      <workItem from="1488870217765" duration="2100000" />
+      <workItem from="1488875670711" duration="701000" />
+      <workItem from="1489538329078" duration="6000" />
+      <workItem from="1496269600343" duration="605000" />
+      <workItem from="1520984878323" duration="434000" />
+      <workItem from="1521072570645" duration="3524000" />
+      <workItem from="1528946637996" duration="202000" />
+      <workItem from="1528947399024" duration="1153000" />
+      <workItem from="1534289487698" duration="2814000" />
+      <workItem from="1539117885907" duration="950000" />
+      <workItem from="1539436038841" duration="1181000" />
+      <workItem from="1539597216089" duration="1198000" />
+      <workItem from="1539788259092" duration="598000" />
+      <workItem from="1541543866350" duration="1652000" />
+      <workItem from="1541545701710" duration="5021000" />
+      <workItem from="1541609428820" duration="19164000" />
+      <workItem from="1542036291266" duration="12142000" />
+      <workItem from="1542126074037" duration="1212000" />
+      <workItem from="1546872818313" duration="300000" />
+      <workItem from="1554399773902" duration="1030000" />
+      <workItem from="1554408947610" duration="1029000" />
+      <workItem from="1560290684223" duration="1180000" />
+      <workItem from="1567785392219" duration="586000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="60568000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1775" y="23" width="1772" height="956" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6142649" visible="true" weight="0.251285" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="DB Browser" order="2" />
+      <window_info id="Grunt " order="3" sideWeight="0.3857351" side_tool="true" visible="true" weight="0.251285" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.11805555" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713877" weight="0.19675925" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49713877" visible="true" weight="0.2048611" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5028612" side_tool="true" weight="0.2820513" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" visible="true" weight="0.34188035" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/assets/js/vendor/startuply.js</url>
+          <line>217</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/assets/js/bootstrap-website.js</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/img/visage/testimonial_2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/wells.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email-faq.html" />
+    <entry file="file://$PROJECT_DIR$/assets/json/email-faq.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="249" selection-start-line="15" selection-start-column="249" selection-end-line="15" selection-end-column="249" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/json/recruiterprivate-faq.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/json/recruiter-faq.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/RPO.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="43" column="12799" lean-forward="true" selection-start-line="43" selection-start-column="12799" selection-end-line="43" selection-end-column="12799" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pricing.html" />
+    <entry file="file://$PROJECT_DIR$/recruiter-faq.html" />
+    <entry file="file://$PROJECT_DIR$/RPO.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5055">
+          <caret line="337" column="41" selection-start-line="337" selection-start-column="41" selection-end-line="337" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/theme.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4515">
+          <caret line="301" column="24" lean-forward="true" selection-start-line="301" selection-start-column="24" selection-end-line="301" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="13" selection-start-line="72" selection-end-line="72" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/typography.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="32" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/startuply.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-692" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/styles/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/logo_white.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/visage/logo_only_white.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/vendor/startuply.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="1126" selection-start-line="1126" selection-end-line="1126" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/vendor/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="220" column="390" selection-start-line="220" selection-start-column="390" selection-end-line="220" selection-end-column="390" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom-animations.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="236" column="27" lean-forward="true" selection-start-line="236" selection-start-column="27" selection-end-line="236" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="455" lean-forward="true" selection-start-line="455" selection-end-line="455" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/features/recruiter_dashboard_desktop.png" />
+    <entry file="file://$PROJECT_DIR$/assets/css/min/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22279">
+          <caret line="3" column="155311" selection-start-line="3" selection-start-column="155311" selection-end-line="3" selection-end-column="155311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="5663" lean-forward="true" selection-start-line="5663" selection-end-line="5663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/background/home-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/assets/img/visage/diverse.77eb1dc8.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/diversity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="530" column="20" selection-start-line="530" selection-start-column="20" selection-end-line="530" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/career.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="275" column="24" selection-start-line="275" selection-start-column="24" selection-end-line="275" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expert-onboarddoc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="446" column="24" selection-start-line="446" selection-start-column="24" selection-end-line="446" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/non-discrimination-equal-opportunity-policy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="171" column="24" selection-start-line="171" selection-start-column="24" selection-end-line="171" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/privacy-policy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="168" column="24" selection-start-line="168" selection-start-column="24" selection-end-line="168" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recruiter-old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="690" column="24" selection-start-line="690" selection-start-column="24" selection-end-line="690" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terms-conditions-recruiters.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="171" column="24" selection-start-line="171" selection-start-column="24" selection-end-line="171" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terms-conditions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="170" column="24" selection-start-line="170" selection-start-column="24" selection-end-line="170" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/vendor/modernizr-custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diversity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4830">
+          <caret line="511" column="66" selection-start-line="511" selection-start-column="59" selection-end-line="511" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1548">
+          <caret line="360" lean-forward="true" selection-start-line="360" selection-end-line="360" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waitlisted-thank-you.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="180" column="20" selection-start-line="180" selection-start-column="20" selection-end-line="180" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waitlisted.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1965">
+          <caret line="131" column="42" lean-forward="true" selection-start-line="131" selection-start-column="42" selection-end-line="131" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/visageControllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3990">
+          <caret line="266" column="28" selection-start-line="266" selection-start-column="28" selection-end-line="266" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/bootstrap-website.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/visage.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16275">
+          <caret line="1085" column="27" lean-forward="true" selection-start-line="1085" selection-start-column="27" selection-end-line="1085" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/public/wufoo-form-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4005">
+          <caret line="267" column="17" selection-start-line="267" selection-start-column="17" selection-end-line="267" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#div#1;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

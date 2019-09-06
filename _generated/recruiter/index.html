@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>enduro.js page</title>
+		<link rel="stylesheet" href="/assets/css/general.css">
+		<link rel="stylesheet" href="/assets/css/nav.scss">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />
+		<style type="text/css"></style>
+	</head>
+	<body>
+
+		<nav id="navigation-menu" class="navigation-menu" js-navigation-menu>
+            <div class="navigation-menu__container">
+                <div class="navigation-menu__left">
+                    <a href="#">
+                        <img class="navigation-menu__logo" src="../assets/img/logo.svg">
+                    </a>
+                    <ul class="navigation-menu__links">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="recruiters/index.html">Recruiters</a>
+                        </li>
+                        <li>
+                            <a href="about/index.html">About</a>
+                        </li>
+                        <li>
+                            <a href="pricing/index.html">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navigation-menu__right">
+                    <a class="btn-round btn-primary-outline hidden-sm" href="#" aria-label="Sign Up">
+                        Sign Up
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0=" crossorigin="anonymous"></script>
+<script>
+    $('[js-testimonials-slider]').slick({
+        arrows: false,
+        fade: true
+    });
+
+    $('[js-testimonials-prev]').click(function(){
+        $("[js-testimonials-slider]").slick('slickPrev');
+    });
+
+    $('[js-testimonials-next]').click(function(){
+        $("[js-testimonials-slider]").slick('slickNext');
+    });
+
+    const $dom = {};
+    $dom.navbar = document.querySelector('[js-navigation-menu]');
+    console.log('NAVBAR', $dom.navbar.classList);
+
+    window.addEventListener("scroll", function(event) {
+        if(window.scrollY != 0){
+            if(!$dom.navbar.classList.contains('scrolled')){
+                $dom.navbar.classList.add('scrolled');
+            }
+        }else{
+            if($dom.navbar.classList.contains('scrolled')){
+                $dom.navbar.classList.remove('scrolled');
+            }
+        }
+    }, false);
+</script>
+	</body>
+
+</html>
