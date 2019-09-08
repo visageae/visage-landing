@@ -1,106 +1,196 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>enduro.js page</title>
-		<link rel="stylesheet" href="/assets/css/general.css">
-		<link rel="stylesheet" href="/assets/css/nav.scss">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />
-		<style type="text/css"></style>
-	</head>
-	<body>
+<head>
+    <link rel="stylesheet" href="/assets/css/general.css">
+    <link rel="stylesheet" href="/assets/css/micromodal.css">
+    <link rel="stylesheet" href="/assets/css/nav.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visage | Automate your Talent Acquisition using Crowdsourcing and Artificial
+        Intelligence</title>
+    <meta name="description"
+          content="Visage allows you to automate your sourcing leveraging on crowdsourcing and AI.">
+    <meta name="keywords"
+          content="talent acquisition, candidate sourcing, sourcing talent, passive candidate recruiting, hire passive candidates, crowdsourcing recruitment, artificial intelligence">
+    <link rel="apple-touch-icon"
+          sizes="57x57"
+          href="/assets/img/favicon/apple-touch-icon-57x57.png?v=2">
+    <link rel="apple-touch-icon"
+          sizes="60x60"
+          href="/assets/img/favicon/apple-touch-icon-60x60.png?v=2">
+    <link rel="apple-touch-icon"
+          sizes="72x72"
+          href="/assets/img/favicon/apple-touch-icon-72x72.png?v=2">
+    <link rel="apple-touch-icon"
+          sizes="76x76"
+          href="/assets/img/favicon/apple-touch-icon-76x76.png?v=2">
+    <link rel="apple-touch-icon"
+          sizes="114x114"
+          href="/assets/img/favicon/apple-touch-icon-114x114.png?v=2">
+    <link rel="apple-touch-icon"
+          sizes="120x120"
+          href="/assets/img/favicon/apple-touch-icon-120x120.png?v=2">
+    <link rel="apple-touch-icon"
+          sizes="144x144"
+          href="/assets/img/favicon/apple-touch-icon-144x144.png?v=2">
+    <link rel="apple-touch-icon"
+          sizes="152x152"
+          href="/assets/img/favicon/apple-touch-icon-152x152.png?v=2">
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="/assets/img/favicon/apple-touch-icon-180x180.png?v=2">
+    <link rel="icon"
+          type="image/png"
+          href="/assets/img/favicon/favicon-32x32.png?v=2"
+          sizes="32x32">
+    <link rel="icon"
+          type="image/png"
+          href="/assets/img/favicon/android-chrome-192x192.png?v=2"
+          sizes="192x192">
+    <link rel="icon"
+          type="image/png"
+          href="/assets/img/favicon/favicon-96x96.png?v=2"
+          sizes="96x96">
+    <link rel="icon"
+          type="image/png"
+          href="/assets/img/favicon/favicon-16x16.png?v=2"
+          sizes="16x16">
+    <link rel="manifest" href="/assets/img/favicon/manifest.json?v=2">
+    <link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg?v=2" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=2">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+          integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI="
+          crossorigin="anonymous"/>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WX69C8');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
 
-		<nav id="navigation-menu" class="navigation-menu" js-navigation-menu>
-            <div class="navigation-menu__container">
-                <div class="navigation-menu__left">
-                    <a href="#">
-                        <img class="navigation-menu__logo" src="../assets/img/logo.svg">
-                    </a>
-                    <ul class="navigation-menu__links hidden-sm">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="recruiters/index.html">Recruiters</a>
-                        </li>
-                        <li>
-                            <a href="about/index.html">About</a>
-                        </li>
-                        <li>
-                            <a href="pricing/index.html">Pricing</a>
-                        </li>
-                    </ul>
+<div class="modal micromodal-slide" id="demo-request" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        <div class="modal__container"
+             role="dialog"
+             aria-modal="true"
+             aria-labelledby="modal-1-title">
+            <main id="demo-request-content" class="modal__content">
+                <div id="wufoo-z8kv0cc0ktfm9y">
+                    Fill out my <a href="https://techvisage.wufoo.com/forms/z8kv0cc0ktfm9y">online
+                    form</a>.
                 </div>
-                <div class="navigation-menu__links-cont"  js-navbar-links>
-                    <ul class="navigation-menu__links">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="recruiters/index.html">Recruiters</a>
-                        </li>
-                        <li>
-                            <a href="about/index.html">About</a>
-                        </li>
-                        <li>
-                            <a href="pricing/index.html">Pricing</a>
-                        </li>
-                    </ul>
+            </main>
+        </div>
+    </div>
+</div>
+
+<nav id="navigation-menu" class="navigation-menu" js-navigation-menu>
+    <div class="navigation-menu__container">
+        <div class="navigation-menu__left">
+            <a href="#">
+                <img class="navigation-menu__logo" src="../assets/img/logo.svg">
+            </a>
+            <ul class="navigation-menu__links hidden-sm">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="recruiters/index.html">Recruiters</a>
+                </li>
+                <li>
+                    <a href="about/index.html">About</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navigation-menu__links-cont" js-navbar-links>
+            <ul class="navigation-menu__links">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="recruiters/index.html">Recruiters</a>
+                </li>
+                <li>
+                    <a href="about/index.html">About</a>
+                </li>
+                <li>
+                    <a href="pricing/index.html">Pricing</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navigation-menu__right">
+            <a class="btn-round btn-primary-dark hidden-sm"
+               href="https://app.visage.jobs/login"
+               aria-label="Sign Up">
+                Sign Up
+            </a>
+            <a class="navigation-menu__toggle hidden-xl" js-navbar-toggle>
+                &equiv;
+            </a>
+        </div>
+    </div>
+</nav>
+
+
+    <section id="homepage-hero" class="homepage-hero">
+        <div class="homepage-hero__bg"></div>
+        <div class="container">
+            <div class="homepage-hero__contents">
+                <div class="homepage-hero__info">
+                    <div class="homepage-hero__info-wrap">
+                        <h1 class="homepage-hero__title">Crowdsource your Candidate Pipeline</h1>
+                        <h3 class="homepage-hero__subtitle">
+                            Our crowdSOURCING Platform combines the expertise of 3,500 recruiting
+                            sourcers and unique algorithms to deliver
+                            <strong>high-quality candidates profiles to your company within 24
+                                hours</strong>
+                        </h3>
+                        <a class="btn-round btn-primary-dark"
+                           href="#"
+                           aria-label="Request a demo"
+                           data-micromodal-trigger="demo-request">
+                            Request a Demo
+                        </a>
+                    </div>
                 </div>
-                <div class="navigation-menu__right">
-                    <a class="btn-round btn-primary-dark hidden-sm" href="https://app.visage.jobs/login" aria-label="Sign Up">
-                        Sign Up
-                    </a>
-                    <a class="navigation-menu__toggle hidden-xl" js-navbar-toggle>
-                        &equiv;
-                    </a>
+                <div class="homepage-hero__visual">
+                    <img class="homepage-hero__illustrastion" src="../assets/img/homepage-illustration.svg">
                 </div>
             </div>
-        </nav>
+        </div>
+    </section>
 
 
-		<section id="homepage-hero" class="homepage-hero">
-			<div class="homepage-hero__bg"></div>
-			<div class="container">
-				<div class="homepage-hero__contents">
-					<div class="homepage-hero__info">
-						<div class="homepage-hero__info-wrap">
-							<h1 class="homepage-hero__title">Crowdsource your Candidate Pipeline</h1>
-							<h3 class="homepage-hero__subtitle">
-								Our crowdSOURCING Platform combines the expertise of 3,500 recruiting sourcers and unique algorithms to deliver 
-								<strong>high-quality candidates profiles to your company within 24 hours</strong>
-							</h3>
-							<a class="btn-round btn-primary-dark" href="#" aria-label="Request a demo">
-								Request a Demo
-							</a>
-						</div>
-					</div>
-					<div class="homepage-hero__visual">
-						<img class="homepage-hero__illustrastion" src="../assets/img/homepage-illustration.svg">
-					</div>
-				</div>
-			</div>
-		</section>
-
-
-		<section id="features-showcase" class="features-showcase">
-			<div class="container">
-				<div class="features-showcase__head">
-					<h2 class="features-showcase__title">Leverage the power of the crowd</h2>
-					<div class="features-showcase__statement-wrapper">
-						<div class="features-showcase__statement">
-							<span>24h</span>
-							<p>to get your 1st batch of candidates</p>
-						</div>
-						<div class="features-showcase__statement">
-							<span>81%</span>
-							<p>of profiles approved by our clients</p>
-						</div>
-					</div>
-				</div>
-                <div class="features-showcase__contents" js-features-slider>
+    <section id="features-showcase" class="features-showcase">
+        <div class="container">
+            <div class="features-showcase__head">
+                <h2 class="features-showcase__title">Leverage the power of the crowd</h2>
+                <div class="features-showcase__statement-wrapper">
+                        <div class="features-showcase__statement">
+                            <span>24h</span>
+                            <p>to get your 1st batch of candidates</p>
+                        </div>
+                        <div class="features-showcase__statement">
+                            <span>81%</span>
+                            <p>of profiles approved by our clients</p>
+                        </div>
+                </div>
+            </div>
+            <div class="features-showcase__contents" js-features-slider>
                     <div class="features-showcase__tile-wrap">
                         <div class="features-showcase__tile">
                             <span class="features-showcase__tile-number">1</span>
@@ -141,9 +231,9 @@
                             <p class="features-showcase__tile-copy">See candidate responses directly in your inbox and take them through your application process.</p>
                         </div>
                     </div>
-                </div>
-			</div>
-		</section>
+            </div>
+        </div>
+    </section>
 
     <section class="main-advantages">
         <div class="container">
@@ -200,7 +290,10 @@
             <div class="main-showcase__wrapper">
                 <div class="main-showcase__demo">
                     <h2>See how you can handover sourcing to Visage and fill more jobs quicker:</h2>
-                    <a class="btn-sm-round btn-primary-dark" href="#" aria-label="Request a demo">
+                    <a class="btn-sm-round btn-primary-dark"
+                       href="#"
+                       data-micromodal-trigger="demo-request"
+                       aria-label="Request a demo">
                         Request a Demo
                     </a>
                 </div>
@@ -234,299 +327,373 @@
     </section>
 
 
-        <section class="main-users">
-            <div class="container">
-                <div class="main-users__wrapper">
-                    <div class="main-users__heading">
-                        <h2>Visage automates sourcing, vetting and outreach for:</h2>
-                    </div>
-                    <div class="main-users__content">
-                            <div class="main-users__item">
-                                <div class="main-users__item-img">
-                                    <img src="../assets/img/user-corporate.png">
-                                </div>
-                                <div class="main-users__item-text">
-                                    <h3>Talent Acquisition Teams</h3>
-                                    <p>Reduce the time and cost per hire while freeing up your HR team to focus on more strategic talent acquisition activities.</p>
-                                </div>
-                            </div>
-                            <div class="main-users__item">
-                                <div class="main-users__item-img">
-                                    <img src="../assets/img/user-third.png">
-                                </div>
-                                <div class="main-users__item-text">
-                                    <h3>Volume Recruiters</h3>
-                                    <p>Supercharge your volume recruitment campaign with sourcing automation</p>
-                                </div>
-                            </div>
-                    </div>
+    <section class="main-users">
+        <div class="container">
+            <div class="main-users__wrapper">
+                <div class="main-users__heading">
+                    <h2>Visage automates sourcing, vetting and outreach for:</h2>
                 </div>
-            </div>
-        </section>
-
-
-        <section class="clients-showcase">
-            <div class="container">
-                <div class="clients-showcase__wrapper">
-                    <div class="clients-showcase__heading">
-                        <h2>Our Partners:</h2>
-                    </div>
-                    <div class="clients-showcase__content">
-                            <img class="clients-showcase__item" src="../assets/img/client-sanofi.png">
-                            <img class="clients-showcase__item" src="../assets/img/client-siemens.png">
-                            <img class="clients-showcase__item" src="../assets/img/client-ingevity.png">
-                            <img class="clients-showcase__item" src="../assets/img/client-quest.png">
-                            <img class="clients-showcase__item" src="../assets/img/client-cielo.png">
-                            <img class="clients-showcase__item" src="../assets/img/client-asml.png">
-                            <img class="clients-showcase__item" src="../assets/img/client-orange.png">
-                            <img class="clients-showcase__item" src="../assets/img/client-cognizant.png">
-                            <img class="clients-showcase__item" src="../assets/img/client-worldpay.png">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="members">
-            <div class="container">
-                <div class="members__team">
-                        <div class="members__team-tile">
-                            <div class="members__tile-img">
-                                <img src="../assets/img/team-joss.jpg">
-                                <a class="members__tile-link" href="#">
-                                    <img src="../assets/img/linkedin-logo.svg">
-                                </a>
+                <div class="main-users__content">
+                        <div class="main-users__item">
+                            <div class="main-users__item-img">
+                                <img src="../assets/img/user-corporate.png">
                             </div>
-                            <div class="members__tile-data">
-                                <h3>Joss Leufrancois</h3>
-                                <span>Co-Founder &amp; CEO</span>
+                            <div class="main-users__item-text">
+                                <h3>Talent Acquisition Teams</h3>
+                                <p>Reduce the time and cost per hire while freeing up your HR team to focus on more strategic talent acquisition activities.</p>
                             </div>
                         </div>
-                        <div class="members__team-tile">
-                            <div class="members__tile-img">
-                                <img src="../assets/img/team-patrick.jpg">
-                                <a class="members__tile-link" href="#">
-                                    <img src="../assets/img/linkedin-logo.svg">
-                                </a>
+                        <div class="main-users__item">
+                            <div class="main-users__item-img">
+                                <img src="../assets/img/user-third.png">
                             </div>
-                            <div class="members__tile-data">
-                                <h3>Patrick Birt</h3>
-                                <span>Chief Revenue Officer</span>
-                            </div>
-                        </div>
-                        <div class="members__team-tile">
-                            <div class="members__tile-img">
-                                <img src="../assets/img/team-nicolas.jpg">
-                                <a class="members__tile-link" href="#">
-                                    <img src="../assets/img/linkedin-logo.svg">
-                                </a>
-                            </div>
-                            <div class="members__tile-data">
-                                <h3>Nicolas Thiebaut</h3>
-                                <span>Machine Learning Engineer</span>
-                            </div>
-                        </div>
-                        <div class="members__team-tile">
-                            <div class="members__tile-img">
-                                <img src="../assets/img/team-emmanuel.jpg">
-                                <a class="members__tile-link" href="#">
-                                    <img src="../assets/img/linkedin-logo.svg">
-                                </a>
-                            </div>
-                            <div class="members__tile-data">
-                                <h3>Emmanuel Marboeuf</h3>
-                                <span>Co-Founder &amp; CTO</span>
+                            <div class="main-users__item-text">
+                                <h3>Volume Recruiters</h3>
+                                <p>Supercharge your volume recruitment campaign with sourcing automation</p>
                             </div>
                         </div>
                 </div>
             </div>
-        </section>
-
-        <section class="faq">
-            <div class="container">
-                <h2 class="faq__heading">FAQs</h2>
-                <div class="faq__wrapper">
-                    <div class="faq__accordion">
-                            <button class="accordion">What is Visage?</button>
-                            <div class="panel">
-                                <p>Visage is your virtual sourcing team. Submit your job requirements and Visage delivers qualified candidates in just 24-hours. Engage your shortlisted candidates with custom messages via email and SMS.</p>
-                            </div>
-                            <button class="accordion">What is unique about Visage?</button>
-                            <div class="panel">
-                                <p>Visage combines the expertise of recruiting sourcers (human intelligence) and unique algorithms (artificial intelligence) to deliver high-quality candidates profiles. Our clients approve 80% of the candidates.</p>
-                            </div>
-                            <button class="accordion">How does Visage work?</button>
-                            <div class="panel">
-                                <p>Define your role requirements and submit. We dispatch the role to 5+ sourcers for immediate sourcing. Our independent sourcers have access to a multitude of job boards and professional sites worldwide. They will leave no stone unturned to identify potential candidates. Review the candidate profiles, remove the ones you don&#x27;t want to contact and finally, engage your shortlist with custom messages via email and SMS.</p>
-                            </div>
-                            <button class="accordion">What sort of roles do you gather for?</button>
-                            <div class="panel">
-                                <p>With over 3,500 specialist sourcers, Visage can support searches for any function, domain, and industry. Whether you are looking for 100 entry-level sales reps or a VP of Marketing in a niche domain, Visage has it covered. </p>
-                            </div>
-                            <button class="accordion">Which geography do you cover? </button>
-                            <div class="panel">
-                                <p>We currently service clients in 32 countries. Whether you are doing a local search in Indonesia or looking for senior talent in the US, Visage has a local sourcing presence. </p>
-                            </div>
-                            <button class="accordion">What is Visage&#x27;s pricing model? </button>
-                            <div class="panel">
-                                <p>Visage has a subscription business model. Pricing is based on your team&#x27;s needs and size. We do not charge a percentage per candidate placement as recruiting agencies do. We have designed Visage so one seat gets you the same or more output as an internal dedicated sourcer, but with more consistency and speed. We are much more cost-effective than you hiring a sourcer and giving them recruiting tools (LinkedIn, CRM, etc.). </p>
-                            </div>
-                            <button class="accordion">What is Visage ROI?</button>
-                            <div class="panel">
-                                <p>Visage will make your team 50% more productive on average. Whether you measure the number of hires/month, interviews/week, or time-to-fill; Visage will dramatically improve your metrics. Delegating your sourcing to Visage will enable your team to focus on what they do best: hiring great people.</p>
-                            </div>
-                            <button class="accordion">Can I request to see what information you may have about me?</button>
-                            <div class="panel">
-                                <p>To request to see what information we possess about you email us at gdpr@visage.jobs (optionally include subject line Information Request). We will process this request and respond to you within 3 days.</p>
-                            </div>
-                            <button class="accordion">How can I remove myself from your database?</button>
-                            <div class="panel">
-                                <p>Yes. To request to remove personal information email us at gdpr@visage.jobs  (optionally include subject line Deletion Request). We will respond to you, and work to enact this request, within 3 days.</p>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    <section class="video-showcase">
-        <div class="container-sm">
-            <iframe  src="https://www.youtube.com/embed/k36RhQniviA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </section>
 
 
-        <section class="main-testimonials">
-            <div class="container">
-                <div class="main-testimonials__wrapper">
-                    <div class="main-testimonials__header">
-                        <h2>Testimonials</h2>
-                        <hr>
-                    </div>
-                    <div class="main-testimonials__content">
-                        <div class="main-testimonials__slider-wrap" js-testimonials-slider>
-                                <div class="testimonials__slide">
-                                    <div class="testimonials__slide-wrapper">
-                                        <div class="testimonials__slide-img">
-                                            <img src="../assets/img/testimonial-one.png">
-                                        </div>
-                                        <div class="testimonials__slide-text">
-                                            <p>&quot;I posted hard to find positions. Visage crowdsourced 697, validated 258, committed 31, and shortlisted 22 candidates. That was unbelievable. It happened overnight. That’s what blew me away. Visage was able to do this in 2 days when it takes staff of researchers a month to get to that number.&quot;</p>
-                                            <span class="testimonials__slide-name">Mark Webster</span>
-                                            <span class="testimonials__slide-job">VP Talent @ QuantumScape</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="testimonials__slide">
-                                    <div class="testimonials__slide-wrapper">
-                                        <div class="testimonials__slide-img">
-                                            <img src="../assets/img/testimonial-two.png">
-                                        </div>
-                                        <div class="testimonials__slide-text">
-                                            <p>&quot;Visage has been a game-changer for our talent acquisition organization. Nearly our entire sourcing effort goes to the Visage platform, enabling our team to achieve significantly more. Our hiring managers think we are rockstars thanks to the quality of candidates and fast turnaround. I am constantly recommending Visage to my friends in the industry!&quot;</p>
-                                            <span class="testimonials__slide-name">Alex Caiola</span>
-                                            <span class="testimonials__slide-job">Director of Talent at Aurify Brands</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="testimonials__slide">
-                                    <div class="testimonials__slide-wrapper">
-                                        <div class="testimonials__slide-img">
-                                            <img src="../assets/img/testimonial-three.png">
-                                        </div>
-                                        <div class="testimonials__slide-text">
-                                            <p>&quot;I use Visage and its crowdsourcing technology as my primary sourcing tool. They do my sourcing and contacting, which allows me to focus on the more fundamental aspects of the job. I would recommend this platform to any busy hiring team.  Great way to build immediate and long term pipeline.&quot;</p>
-                                            <span class="testimonials__slide-name">Jay Jerry</span>
-                                            <span class="testimonials__slide-job">Talent Acquisition Manager at Jumio</span>
-                                        </div>
-                                    </div>
-                                </div>
+    <section class="clients-showcase">
+        <div class="container">
+            <div class="clients-showcase__wrapper">
+                <div class="clients-showcase__heading">
+                    <h2>Our Partners:</h2>
+                </div>
+                <div class="clients-showcase__content">
+                        <img class="clients-showcase__item" src="../assets/img/client-sanofi.png">
+                        <img class="clients-showcase__item" src="../assets/img/client-siemens.png">
+                        <img class="clients-showcase__item" src="../assets/img/client-ingevity.png">
+                        <img class="clients-showcase__item" src="../assets/img/client-quest.png">
+                        <img class="clients-showcase__item" src="../assets/img/client-cielo.png">
+                        <img class="clients-showcase__item" src="../assets/img/client-asml.png">
+                        <img class="clients-showcase__item" src="../assets/img/client-orange.png">
+                        <img class="clients-showcase__item" src="../assets/img/client-cognizant.png">
+                        <img class="clients-showcase__item" src="../assets/img/client-worldpay.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="members">
+        <div class="container">
+            <div class="members__team">
+                    <div class="members__team-tile">
+                        <div class="members__tile-img">
+                            <img src="../assets/img/team-joss.jpg">
+                            <a class="members__tile-link" href="#">
+                                <img src="../assets/img/linkedin-logo.svg">
+                            </a>
                         </div>
+                        <div class="members__tile-data">
+                            <h3>Joss Leufrancois</h3>
+                            <span>Co-Founder &amp; CEO</span>
+                        </div>
+                    </div>
+                    <div class="members__team-tile">
+                        <div class="members__tile-img">
+                            <img src="../assets/img/team-patrick.jpg">
+                            <a class="members__tile-link" href="#">
+                                <img src="../assets/img/linkedin-logo.svg">
+                            </a>
+                        </div>
+                        <div class="members__tile-data">
+                            <h3>Patrick Birt</h3>
+                            <span>Chief Revenue Officer</span>
+                        </div>
+                    </div>
+                    <div class="members__team-tile">
+                        <div class="members__tile-img">
+                            <img src="../assets/img/team-nicolas.jpg">
+                            <a class="members__tile-link" href="#">
+                                <img src="../assets/img/linkedin-logo.svg">
+                            </a>
+                        </div>
+                        <div class="members__tile-data">
+                            <h3>Nicolas Thiebaut</h3>
+                            <span>Machine Learning Engineer</span>
+                        </div>
+                    </div>
+                    <div class="members__team-tile">
+                        <div class="members__tile-img">
+                            <img src="../assets/img/team-emmanuel.jpg">
+                            <a class="members__tile-link" href="#">
+                                <img src="../assets/img/linkedin-logo.svg">
+                            </a>
+                        </div>
+                        <div class="members__tile-data">
+                            <h3>Emmanuel Marboeuf</h3>
+                            <span>Co-Founder &amp; CTO</span>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2 class="faq__heading">FAQs</h2>
+            <div class="faq__wrapper">
+                <div class="faq__accordion">
+                        <button class="accordion">What is Visage?</button>
+                        <div class="panel">
+                            <p>Visage is your virtual sourcing team. Submit your job requirements and Visage delivers qualified candidates in just 24-hours. Engage your shortlisted candidates with custom messages via email and SMS.</p>
+                        </div>
+                        <button class="accordion">What is unique about Visage?</button>
+                        <div class="panel">
+                            <p>Visage combines the expertise of recruiting sourcers (human intelligence) and unique algorithms (artificial intelligence) to deliver high-quality candidates profiles. Our clients approve 80% of the candidates.</p>
+                        </div>
+                        <button class="accordion">How does Visage work?</button>
+                        <div class="panel">
+                            <p>Define your role requirements and submit. We dispatch the role to 5+ sourcers for immediate sourcing. Our independent sourcers have access to a multitude of job boards and professional sites worldwide. They will leave no stone unturned to identify potential candidates. Review the candidate profiles, remove the ones you don&#x27;t want to contact and finally, engage your shortlist with custom messages via email and SMS.</p>
+                        </div>
+                        <button class="accordion">What sort of roles do you gather for?</button>
+                        <div class="panel">
+                            <p>With over 3,500 specialist sourcers, Visage can support searches for any function, domain, and industry. Whether you are looking for 100 entry-level sales reps or a VP of Marketing in a niche domain, Visage has it covered. </p>
+                        </div>
+                        <button class="accordion">Which geography do you cover? </button>
+                        <div class="panel">
+                            <p>We currently service clients in 32 countries. Whether you are doing a local search in Indonesia or looking for senior talent in the US, Visage has a local sourcing presence. </p>
+                        </div>
+                        <button class="accordion">What is Visage&#x27;s pricing model? </button>
+                        <div class="panel">
+                            <p>Visage has a subscription business model. Pricing is based on your team&#x27;s needs and size. We do not charge a percentage per candidate placement as recruiting agencies do. We have designed Visage so one seat gets you the same or more output as an internal dedicated sourcer, but with more consistency and speed. We are much more cost-effective than you hiring a sourcer and giving them recruiting tools (LinkedIn, CRM, etc.). </p>
+                        </div>
+                        <button class="accordion">What is Visage ROI?</button>
+                        <div class="panel">
+                            <p>Visage will make your team 50% more productive on average. Whether you measure the number of hires/month, interviews/week, or time-to-fill; Visage will dramatically improve your metrics. Delegating your sourcing to Visage will enable your team to focus on what they do best: hiring great people.</p>
+                        </div>
+                        <button class="accordion">Can I request to see what information you may have about me?</button>
+                        <div class="panel">
+                            <p>To request to see what information we possess about you email us at gdpr@visage.jobs (optionally include subject line Information Request). We will process this request and respond to you within 3 days.</p>
+                        </div>
+                        <button class="accordion">How can I remove myself from your database?</button>
+                        <div class="panel">
+                            <p>Yes. To request to remove personal information email us at gdpr@visage.jobs  (optionally include subject line Deletion Request). We will respond to you, and work to enact this request, within 3 days.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="video-showcase">
+    <div class="container-sm">
+        <iframe src="https://www.youtube.com/embed/k36RhQniviA"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </div>
+</section>
+
+
+    <section class="main-testimonials">
+        <div class="container">
+            <div class="main-testimonials__wrapper">
+                <div class="main-testimonials__header">
+                    <h2>Testimonials</h2>
+                    <hr>
+                </div>
+                <div class="main-testimonials__content">
+                    <div class="main-testimonials__slider-wrap" js-testimonials-slider>
+                            <div class="testimonials__slide">
+                                <div class="testimonials__slide-wrapper">
+                                    <div class="testimonials__slide-img">
+                                        <img src="../assets/img/testimonial-one.png">
+                                    </div>
+                                    <div class="testimonials__slide-text">
+                                        <p>&quot;I posted hard to find positions. Visage crowdsourced 697, validated 258, committed 31, and shortlisted 22 candidates. That was unbelievable. It happened overnight. That’s what blew me away. Visage was able to do this in 2 days when it takes staff of researchers a month to get to that number.&quot;</p>
+                                        <span class="testimonials__slide-name">Mark Webster</span>
+                                        <span class="testimonials__slide-job">VP Talent @ QuantumScape</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonials__slide">
+                                <div class="testimonials__slide-wrapper">
+                                    <div class="testimonials__slide-img">
+                                        <img src="../assets/img/testimonial-two.png">
+                                    </div>
+                                    <div class="testimonials__slide-text">
+                                        <p>&quot;Visage has been a game-changer for our talent acquisition organization. Nearly our entire sourcing effort goes to the Visage platform, enabling our team to achieve significantly more. Our hiring managers think we are rockstars thanks to the quality of candidates and fast turnaround. I am constantly recommending Visage to my friends in the industry!&quot;</p>
+                                        <span class="testimonials__slide-name">Alex Caiola</span>
+                                        <span class="testimonials__slide-job">Director of Talent at Aurify Brands</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonials__slide">
+                                <div class="testimonials__slide-wrapper">
+                                    <div class="testimonials__slide-img">
+                                        <img src="../assets/img/testimonial-three.png">
+                                    </div>
+                                    <div class="testimonials__slide-text">
+                                        <p>&quot;I use Visage and its crowdsourcing technology as my primary sourcing tool. They do my sourcing and contacting, which allows me to focus on the more fundamental aspects of the job. I would recommend this platform to any busy hiring team.  Great way to build immediate and long term pipeline.&quot;</p>
+                                        <span class="testimonials__slide-name">Jay Jerry</span>
+                                        <span class="testimonials__slide-job">Talent Acquisition Manager at Jumio</span>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
 
-        <footer class="footer">
-            <div class="container">
-                <div class="footer-wrapper">
-                    <div class="footer-left">
-                        <img src="../assets/img/logo-gray.svg">
-                        <h3>visage.jobs 2019</h3>
-                        <span>visage.jobs 2019</span>
-                        <span>Terms & conditions • Privacy Policy</span>
-                    </div>
-                    <div class="footer-right">
-                            <div class="footer-right__col">
-                                <span>Recruiting Sourcers</span>
-                                    <a href="recruiters/index.html">Info</a>
-                            </div>
-                            <div class="footer-right__col">
-                                <span>Company</span>
-                                    <a href="about/index.html">About</a>
-                                    <a href="about/index.html">Team</a>
-                                    <a href="http://blog.visage.jobs/">Blog</a>
-                            </div>
-                    
-                        <div class="footer-right__col-spc">
-                            <span>Contact Us</span>
-                            <p>2nd Floor, 180 Sansome St, San Francisco, CA 94104</p>
-                            <a>team@visage.jobs</a>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-left">
+                    <img src="../assets/img/logo-gray.svg">
+                    <h3>visage.jobs 2019</h3>
+                    <span>visage.jobs 2019</span>
+                    <span>Terms & conditions • Privacy Policy</span>
+                </div>
+                <div class="footer-right">
+                        <div class="footer-right__col">
+                            <span>Recruiting Sourcers</span>
+                                <a href="recruiters/index.html">Info</a>
                         </div>
+                        <div class="footer-right__col">
+                            <span>Company</span>
+                                <a href="about/index.html">About</a>
+                                <a href="about/index.html">Team</a>
+                                <a href="http://blog.visage.jobs/">Blog</a>
+                        </div>
+
+                    <div class="footer-right__col-spc">
+                        <span>Contact Us</span>
+                        <p>2nd Floor, 180 Sansome St, San Francisco, CA 94104</p>
+                        <a>team@visage.jobs</a>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
 
+<script type="text/javascript">var z8kv0cc0ktfm9y;
+(function (d, t) {
+    var s = d.createElement(t), options = {
+        'userName': 'techvisage',
+        'formHash': 'z8kv0cc0ktfm9y',
+        'autoResize': false,
+        'height': '560',
+        'async': true,
+        'host': 'wufoo.com',
+        'header': 'show',
+        'ssl': true
+    };
+    s.src =
+            ('https:' == d.location.protocol ? 'https://' : 'http://') +
+            'secure.wufoo.com/scripts/embed/form.js';
+    s.onload = s.onreadystatechange = function () {
+        var rs = this.readyState;
+        if (rs) {
+            if (rs != 'complete') {
+                if (rs != 'loaded') {
+                    return;
+                }
+            }
+        }
+        try {
+            z8kv0cc0ktfm9y = new WufooForm();
+            z8kv0cc0ktfm9y.initialize(options);
+            z8kv0cc0ktfm9y.display();
+        }
+        catch (e) {
+        }
+    };
+    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode;
+    par.insertBefore(s, scr);
+})(document, 'script');</script>
 
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0="
+        crossorigin="anonymous"></script>
+<script src="https://unpkg.com/micromodal/dist/micromodal.min.js"
+        type="text/javascript"
+        charset="utf-8"></script>
 <script>
-    /*$('[js-testimonials-slider]').slick({
-        arrows: false,
-        fade: true
-    });
+    window.intercomSettings = {
+        app_id: "agueobs1"
+    };
+</script>
 
-    $('[js-testimonials-prev]').click(function(){
-        $("[js-testimonials-slider]").slick('slickPrev');
-    });
-
-    $('[js-testimonials-next]').click(function(){
-        $("[js-testimonials-slider]").slick('slickNext');
-    });*/
+<script>(function () {
+    var w = window;
+    var ic = w.Intercom;
+    if (typeof ic === "function") {
+        ic('reattach_activator');
+        ic('update', w.intercomSettings);
+    }
+    else {
+        var d = document;
+        var i = function () {
+            i.c(arguments);
+        };
+        i.q = [];
+        i.c = function (args) {
+            i.q.push(args);
+        };
+        w.Intercom = i;
+        var l = function () {
+            var s = d.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = 'https://widget.intercom.io/widget/agueobs1';
+            var x = d.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        };
+        if (w.attachEvent) {
+            w.attachEvent('onload', l);
+        }
+        else {
+            w.addEventListener('load', l, false);
+        }
+    }
+})();</script>
+<script>
 
     const $dom = {};
     $dom.navbar = document.querySelector('[js-navigation-menu]');
     console.log('NAVBAR', $dom.navbar.classList);
 
-    window.addEventListener("scroll", function(event) {
-        if(window.scrollY != 0){
-            if(!$dom.navbar.classList.contains('scrolled')){
+    window.addEventListener("scroll", function (event) {
+        if (window.scrollY != 0) {
+            if (!$dom.navbar.classList.contains('scrolled')) {
                 $dom.navbar.classList.add('scrolled');
             }
-        }else{
-            if($dom.navbar.classList.contains('scrolled')){
+        }
+        else {
+            if ($dom.navbar.classList.contains('scrolled')) {
                 $dom.navbar.classList.remove('scrolled');
             }
         }
     }, false);
 
-     var acc = document.getElementsByClassName("accordion");
-        var i;
-        
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
+    const acc = document.getElementsByClassName("accordion");
+    let i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
             this.classList.toggle("active");
             var panel = this.nextElementSibling;
             if (panel.style.display === "block") {
                 panel.style.display = "none";
-            } else {
+            }
+            else {
                 panel.style.display = "block";
             }
-            });
-        }
+        });
+    }
 
-    (function() {
+    (function () {
         let $ = document.querySelector.bind(document);
         let $dom = {};
 
@@ -535,18 +702,21 @@
 
         // Toggles the state of the mobile navbar
         let navbarToggle = () => {
-        if($dom.navbarLinks.classList.contains('is-shown')){
+            if ($dom.navbarLinks.classList.contains('is-shown')) {
                 $dom.navbarLinks.classList.remove('is-shown')
-        }else{
-            $dom.navbarLinks.classList.add('is-shown')
-        }
+            }
+            else {
+                $dom.navbarLinks.classList.add('is-shown')
+            }
         };
 
         window.addEventListener('DOMContentLoaded', () => {
             $dom.navbarToggle.addEventListener('click', navbarToggle);
+            MicroModal.init();
+
         });
     })();
 </script>
-	</body>
+</body>
 
 </html>

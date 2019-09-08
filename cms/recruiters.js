@@ -72,40 +72,24 @@
     accordion: {
         panel: [
             {
-                out: "What is Visage?",
-                in: "Visage is your virtual sourcing team. Submit your job requirements and Visage delivers qualified candidates in just 24-hours. Engage your shortlisted candidates with custom messages via email and SMS."
+                out: "Can anyone be a recruiting sourcer for Visage?",
+                in: "They sure can! We have a mixture of full and part-time recruiting sourcers, as well as people from non-recruiting backgrounds. You just need to be comfortable in understanding the needs of the client within your area of expertise."
 			},
 			{
-                out: "What is unique about Visage?",
-                in: "Visage combines the expertise of recruiting sourcers (human intelligence) and unique algorithms (artificial intelligence) to deliver high-quality candidates profiles. Our clients approve 80% of the candidates. "
+                out: "What do I get paid for?",
+                in: "You get paid for sourcing profiles that match the requirements of each job. There is no contacting of candidates, simply source great profiles from your range of tools and databases, upload them to the Visage platform and we will pay you for each hour you work. Your weekly salary will also be paid every Wednesday via Payoneer."
 			},
 			{
-                out: "How does Visage work?",
-                in: "Define your role requirements and submit. We dispatch the role to 5+ sourcers for immediate sourcing. Our independent sourcers have access to a multitude of job boards and professional sites worldwide. They will leave no stone unturned to identify potential candidates. Review the candidate profiles, remove the ones you don't want to contact and finally, engage your shortlist with custom messages via email and SMS."
+                out: "Do you provide any recruitment tools?",
+                in: "No, it is down to you to provide your own means of sourcing profiles. As a minimum, we ask that you have a LinkedIn Premium account."
 			},
 			{
-                out: "What sort of roles do you gather for?",
-                in: "With over 3,500 specialist sourcers, Visage can support searches for any function, domain, and industry. Whether you are looking for 100 entry-level sales reps or a VP of Marketing in a niche domain, Visage has it covered. "
+                out: "When and where can I work for Visage?",
+                in: "You can work when you want, wherever you want. There are no boundaries or limits. We welcome everyone to our global sourcing community."
 			},
 			{
-                out: "Which geography do you cover? ",
-                in: "We currently service clients in 32 countries. Whether you are doing a local search in Indonesia or looking for senior talent in the US, Visage has a local sourcing presence. "
-			},
-			{
-                out: "What is Visage's pricing model? ",
-                in: "Visage has a subscription business model. Pricing is based on your team's needs and size. We do not charge a percentage per candidate placement as recruiting agencies do. We have designed Visage so one seat gets you the same or more output as an internal dedicated sourcer, but with more consistency and speed. We are much more cost-effective than you hiring a sourcer and giving them recruiting tools (LinkedIn, CRM, etc.). "
-			},
-			{
-                out: "What is Visage ROI?",
-                in: "Visage will make your team 50% more productive on average. Whether you measure the number of hires/month, interviews/week, or time-to-fill; Visage will dramatically improve your metrics. Delegating your sourcing to Visage will enable your team to focus on what they do best: hiring great people."
-			},
-			{
-                out: "Can I request to see what information you may have about me?",
-                in: "To request to see what information we possess about you email us at gdpr@visage.jobs (optionally include subject line Information Request). We will process this request and respond to you within 3 days."
-			},
-			{
-                out: "How can I remove myself from your database?",
-                in: "Yes. To request to remove personal information email us at gdpr@visage.jobs  (optionally include subject line Deletion Request). We will respond to you, and work to enact this request, within 3 days."
+                out: "What happens if another sourcer refers the same candidate?",
+                in: "We have a Google extension that will warn you if a candidate has already been submitted, helping you save considerable time and effort."
 			}
 		]
     },
