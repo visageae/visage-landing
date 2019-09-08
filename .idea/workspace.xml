@@ -2,116 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a58baa6-22f6-4a18-b908-429f6eaa765e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/about-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/advantages-net.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/advantages-save.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/advantages-sel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/advantages-time.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/advantages-timer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/advantages-timer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/advantages-win.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/advantages-world.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/client-asml.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/client-cielo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/client-cognizant.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/client-ge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/client-haas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/client-ingevity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/client-orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/client-quest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/client-sanofi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/client-siemens.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/client-worldpay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/android-chrome-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/android-chrome-36x36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/android-chrome-48x48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/android-chrome-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/android-chrome-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/apple-touch-icon-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/apple-touch-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/apple-touch-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/apple-touch-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/apple-touch-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/apple-touch-icon-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/apple-touch-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/apple-touch-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/apple-touch-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/apple-touch-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/favicon-194x194.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/mstile-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/mstile-310x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/mstile-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/mstile-70x70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/features-chart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/features-machine.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/features-team.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/groupon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/homepage-illustration.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/icon-crowdsource.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/icon-engage.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/icon-interview.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/icon-laptop.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/icon-like.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/img-freelancer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/investors-alchemist.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/investors-fundersclub.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/investors-growthx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/investors-newfund.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/investors-urban.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/laptop-homepage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/linkedin-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logo-gray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logo-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/mobile-mockup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pricing-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/recruiter-earn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/recruiter-fa-jobs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/recruiter-fa-paid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/recruiter-fa-profile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/recruiter-fa-user.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/recruiter-ff.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/recruiter-user.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/recruiters-mockup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sample-employee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team-emmanuel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team-joss.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team-nicolas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team-patrick.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/testimonial-one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/testimonial-three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/testimonial-two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/user-corporate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/user-testimonial-chris.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/user-testimonial-mahima.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/user-third.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_generated/_prebuilt/cmslist.json" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/_prebuilt/cmslist.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_generated/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_generated/assets/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/assets/css/general.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_generated/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_generated/assets/css/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/assets/css/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_generated/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_generated/pricing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/pricing/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_generated/recruiters/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/recruiters/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/general.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/pricing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/recruiters.js" beforeDir="false" afterPath="$PROJECT_DIR$/cms/recruiters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_generated/pricing/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pricing.hbs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/recruiters.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pages/recruiters.hbs" afterDir="false" />
     </list>
     <ignored path="visage-website.iws" />
@@ -129,16 +23,16 @@
     <session id="2113515980">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -205,16 +99,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/about.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="58" column="59" lean-forward="true" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
+            <state relative-caret-position="167">
+              <caret line="63" column="26" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -226,11 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/recruiters.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="63" column="24" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="24" />
-              <folding>
-                <element signature="e#5090#5097#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="137">
+              <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -238,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="66" column="24" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="24" />
+            <state relative-caret-position="139">
+              <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -247,7 +138,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
+            <state relative-caret-position="405">
               <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
             </state>
           </provider>
@@ -265,7 +156,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/general.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
+            <state relative-caret-position="7950">
               <caret line="530" column="22" lean-forward="true" selection-start-line="530" selection-start-column="22" selection-end-line="530" selection-end-column="22" />
             </state>
           </provider>
@@ -274,7 +165,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_generated/assets/css/general.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="10680">
               <caret line="712" column="9" selection-start-line="712" selection-start-column="9" selection-end-line="712" selection-end-column="9" />
             </state>
           </provider>
@@ -284,7 +175,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>animated</find>
       <find>toggle</find>
       <find>js-navbar-toggle</find>
       <find>wufoo</find>
@@ -314,6 +204,7 @@
       <find>sign u</find>
       <find>Init(</find>
       <find>tag mana</find>
+      <find>pricing</find>
     </findStrings>
     <replaceStrings>
       <replace>input[type=text],input[type=email],input[type=tel]</replace>
@@ -391,10 +282,10 @@
         <option value="$PROJECT_DIR$/assets/css/micromodal.scss" />
         <option value="$PROJECT_DIR$/assets/css/general.scss" />
         <option value="$PROJECT_DIR$/cms/recruiters.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pages/index.hbs" />
         <option value="$PROJECT_DIR$/pages/recruiters.hbs" />
         <option value="$PROJECT_DIR$/pages/about.hbs" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -530,7 +421,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -542,6 +432,12 @@
               <item name="visage-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="visage-website" type="462c0819:PsiDirectoryNode" />
               <item name="_generated" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="visage-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visage-website" type="462c0819:PsiDirectoryNode" />
+              <item name="_generated" type="462c0819:PsiDirectoryNode" />
+              <item name="recruiter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="visage-website" type="b2602c69:ProjectViewProjectNode" />
@@ -562,6 +458,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -728,18 +625,18 @@
       <workItem from="1554408947610" duration="1029000" />
       <workItem from="1560290684223" duration="1180000" />
       <workItem from="1567785392219" duration="2779000" />
-      <workItem from="1567887870584" duration="7362000" />
+      <workItem from="1567887870584" duration="8251000" />
+      <workItem from="1567965088850" duration="100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70123000" />
+    <option name="totallyTimeSpent" value="71112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1754" y="23" width="1751" height="956" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7410072" visible="true" weight="0.26936415" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7410072" visible="true" weight="0.26878613" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Grunt " order="3" sideWeight="0.2589928" side_tool="true" visible="true" weight="0.251285" />
@@ -857,13 +754,6 @@
     <entry file="file://$PROJECT_DIR$/assets/img/laptop-homepage.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="120" column="29" lean-forward="true" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_generated/about/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2380">
@@ -874,31 +764,10 @@
     <entry file="file://$PROJECT_DIR$/_generated/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_generated/assets/css/general.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="712" column="9" selection-start-line="712" selection-start-column="9" selection-end-line="712" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/micromodal.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/general.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="530" column="22" lean-forward="true" selection-start-line="530" selection-start-column="22" selection-end-line="530" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -919,34 +788,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="120" column="29" lean-forward="true" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/general.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7950">
+          <caret line="530" column="22" lean-forward="true" selection-start-line="530" selection-start-column="22" selection-end-line="530" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_generated/assets/css/general.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10680">
+          <caret line="712" column="9" selection-start-line="712" selection-start-column="9" selection-end-line="712" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="66" column="24" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="24" />
+        <state relative-caret-position="139">
+          <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/recruiters.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="63" column="24" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="24" />
-          <folding>
-            <element signature="e#5090#5097#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="137">
+          <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/about.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="58" column="59" lean-forward="true" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="167">
+          <caret line="63" column="26" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="26" />
         </state>
       </provider>
     </entry>
