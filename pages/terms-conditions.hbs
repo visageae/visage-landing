@@ -2,7 +2,6 @@
 <html>
 <head>
     <link rel="stylesheet" href="/assets/css/general.css">
-    <link rel="stylesheet" href="/assets/css/micromodal.css">
     <link rel="stylesheet" href="/assets/css/nav.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700" rel="stylesheet">
@@ -58,10 +57,7 @@
     <link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg?v=2" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=2">
-    <title>Visage | About</title>
-    <meta name="description" content="Our team of crowdsourcing and AI expert.">
-    <meta name="keywords"
-          content="pricing, prices, price, plan, job, job credit, sourcing, source, junior, middle, senior">
+    <title>Visage | Terms and conditions</title>
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -80,23 +76,11 @@
     <style type="text/css"></style>
 </head>
 <body>
-<div class="modal micromodal-slide" id="demo-request" aria-hidden="true">
-    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
-            <main id="demo-request-content" class="modal__content" >
-                <div id="wufoo-z8kv0cc0ktfm9y">
-                    Fill out my <a href="https://techvisage.wufoo.com/forms/z8kv0cc0ktfm9y">online
-                    form</a>.
-                </div>
-            </main>
-        </div>
-    </div>
-</div>
-<nav id="navigation-menu" class="navigation-menu white-nav" js-navigation-menu>
+<nav id="navigation-menu" class="navigation-menu" js-navigation-menu>
     <div class="navigation-menu__container">
         <div class="navigation-menu__left">
             <a href="../index.html">
-                <img class="navigation-menu__logo" src="../assets/img/logo-white.svg">
+                <img class="navigation-menu__logo" src="../assets/img/logo.svg">
             </a>
             <ul class="navigation-menu__links hidden-sm">
                 <li>
@@ -106,7 +90,7 @@
                     <a href="../recruiters/index.html">Recruiters</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="../about/index.html">About</a>
                 </li>
             </ul>
         </div>
@@ -119,7 +103,7 @@
                     <a href="../recruiters/index.html">Recruiters</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="../about/index.html">About</a>
                 </li>
             </ul>
         </div>
@@ -136,85 +120,18 @@
     </div>
 </nav>
 
-{{#with about_hero}}
-    <section id="about-hero" class="about-hero">
-        <div class="hero-overlay"></div>
-        <div class="about-hero__bg"></div>
-        <div class="container about-container">
-            <div class="about-hero__contents">
-                <div class="about-hero__info">
-                    <div class="about-hero__info-wrap">
-                        <h1 class="about-hero__title">{{header}}</h1>
-                        <a class="btn-round btn-primary-dark"
-                           href="#"
-                           aria-label="Contact us"
-                           data-micromodal-trigger="demo-request">
-                            Contact us
-                        </a>
-                    </div>
-                </div>
-            </div>
+<section id="product" class="main-showcase" style="padding-top : 150px">
+    <div class="container">
+        <div class="section-header">
+            <h2>Terms and conditions</h2>
         </div>
-    </section>
-{{/with}}
-
-
-{{#with about_showcase}}
-    <section class="main-showcase">
-        <div class="container">
-            <div class="main-showcase__wrapper">
-                <div class="main-showcase__demo-about">
-                    <h2>{{header}}</h2>
-                </div>
-                <div class="main-showcase__info-about">
-                    <div class="main-showcase__info-text">
-                        <h2>{{subtitle}}</h2>
-                        <p>{{copy}}</p>
-                    </div>
-                </div>
-            </div>
+        <div class="section-content row">
+            <iframe src="https://docs.google.com/document/d/1TetASBBapy3jBzKOfvPg0yfT-69FV2DyJJKMEBGryP4/pub?embedded=true"
+                    width="100%"
+                    height="5800px"></iframe>
         </div>
-    </section>
-{{/with}}
-
-
-{{#with company_members}}
-    <section class="members">
-        <div class="container">
-            <div class="members__header">
-            </div>
-            <div class="members__team">
-                {{#each list_of_members}}
-                    <div class="members__team-tile">
-                        <div class="members__tile-img">
-                            <img src="{{img_url}}">
-                            <a class="members__tile-link" href="{{link}}">
-                                <img src="../assets/img/linkedin-logo.svg">
-                            </a>
-                        </div>
-                        <div class="members__tile-data">
-                            <h3>{{name}}</h3>
-                            <span>{{job}}</span>
-                        </div>
-                    </div>
-                {{/each}}
-            </div>
-            <div class="members-investors">
-                {{#each list_of_investors}}
-                    <div class="members-investors__tile">
-                        <a class="members-investors__tile-img" href="{{link}}">
-                            <img src="{{img_url}}">
-                        </a>
-                        <div class="members-investors__tile-data">
-                            <h3>{{name}}</h3>
-                            <span>{{job}}</span>
-                        </div>
-                    </div>
-                {{/each}}
-            </div>
-        </div>
-    </section>
-{{/with}}
+    </div>
+</section>
 
 
 {{#with footer}}
@@ -248,6 +165,13 @@
     </footer>
 {{/with}}
 
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0="
+        crossorigin="anonymous"></script>
 <script>
     window.intercomSettings = {
         app_id: "agueobs1"
@@ -287,68 +211,41 @@
         }
     }
 })();</script>
-<script type="text/javascript">var z8kv0cc0ktfm9y;
-(function (d, t) {
-    var s = d.createElement(t), options = {
-        'userName': 'techvisage',
-        'formHash': 'z8kv0cc0ktfm9y',
-        'autoResize': false,
-        'height': '560',
-        'async': true,
-        'host': 'wufoo.com',
-        'header': 'show',
-        'ssl': true
-    };
-    s.src =
-            ('https:' == d.location.protocol ? 'https://' : 'http://') +
-            'secure.wufoo.com/scripts/embed/form.js';
-    s.onload = s.onreadystatechange = function () {
-        var rs = this.readyState;
-        if (rs) {
-            if (rs != 'complete') {
-                if (rs != 'loaded') {
-                    return;
-                }
-            }
-        }
-        try {
-            z8kv0cc0ktfm9y = new WufooForm();
-            z8kv0cc0ktfm9y.initialize(options);
-            z8kv0cc0ktfm9y.display();
-        }
-        catch (e) {
-        }
-    };
-    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode;
-    par.insertBefore(s, scr);
-})(document, 'script');</script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
-        integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0="
-        crossorigin="anonymous"></script>
-<script src="https://unpkg.com/micromodal/dist/micromodal.min.js"
-        type="text/javascript"
-        charset="utf-8"></script>
 <script>
+
     const $dom = {};
     $dom.navbar = document.querySelector('[js-navigation-menu]');
     console.log('NAVBAR', $dom.navbar.classList);
 
     window.addEventListener("scroll", function (event) {
         if (window.scrollY != 0) {
-            if (!$dom.navbar.classList.contains('scrolled-dark')) {
-                $dom.navbar.classList.add('scrolled-dark');
+            if (!$dom.navbar.classList.contains('scrolled')) {
+                $dom.navbar.classList.add('scrolled');
             }
         }
         else {
-            if ($dom.navbar.classList.contains('scrolled-dark')) {
-                $dom.navbar.classList.remove('scrolled-dark');
+            if ($dom.navbar.classList.contains('scrolled')) {
+                $dom.navbar.classList.remove('scrolled');
             }
         }
     }, false);
+</script>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
 
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            }
+            else {
+                panel.style.display = "block";
+            }
+        });
+    }
     (function () {
         let $ = document.querySelector.bind(document);
         let $dom = {};
@@ -368,7 +265,6 @@
 
         window.addEventListener('DOMContentLoaded', () => {
             $dom.navbarToggle.addEventListener('click', navbarToggle);
-            MicroModal.init();
         });
     })();
 </script>

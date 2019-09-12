@@ -57,10 +57,7 @@
     <link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg?v=2" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=2">
-    <title>Visage | Make money sourcing candidates</title>
-    <meta name="description" content="Visage allows you to make money searching for candidates.">
-    <meta name="keywords"
-          content="recruiters, recruiting, sourcing recruiter, cash, money, referral, refer candidates, referrals, freelance, freelances">
+    <title>Visage | Terms and conditions</title>
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -90,7 +87,7 @@
                     <a href="../index.html">Home</a>
                 </li>
                 <li>
-                    <a href="#">Recruiters</a>
+                    <a href="../recruiters/index.html">Recruiters</a>
                 </li>
                 <li>
                     <a href="../about/index.html">About</a>
@@ -103,7 +100,7 @@
                     <a href="../index.html">Home</a>
                 </li>
                 <li>
-                    <a href="#">Recruiters</a>
+                    <a href="../recruiters/index.html">Recruiters</a>
                 </li>
                 <li>
                     <a href="../about/index.html">About</a>
@@ -123,193 +120,20 @@
     </div>
 </nav>
 
-{{#with recruiter_hero}}
-    <section id="recruiter-hero" class="recruiter-hero">
-        <div class="recruiter-hero__container">
-            <div class="recruiter-hero__bg"></div>
-            <h2 class="recruiter-hero__title">{{header}}</h2>
-            <a class="btn-round btn-primary-dark recruiter-hero__btn"
-               href="https://app.visage.jobs/login"
-               aria-label="Sign up">
-                SIGN UP
-            </a>
-            <div class="recruiter-hero__img">
-                <img src="../assets/img/recruiters-mockup.png">
-            </div>
+<section id="product" class="main-showcase" style="padding-top : 150px">
+    <div class="container">
+        <div class="section-header">
+            <h2>Terms and conditions</h2>
         </div>
-    </section>
-{{/with}}
-
-{{#with about_showcase}}
-    <section class="main-showcase">
-        <div class="container">
-            <div class="main-showcase__wrapper">
-                <div class="main-showcase__demo-about">
-                    <h2>{{header}}</h2>
-                </div>
-                <div class="main-showcase__info-about">
-                    <div class="main-showcase__info-text">
-                        <h2>{{subtitle}}</h2>
-                        <p>{{copy}}</p>
-                    </div>
-                </div>
-            </div>
+        <div class="section-content row">
+            <iframe src="https://docs.google.com/document/d/1TetASBBapy3jBzKOfvPg0yfT-69FV2DyJJKMEBGryP4/pub?embedded=true"
+                    width="100%"
+                    height="5800px"></iframe>
         </div>
-    </section>
-{{/with}}
-
-{{#with recruiter_features}}
-    <section class="recruiter-features">
-        <div class="container">
-            <div class="recruiter-features__wrapper">
-                <div class="recruiter-features__left">
-                    <h2>{{header}}</h2>
-                    <hr class="header-hr">
-                </div>
-                <div class="recruiter-features__center">
-                    <img src="../assets/img/mobile-mockup.png">
-                </div>
-                <div class="recruiter-features__right">
-                    {{#each list_of_features}}
-                        <div class="recruiter-features__item">
-                            <div class="recruiter-features__item-img">
-                                <img src="{{img_url}}">
-                            </div>
-                            <div class="recruiter-features__item-copy">
-                                <h4>{{title}}</h4>
-                                <p>{{copy}}</p>
-                            </div>
-                        </div>
-                    {{/each}}
-                </div>
-            </div>
-        </div>
-    </section>
-{{/with}}
-
-{{#with recruiting_fees}}
-    <section class="recruiting-fees">
-        <div class="container">
-            <div class="recruiting-fees__wrapper">
-                <div class="recruiting-fees__header">
-                    <h2>{{header}}</h2>
-                </div>
-                <div class="recruiting-fees__copy">
-                    <p>{{copy}}</p>
-                </div>
-            </div>
-        </div>
-    </section>
-{{/with}}
-
-{{#with homepage_features}}
-    <section id="features-showcase" class="features-showcase bg-light-gray">
-        <div class="container">
-            <div class="features-showcase__head">
-                <h2 class="features-showcase__title">Join out amazing recruiting sourcers
-                    community</h2>
-                <div class="features-showcase__statement-wrapper">
-                    <a class="btn-round btn-primary-dark"
-                       href="https://app.visage.jobs/login"
-                       aria-label="Sign up">
-                        SIGN UP
-                    </a>
-                </div>
-            </div>
-            <div class="features-showcase__contents" js-features-slider>
-                {{#each list_of_features}}
-                    <div class="features-showcase__tile-wrap">
-                        <div class="features-showcase__tile">
-                            <span class="features-showcase__tile-number">{{number}}</span>
-                            <img class="features-showcase__tile-icon" src="{{icon_url}}">
-                            <h3 class="features-showcase__tile-title">{{title}}</h3>
-                            <p class="features-showcase__tile-copy">{{copy}}</p>
-                        </div>
-                    </div>
-                {{/each}}
-            </div>
-        </div>
-    </section>
-{{/with}}
-
-{{#with recruiter_specs}}
-    <section class="recruiter-specs">
-        <div class="">
-            <div class="recruiter-specs__wrapper">
-                <div class="recruiter-specs__left">
-                    <img src="../assets/img/img-freelancer.jpg">
-                </div>
-                <div class="recruiter-specs__right">
-                    <div class="recruiter-specs__copy-title">
-                        <h4>{{header}}</h4>
-                    </div>
-                    <div class="recruiter-specs__items-wrap">
-                        {{#each list_of_features}}
-                            <div class="recruiter-specs__item">
-                                <div class="recruiter-specs__item-img">
-                                    <img src="{{img_url}}">
-                                </div>
-                                <div class="recruiter-specs__item-copy">
-                                    <h4>{{title}}</h4>
-                                    <p>{{copy}}</p>
-                                </div>
-                            </div>
-                        {{/each}}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-{{/with}}
-
-{{#with accordion}}
-    <section class="faq">
-        <div class="container">
-            <div class="faq__wrapper">
-                <div class="faq__accordion">
-                    {{#each panel}}
-                        <button class="accordion">{{out}}</button>
-                        <div class="panel">
-                            <p>{{in}}</p>
-                        </div>
-                    {{/each}}
-                </div>
-            </div>
-        </div>
-    </section>
-{{/with}}
+    </div>
+</section>
 
 
-{{#with footer}}
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-wrapper">
-                <div class="footer-left">
-                    <img src="../assets/img/logo-gray.svg">
-                    <h3>visage.jobs 2019</h3>
-                    <span>visage.jobs 2019</span>
-                    <span><a href="/terms-conditions/">Terms & conditions</a> • <a href="/privacy-policy/">Privacy Policy</a></span>
-                </div>
-                <div class="footer-right">
-                    {{#each column}}
-                        <div class="footer-right__col">
-                            <span>{{header}}</span>
-                            {{#each data}}
-                                <a href="{{link}}">{{copy}}</a>
-                            {{/each}}
-                        </div>
-                    {{/each}}
-
-                    <div class="footer-right__col-spc">
-                        <span>Contact Us</span>
-                        <p>2nd Floor, 180 Sansome St, San Francisco, CA 94104</p>
-                        <a>team@visage.jobs</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-{{/with}}
 
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"
