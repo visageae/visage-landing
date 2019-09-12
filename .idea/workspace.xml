@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a58baa6-22f6-4a18-b908-429f6eaa765e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/_generated/privacy-policy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/privacy-policy.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_generated/pricing/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/recruiters.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pages/recruiters.hbs" afterDir="false" />
     </list>
     <ignored path="visage-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,27 +21,28 @@
     <session id="2113515980">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="6" />
           <entry key="gitignore" value="1" />
-          <entry key="hbs" value="6" />
-          <entry key="html" value="31" />
+          <entry key="hbs" value="7" />
+          <entry key="html" value="33" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="24" />
-          <entry key="json" value="4" />
+          <entry key="js" value="28" />
+          <entry key="json" value="7" />
           <entry key="less" value="7" />
           <entry key="png" value="2" />
           <entry key="scss" value="5" />
@@ -56,11 +55,11 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="6" />
-          <entry key="HTML" value="31" />
-          <entry key="Handlebars/Mustache" value="6" />
+          <entry key="HTML" value="33" />
+          <entry key="Handlebars/Mustache" value="7" />
           <entry key="Image" value="4" />
-          <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="24" />
+          <entry key="JSON" value="7" />
+          <entry key="JavaScript" value="28" />
           <entry key="Less" value="6" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="SCSS" value="5" />
@@ -72,8 +71,8 @@
         <counts>
           <entry key="css" value="105" />
           <entry key="gitignore" value="14" />
-          <entry key="hbs" value="386" />
-          <entry key="html" value="3094" />
+          <entry key="hbs" value="443" />
+          <entry key="html" value="3111" />
           <entry key="js" value="148" />
           <entry key="less" value="91" />
           <entry key="scss" value="91" />
@@ -83,8 +82,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="105" />
-          <entry key="HTML" value="3094" />
-          <entry key="Handlebars/Mustache" value="386" />
+          <entry key="HTML" value="3111" />
+          <entry key="Handlebars/Mustache" value="443" />
           <entry key="JavaScript" value="148" />
           <entry key="Less" value="91" />
           <entry key="PLAIN_TEXT" value="14" />
@@ -99,20 +98,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/about.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="63" column="26" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="26" />
+            <state relative-caret-position="317">
+              <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/pages/privacy-policy.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="125" column="48" lean-forward="true" selection-start-line="125" selection-start-column="48" selection-end-line="125" selection-end-column="48" />
+              <folding>
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_generated/privacy-policy.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+              <caret column="37" selection-start-column="37" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/global/global.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -120,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/recruiters.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
+            <state relative-caret-position="373">
+              <caret line="143" column="13" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -129,7 +150,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
+            <state relative-caret-position="1920">
               <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
             </state>
           </provider>
@@ -148,7 +169,7 @@
         <entry file="file://$PROJECT_DIR$/assets/css/nav.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1800">
-              <caret line="120" column="29" lean-forward="true" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+              <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -157,7 +178,7 @@
         <entry file="file://$PROJECT_DIR$/assets/css/general.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="7950">
-              <caret line="530" column="22" lean-forward="true" selection-start-line="530" selection-start-column="22" selection-end-line="530" selection-end-column="22" />
+              <caret line="530" column="22" selection-start-line="530" selection-start-column="22" selection-end-line="530" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -175,7 +196,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>toggle</find>
       <find>js-navbar-toggle</find>
       <find>wufoo</find>
       <find>script</find>
@@ -205,6 +225,7 @@
       <find>Init(</find>
       <find>tag mana</find>
       <find>pricing</find>
+      <find>recruiter_hero</find>
     </findStrings>
     <replaceStrings>
       <replace>input[type=text],input[type=email],input[type=tel]</replace>
@@ -235,8 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/less/base-colors/green.less" />
-        <option value="$PROJECT_DIR$/assets/less/base-colors/orange.less" />
         <option value="$PROJECT_DIR$/assets/less/base-colors/pink.less" />
         <option value="$PROJECT_DIR$/assets/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/assets/js/startuply.js" />
@@ -286,6 +305,8 @@
         <option value="$PROJECT_DIR$/pages/index.hbs" />
         <option value="$PROJECT_DIR$/pages/recruiters.hbs" />
         <option value="$PROJECT_DIR$/pages/about.hbs" />
+        <option value="$PROJECT_DIR$/pages/privacy-policy.hbs" />
+        <option value="$PROJECT_DIR$/_generated/privacy-policy.html" />
       </list>
     </option>
   </component>
@@ -436,13 +457,13 @@
             <path>
               <item name="visage-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="visage-website" type="462c0819:PsiDirectoryNode" />
-              <item name="_generated" type="462c0819:PsiDirectoryNode" />
-              <item name="recruiter" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="visage-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="visage-website" type="462c0819:PsiDirectoryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="global" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="visage-website" type="b2602c69:ProjectViewProjectNode" />
@@ -475,19 +496,19 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/assets/js/vendor" />
+      <recent name="$PROJECT_DIR$/assets/img/features" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/css" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/img/visage" />
       <recent name="$PROJECT_DIR$/assets/css-old/lib" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/img" />
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$/assets/js/vendor" />
-      <recent name="$PROJECT_DIR$/assets/img/features" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -626,15 +647,18 @@
       <workItem from="1560290684223" duration="1180000" />
       <workItem from="1567785392219" duration="2779000" />
       <workItem from="1567887870584" duration="8251000" />
-      <workItem from="1567965088850" duration="100000" />
+      <workItem from="1567965088850" duration="854000" />
+      <workItem from="1568019141135" duration="598000" />
+      <workItem from="1568282623990" duration="522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71112000" />
+    <option name="totallyTimeSpent" value="72986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1754" y="23" width="1751" height="956" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7410072" visible="true" weight="0.26878613" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -683,9 +707,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/css/min/style.min.css" />
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/dist/about.html" />
     <entry file="file://$PROJECT_DIR$/assets/img/background/home-1.jpg" />
     <entry file="file://$PROJECT_DIR$/dist/assets/img/visage/diverse.77eb1dc8.webp" />
     <entry file="file://$PROJECT_DIR$/dist/diversity.html" />
@@ -717,9 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/global/global.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cms/about.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-116">
@@ -731,20 +749,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/pricing.hbs" />
-    <entry file="file://$PROJECT_DIR$/enduro.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_generated/assets/img/imagesgohere.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -781,17 +785,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/recruiters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="85" column="7" lean-forward="true" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enduro.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_generated/recruiter/index.html" />
+    <entry file="file://$PROJECT_DIR$/pages/about.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -805,14 +831,14 @@
     <entry file="file://$PROJECT_DIR$/assets/css/nav.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
-          <caret line="120" column="29" lean-forward="true" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+          <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/general.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7950">
-          <caret line="530" column="22" lean-forward="true" selection-start-line="530" selection-start-column="22" selection-end-line="530" selection-end-column="22" />
+          <caret line="530" column="22" selection-start-line="530" selection-start-column="22" selection-end-line="530" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -823,24 +849,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.hbs">
+    <entry file="file://$PROJECT_DIR$/cms/recruiters.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
+        <state relative-caret-position="15">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/global/global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/recruiters.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
+        <state relative-caret-position="373">
+          <caret line="143" column="13" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/about.hbs">
+    <entry file="file://$PROJECT_DIR$/pages/privacy-policy.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="26" />
+        <state relative-caret-position="224">
+          <caret line="125" column="48" lean-forward="true" selection-start-line="125" selection-start-column="48" selection-end-line="125" selection-end-column="48" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_generated/privacy-policy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
         </state>
       </provider>
     </entry>
