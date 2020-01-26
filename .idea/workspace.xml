@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0a58baa6-22f6-4a18-b908-429f6eaa765e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_generated/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cms/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
     </list>
-    <ignored path="visage-website.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,313 +15,17 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="2113515980">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="18" />
-          <entry key="project.open.time.1" value="6" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="20" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="css" value="6" />
-          <entry key="gitignore" value="1" />
-          <entry key="hbs" value="8" />
-          <entry key="html" value="34" />
-          <entry key="jpg" value="1" />
-          <entry key="js" value="30" />
-          <entry key="json" value="7" />
-          <entry key="less" value="7" />
-          <entry key="png" value="2" />
-          <entry key="scss" value="5" />
-          <entry key="svg" value="3" />
-          <entry key="txt" value="2" />
-          <entry key="webp" value="1" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="6" />
-          <entry key="HTML" value="34" />
-          <entry key="Handlebars/Mustache" value="8" />
-          <entry key="Image" value="4" />
-          <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="30" />
-          <entry key="Less" value="6" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="SCSS" value="5" />
-          <entry key="SVG" value="3" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="105" />
-          <entry key="gitignore" value="14" />
-          <entry key="hbs" value="483" />
-          <entry key="html" value="3126" />
-          <entry key="js" value="148" />
-          <entry key="less" value="91" />
-          <entry key="scss" value="91" />
-          <entry key="xml" value="20" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="105" />
-          <entry key="HTML" value="3126" />
-          <entry key="Handlebars/Mustache" value="483" />
-          <entry key="JavaScript" value="148" />
-          <entry key="Less" value="91" />
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="SCSS" value="91" />
-          <entry key="XML" value="20" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="visage-website" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/terms-conditions.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="115" column="30" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_generated/terms-conditions.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="63" selection-start-column="63" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/global/global.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/recruiters.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="211" column="43" selection-start-line="211" selection-start-column="43" selection-end-line="211" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/recruiters.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1665">
-              <caret line="111" column="24" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2595">
-              <caret line="173" column="19" selection-start-line="173" selection-start-column="16" selection-end-line="173" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/nav.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/general.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7950">
-              <caret line="530" column="22" selection-start-line="530" selection-start-column="22" selection-end-line="530" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_generated/assets/css/general.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10680">
-              <caret line="712" column="9" selection-start-line="712" selection-start-column="9" selection-end-line="712" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>is-shown</find>
-      <find>js-navbar-links</find>
-      <find>demo</find>
-      <find>fea</find>
-      <find>scss</find>
-      <find>v</find>
-      <find>hidden</find>
-      <find>about-hero__form</find>
-      <find>contact us</find>
-      <find>modal</find>
-      <find>contact</find>
-      <find>request a</find>
-      <find>micromodal</find>
-      <find>demo-request</find>
-      <find>navigation-menu</find>
-      <find>init(</find>
-      <find>scrolled</find>
-      <find>request</find>
-      <find>.\n&quot; +</find>
-      <find>faq</find>
-      <find>sign u</find>
-      <find>Init(</find>
-      <find>tag mana</find>
-      <find>pricing</find>
-      <find>recruiter_hero</find>
-      <find>terms</find>
-      <find>Terms &amp; conditions</find>
-      <find>Privacy Policy</find>
-      <find>join out</find>
-      <find>out</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>input[type=text],input[type=email],input[type=tel]</replace>
-      <replace>&lt;picture&gt;\n&lt;source srcset=&quot;$1.webp&quot; type=&quot;image/webp&quot;&gt;\n&lt;source srcset=&quot;$1.$2&quot; type=&quot;image/$2&quot;&gt;\n$0\n&lt;/picture&gt;</replace>
-      <replace>assets</replace>
-      <replace>&lt;picture&gt;\n&lt;source srcset=&quot;$1.webp&quot; type=&quot;image/webp&quot;&gt;\n&lt;source srcset=&quot;$1.$2&quot; type=&quot;image/$2&quot;&gt;\n&lt;img src=&quot;$1.$2&quot;&gt;\n&lt;/picture&gt;</replace>
-      <replace>image/jpeg</replace>
-      <replace>/waitlisted.html</replace>
-      <replace />
-      <replace>https://app.visage.jobs</replace>
-      <replace>http://help.visage.jobs/</replace>
-      <replace>/assets/ima</replace>
-      <replace>/assets/img/favicon</replace>
-      <replace>/assets/img/favicon/favicon</replace>
-      <replace>&quot;</replace>
-      <replace>&lt;a href=&quot;/terms-conditions/&quot;&gt;Terms &amp; conditions&lt;/a&gt;</replace>
-      <replace>&lt;a href=&quot;/privacy-policy/&quot;&gt;Privacy Policy&lt;/a&gt;</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/assets/less</dir>
-      <dir>$PROJECT_DIR$/assets/js</dir>
-      <dir>$PROJECT_DIR$/assets/css</dir>
-      <dir>$PROJECT_DIR$/pages</dir>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/assets/js/startuply.js" />
-        <option value="$PROJECT_DIR$/assets/less/base-colors/visage.less" />
-        <option value="$PROJECT_DIR$/assets/less/base-colors/visage-reversed.less" />
-        <option value="$PROJECT_DIR$/assets/js/vendor/custom.js" />
-        <option value="$PROJECT_DIR$/dist/pricing.html" />
-        <option value="$PROJECT_DIR$/assets/js/custom.js" />
-        <option value="$PROJECT_DIR$/assets/less/fonts.less" />
-        <option value="$PROJECT_DIR$/assets/less/vendors.less" />
-        <option value="$PROJECT_DIR$/assets/less/vendors/simple-line-icons.less" />
-        <option value="$PROJECT_DIR$/assets/less/vendors/line-icons.less" />
-        <option value="$PROJECT_DIR$/assets/less/vendors/fontawesome/variables.less" />
-        <option value="$PROJECT_DIR$/assets/less/base-colors/visage_base.less" />
-        <option value="$PROJECT_DIR$/assets/json/pricing-faq.json" />
-        <option value="$PROJECT_DIR$/assets/templates/jobCaroussel.html" />
-        <option value="$PROJECT_DIR$/assets/json/recruiter-faq.json" />
-        <option value="$PROJECT_DIR$/assets/json/recruiterprivate-faq.json" />
-        <option value="$PROJECT_DIR$/assets/js/config.js" />
-        <option value="$PROJECT_DIR$/RPO.html" />
-        <option value="$PROJECT_DIR$/pricing.html" />
-        <option value="$PROJECT_DIR$/recruiter-faq.html" />
-        <option value="$PROJECT_DIR$/career.html" />
-        <option value="$PROJECT_DIR$/terms-conditions.html" />
-        <option value="$PROJECT_DIR$/terms-conditions-recruiters.html" />
-        <option value="$PROJECT_DIR$/privacy-policy.html" />
-        <option value="$PROJECT_DIR$/assets/js/vendor/startuply.js" />
-        <option value="$PROJECT_DIR$/dist/index.html" />
-        <option value="$PROJECT_DIR$/recruiter.html" />
-        <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/dist/diversity.html" />
-        <option value="$PROJECT_DIR$/diversity.html" />
-        <option value="$PROJECT_DIR$/assets/js/visageControllers.js" />
-        <option value="$PROJECT_DIR$/assets/js/bootstrap-website.js" />
-        <option value="$PROJECT_DIR$/waitlisted.html" />
-        <option value="$PROJECT_DIR$/assets/public/wufoo-form-style.css" />
-        <option value="$PROJECT_DIR$/assets/less/visage.less" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/sitemap.xml" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/pages/pricing.hbs" />
-        <option value="$PROJECT_DIR$/assets/css/micromodal.scss" />
-        <option value="$PROJECT_DIR$/assets/css/general.scss" />
-        <option value="$PROJECT_DIR$/cms/recruiters.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/pages/index.hbs" />
-        <option value="$PROJECT_DIR$/pages/about.hbs" />
-        <option value="$PROJECT_DIR$/_generated/privacy-policy.html" />
-        <option value="$PROJECT_DIR$/pages/privacy-policy.hbs" />
-        <option value="$PROJECT_DIR$/_generated/terms-conditons.html" />
-        <option value="$PROJECT_DIR$/pages/terms-conditions.hbs" />
-        <option value="$PROJECT_DIR$/pages/recruiters.hbs" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1754" />
@@ -329,6 +33,7 @@
     <option name="width" value="1751" />
     <option name="height" value="956" />
   </component>
+  <component name="ProjectId" id="1Wx4lTVdxNzflyIVpSEFpiZ3YBp" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -433,50 +138,10 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="visage-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visage-website" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visage-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visage-website" type="462c0819:PsiDirectoryNode" />
-              <item name="_generated" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visage-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visage-website" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visage-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visage-website" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="global" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visage-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visage-website" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visage-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visage-website" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -507,18 +172,6 @@
       <recent name="$PROJECT_DIR$/assets/css-old/lib" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="JavaScript Debug.diversity.html">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -531,18 +184,18 @@
       <envs />
       <method />
     </configuration>
-    <configuration name="diversity.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/visage-website/dist/diversity.html">
+    <configuration name="diversity.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/visage-website/dist/diversity.html">
       <method v="2" />
     </configuration>
-    <configuration name="recruiter.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/visage-website/dist/recruiter.html">
+    <configuration name="recruiter.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/visage-website/dist/recruiter.html">
       <method v="2" />
     </configuration>
-    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+    <configuration default="true" type="js.build_tools.grunt">
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="default" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
+    <configuration name="default" type="js.build_tools.grunt" temporary="true">
       <node-interpreter value="project" />
       <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
       <tasks>
@@ -551,7 +204,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="develop" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
+    <configuration name="develop" type="js.build_tools.grunt" temporary="true">
       <node-interpreter value="project" />
       <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
       <tasks>
@@ -560,7 +213,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="watch" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
+    <configuration name="watch" type="js.build_tools.grunt" temporary="true">
       <node-interpreter value="project" />
       <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
       <tasks>
@@ -569,7 +222,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
@@ -578,7 +231,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+    <configuration default="true" type="mocha-javascript-test-runner">
       <node-interpreter />
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -591,11 +244,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.diversity.html" />
-      <item itemvalue="JavaScript Debug.recruiter.html" />
       <item itemvalue="Grunt.js.default" />
       <item itemvalue="Grunt.js.watch" />
       <item itemvalue="Grunt.js.develop" />
+      <item itemvalue="JavaScript Debug.diversity.html" />
+      <item itemvalue="JavaScript Debug.recruiter.html" />
     </list>
     <recent_temporary>
       <list>
@@ -606,6 +259,18 @@
         <item itemvalue="JavaScript Debug.recruiter.html" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -648,37 +313,10 @@
       <workItem from="1568282623990" duration="1698000" />
       <workItem from="1569360155545" duration="623000" />
       <workItem from="1569364907758" duration="724000" />
+      <workItem from="1569603045007" duration="131000" />
+      <workItem from="1580078064786" duration="1701000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75509000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-1754" y="23" width="1751" height="956" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7410072" visible="true" weight="0.26878613" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="DB Browser" order="2" />
-      <window_info id="Grunt " order="3" sideWeight="0.2589928" side_tool="true" visible="true" weight="0.251285" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.11805555" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713877" weight="0.19675925" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49713877" visible="true" weight="0.3310185" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5028612" side_tool="true" weight="0.2820513" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Mongo Explorer" order="3" visible="true" weight="0.34188035" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -691,8 +329,11 @@
       <collection />
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="WindowStateProjectService">
+    <state x="-1180" y="371" width="639" height="476" key="find.popup" timestamp="1580078082065">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1180" y="371" width="639" height="476" key="find.popup/-1920.23.1920.1057/0.23.1680.949@-1920.23.1920.1057" timestamp="1580078082065" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -703,196 +344,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/diversity.html" />
-    <entry file="file://$PROJECT_DIR$/about.html" />
-    <entry file="file://$PROJECT_DIR$/career.html" />
-    <entry file="file://$PROJECT_DIR$/expert-onboarddoc.html" />
-    <entry file="file://$PROJECT_DIR$/non-discrimination-equal-opportunity-policy.html" />
-    <entry file="file://$PROJECT_DIR$/privacy-policy.html" />
-    <entry file="file://$PROJECT_DIR$/recruiter-old.html" />
-    <entry file="file://$PROJECT_DIR$/terms-conditions-recruiters.html" />
-    <entry file="file://$PROJECT_DIR$/terms-conditions.html" />
-    <entry file="file://$PROJECT_DIR$/assets/js/vendor/modernizr-custom.js" />
-    <entry file="file://$PROJECT_DIR$/diversity.html" />
-    <entry file="file://$PROJECT_DIR$/waitlisted-thank-you.html" />
-    <entry file="file://$PROJECT_DIR$/waitlisted.html" />
-    <entry file="file://$PROJECT_DIR$/assets/js/visageControllers.js" />
-    <entry file="file://$PROJECT_DIR$/assets/js/config.js" />
-    <entry file="file://$PROJECT_DIR$/assets/js/custom.js" />
-    <entry file="file://$PROJECT_DIR$/assets/less/visage.less" />
-    <entry file="file://$PROJECT_DIR$/assets/public/wufoo-form-style.css" />
-    <entry file="file://$PROJECT_DIR$/sitemap.xml" />
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js" />
-    <entry file="file://$PROJECT_DIR$/assets/js/bootstrap-website.js" />
-    <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/footer.hbs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/pricing.hbs" />
-    <entry file="file://$PROJECT_DIR$/_generated/assets/img/imagesgohere.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/homepage-illustration.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/laptop-homepage.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_generated/about/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2380">
-          <caret line="94" column="46" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_generated/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/micromodal.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enduro.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_generated/recruiter/index.html" />
-    <entry file="file://$PROJECT_DIR$/pages/about.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/privacy-policy.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_generated/privacy-policy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" selection-start-column="57" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/terms-conditions.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="115" column="30" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_generated/terms-conditions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="63" selection-start-column="63" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/global/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/recruiters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="111" column="24" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2595">
-          <caret line="173" column="19" selection-start-line="173" selection-start-column="16" selection-end-line="173" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/general.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7950">
-          <caret line="530" column="22" selection-start-line="530" selection-start-column="22" selection-end-line="530" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_generated/assets/css/general.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10680">
-          <caret line="712" column="9" selection-start-line="712" selection-start-column="9" selection-end-line="712" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/recruiters.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="211" column="43" selection-start-line="211" selection-start-column="43" selection-end-line="211" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

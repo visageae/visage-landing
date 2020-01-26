@@ -90,9 +90,6 @@
 				img_url: '../assets/img/client-sanofi.png'
 			},
 			{
-				img_url: '../assets/img/client-siemens.png'
-			},
-			{
 				img_url: '../assets/img/client-ingevity.png'
 			},
 			{
