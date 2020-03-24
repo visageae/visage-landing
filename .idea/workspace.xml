@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a58baa6-22f6-4a18-b908-429f6eaa765e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/_generated/ahrefs_191d2415337bee7a01f0fb979f7fed43308826ac26c07a0847a02811d7f62f4f" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_generated/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_generated/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,25 +151,25 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="$PROJECT_DIR$/node_modules/grunt-cli" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_generated" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_generated" />
-      <recent name="$PROJECT_DIR$/pages" />
-      <recent name="$PROJECT_DIR$/assets/img" />
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$/assets/js/vendor" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/css" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/img/visage" />
       <recent name="$PROJECT_DIR$/assets/css-old/lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_generated" />
+      <recent name="$PROJECT_DIR$/pages" />
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/assets/js/vendor" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.diversity.html">
@@ -243,11 +244,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Grunt.js.default" />
+      <item itemvalue="Grunt.js.watch" />
+      <item itemvalue="Grunt.js.develop" />
       <item itemvalue="JavaScript Debug.diversity.html" />
       <item itemvalue="JavaScript Debug.recruiter.html" />
-      <item itemvalue="Grunt.js.default" />
-      <item itemvalue="Grunt.js.develop" />
-      <item itemvalue="Grunt.js.watch" />
     </list>
     <recent_temporary>
       <list>
@@ -314,7 +315,7 @@
       <workItem from="1569364907758" duration="724000" />
       <workItem from="1569603045007" duration="131000" />
       <workItem from="1580078064786" duration="1701000" />
-      <workItem from="1585055984148" duration="386000" />
+      <workItem from="1585055984148" duration="638000" />
     </task>
     <servers />
   </component>
@@ -330,6 +331,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1348" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585056614888">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1348" y="327" key="#com.intellij.fileTypes.FileTypeChooser/-1920.23.1920.1057/0.23.1680.949@-1920.23.1920.1057" timestamp="1585056614888" />
     <state x="-1180" y="371" width="639" height="476" key="find.popup" timestamp="1585056434996">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
