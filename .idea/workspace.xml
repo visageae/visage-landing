@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0a58baa6-22f6-4a18-b908-429f6eaa765e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_generated/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cms/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,11 +243,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Grunt.js.default" />
-      <item itemvalue="Grunt.js.watch" />
-      <item itemvalue="Grunt.js.develop" />
       <item itemvalue="JavaScript Debug.diversity.html" />
       <item itemvalue="JavaScript Debug.recruiter.html" />
+      <item itemvalue="Grunt.js.default" />
+      <item itemvalue="Grunt.js.develop" />
+      <item itemvalue="Grunt.js.watch" />
     </list>
     <recent_temporary>
       <list>
@@ -315,6 +314,7 @@
       <workItem from="1569364907758" duration="724000" />
       <workItem from="1569603045007" duration="131000" />
       <workItem from="1580078064786" duration="1701000" />
+      <workItem from="1585055984148" duration="386000" />
     </task>
     <servers />
   </component>
@@ -330,10 +330,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1180" y="371" width="639" height="476" key="find.popup" timestamp="1580078082065">
+    <state x="-1180" y="371" width="639" height="476" key="find.popup" timestamp="1585056434996">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1180" y="371" width="639" height="476" key="find.popup/-1920.23.1920.1057/0.23.1680.949@-1920.23.1920.1057" timestamp="1580078082065" />
+    <state x="-1180" y="371" width="639" height="476" key="find.popup/-1920.23.1920.1057/0.23.1680.949@-1920.23.1920.1057" timestamp="1585056434996" />
+    <state x="-1210" y="253" width="670" height="676" key="search.everywhere.popup" timestamp="1585056010369">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1210" y="253" width="670" height="676" key="search.everywhere.popup/-1920.23.1920.1057/0.23.1680.949@-1920.23.1920.1057" timestamp="1585056010369" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
