@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a58baa6-22f6-4a18-b908-429f6eaa765e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_generated/ahrefs_191d2415337bee7a01f0fb979f7fed43308826ac26c07a0847a02811d7f62f4f" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_generated/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_generated/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +23,6 @@
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1754" />
-    <option name="y" value="23" />
-    <option name="width" value="1751" />
-    <option name="height" value="956" />
   </component>
   <component name="ProjectId" id="1Wx4lTVdxNzflyIVpSEFpiZ3YBp" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -315,7 +306,9 @@
       <workItem from="1569364907758" duration="724000" />
       <workItem from="1569603045007" duration="131000" />
       <workItem from="1580078064786" duration="1701000" />
-      <workItem from="1585055984148" duration="638000" />
+      <workItem from="1585055984148" duration="1527000" />
+      <workItem from="1585089955353" duration="566000" />
+      <workItem from="1585101993566" duration="8000" />
     </task>
     <servers />
   </component>
@@ -335,10 +328,10 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1348" y="327" key="#com.intellij.fileTypes.FileTypeChooser/-1920.23.1920.1057/0.23.1680.949@-1920.23.1920.1057" timestamp="1585056614888" />
-    <state x="-1180" y="371" width="639" height="476" key="find.popup" timestamp="1585056434996">
+    <state x="-1180" y="371" width="782" height="540" key="find.popup" timestamp="1587540029871">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1180" y="371" width="639" height="476" key="find.popup/-1920.23.1920.1057/0.23.1680.949@-1920.23.1920.1057" timestamp="1585056434996" />
+    <state x="-1180" y="371" width="782" height="540" key="find.popup/-1920.23.1920.1057/0.23.1680.949@-1920.23.1920.1057" timestamp="1587540029871" />
     <state x="-1210" y="253" width="670" height="676" key="search.everywhere.popup" timestamp="1585056010369">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
