@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a58baa6-22f6-4a18-b908-429f6eaa765e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/_generated/user-agreement/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_generated/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_generated/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_generated/recruiters/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/recruiters/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,19 +152,19 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/css" />
-      <recent name="$PROJECT_DIR$/assets/img" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/assets/img/visage" />
-      <recent name="$PROJECT_DIR$/assets/css-old/lib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_generated" />
       <recent name="$PROJECT_DIR$/pages" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/js/vendor" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/css" />
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/img/visage" />
+      <recent name="$PROJECT_DIR$/assets/css-old/lib" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.diversity.html">
@@ -309,6 +313,15 @@
       <workItem from="1585055984148" duration="1527000" />
       <workItem from="1585089955353" duration="566000" />
       <workItem from="1585101993566" duration="8000" />
+      <workItem from="1587540003537" duration="55000" />
+      <workItem from="1588705197925" duration="511000" />
+      <workItem from="1588715033137" duration="774000" />
+      <workItem from="1588894537526" duration="597000" />
+      <workItem from="1588946436651" duration="87000" />
+      <workItem from="1588950270765" duration="517000" />
+      <workItem from="1588978510359" duration="147000" />
+      <workItem from="1589037639300" duration="963000" />
+      <workItem from="1589542686614" duration="1192000" />
     </task>
     <servers />
   </component>
