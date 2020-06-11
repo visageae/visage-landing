@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a58baa6-22f6-4a18-b908-429f6eaa765e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/_generated/user-agreement/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_generated/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/about/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_generated/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cms/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_generated/recruiters/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/recruiters/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +27,6 @@
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1754" />
-    <option name="y" value="23" />
-    <option name="width" value="1751" />
-    <option name="height" value="956" />
   </component>
   <component name="ProjectId" id="1Wx4lTVdxNzflyIVpSEFpiZ3YBp" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -151,7 +146,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="$PROJECT_DIR$/node_modules/grunt-cli" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_generated" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
@@ -315,6 +310,18 @@
       <workItem from="1569364907758" duration="724000" />
       <workItem from="1569603045007" duration="131000" />
       <workItem from="1580078064786" duration="1701000" />
+      <workItem from="1585055984148" duration="1527000" />
+      <workItem from="1585089955353" duration="566000" />
+      <workItem from="1585101993566" duration="8000" />
+      <workItem from="1587540003537" duration="55000" />
+      <workItem from="1588705197925" duration="511000" />
+      <workItem from="1588715033137" duration="774000" />
+      <workItem from="1588894537526" duration="597000" />
+      <workItem from="1588946436651" duration="87000" />
+      <workItem from="1588950270765" duration="517000" />
+      <workItem from="1588978510359" duration="147000" />
+      <workItem from="1589037639300" duration="963000" />
+      <workItem from="1589542686614" duration="1192000" />
     </task>
     <servers />
   </component>
@@ -330,10 +337,18 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1180" y="371" width="639" height="476" key="find.popup" timestamp="1580078082065">
+    <state x="-1348" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585056614888">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1180" y="371" width="639" height="476" key="find.popup/-1920.23.1920.1057/0.23.1680.949@-1920.23.1920.1057" timestamp="1580078082065" />
+    <state x="-1348" y="327" key="#com.intellij.fileTypes.FileTypeChooser/-1920.23.1920.1057/0.23.1680.949@-1920.23.1920.1057" timestamp="1585056614888" />
+    <state x="-1180" y="371" width="782" height="540" key="find.popup" timestamp="1587540029871">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1180" y="371" width="782" height="540" key="find.popup/-1920.23.1920.1057/0.23.1680.949@-1920.23.1920.1057" timestamp="1587540029871" />
+    <state x="-1210" y="253" width="670" height="676" key="search.everywhere.popup" timestamp="1585056010369">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1210" y="253" width="670" height="676" key="search.everywhere.popup/-1920.23.1920.1057/0.23.1680.949@-1920.23.1920.1057" timestamp="1585056010369" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

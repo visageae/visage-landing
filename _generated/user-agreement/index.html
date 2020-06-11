@@ -2,15 +2,10 @@
 <html>
 <head>
     <link rel="stylesheet" href="/assets/css/general.css">
-    <link rel="stylesheet" href="/assets/css/micromodal.css">
     <link rel="stylesheet" href="/assets/css/nav.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700" rel="stylesheet">
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
-          integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI="
-          crossorigin="anonymous"/>
     <link rel="apple-touch-icon"
           sizes="57x57"
           href="/assets/img/favicon/apple-touch-icon-57x57.png?v=2">
@@ -58,10 +53,7 @@
     <link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg?v=2" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=2">
-    <title>Visage | About</title>
-    <meta name="description" content="Our team of crowdsourcing and AI expert.">
-    <meta name="keywords"
-          content="pricing, prices, price, plan, job, job credit, sourcing, source, junior, middle, senior">
+    <title>Visage | User agreement</title>
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -80,11 +72,11 @@
     <style type="text/css"></style>
 </head>
 <body>
-<nav id="navigation-menu" class="navigation-menu white-nav" js-navigation-menu>
+<nav id="navigation-menu" class="navigation-menu" js-navigation-menu>
     <div class="navigation-menu__container">
         <div class="navigation-menu__left">
             <a href="../index.html">
-                <img class="navigation-menu__logo" src="../assets/img/logo-white.svg">
+                <img class="navigation-menu__logo" src="../assets/img/logo.svg">
             </a>
             <ul class="navigation-menu__links hidden-sm">
                 <li>
@@ -94,7 +86,7 @@
                     <a href="../recruiters/index.html">Recruiters</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="../about/index.html">About</a>
                 </li>
             </ul>
         </div>
@@ -107,7 +99,7 @@
                     <a href="../recruiters/index.html">Recruiters</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="../about/index.html">About</a>
                 </li>
             </ul>
         </div>
@@ -124,118 +116,25 @@
     </div>
 </nav>
 
-{{#with about_hero}}
-    <section id="about-hero" class="about-hero">
-        <div class="hero-overlay"></div>
-        <div class="about-hero__bg"></div>
-        <div class="container about-container">
-            <div class="about-hero__contents">
-                <div class="about-hero__info">
-                    <div class="about-hero__info-wrap">
-                        <h1 class="about-hero__title">{{header}}</h1>
-                        <a class="btn-round btn-primary-dark"
-                           href="https://calendly.com/smclean0/demo"
-                           target="_blank"
-                           aria-label="Request a demo">
-                            Contact us
-                        </a>
-                    </div>
-                </div>
-            </div>
+<section id="product" class="main-showcase" style="padding-top : 150px">
+    <div class="container">
+        <div class="section-header">
+            <h2>User Agreement</h2>
         </div>
-    </section>
-{{/with}}
+        <div class="section-content row">
+            <iframe src="https://docs.google.com/document/d/e/2PACX-1vTuxKioy4dvMEI-H4urvybkGJ14Bj2-t4XS8eW83kULMXs9UUogXG0EbReNhbJIOTZ2kBjHkQrIbG-s/pub?embedded=true" width="100%" height="5800px"></iframe>
+    </div>
+</section>
 
 
-{{#with about_showcase}}
-    <section class="main-showcase">
-        <div class="container">
-            <div class="main-showcase__wrapper">
-                <div class="main-showcase__demo-about">
-                    <h2>{{header}}</h2>
-                </div>
-                <div class="main-showcase__info-about">
-                    <div class="main-showcase__info-text">
-                        <h2>{{subtitle}}</h2>
-                        <p>{{copy}}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-{{/with}}
 
 
-{{#with company_members}}
-    <section class="members">
-        <div class="container">
-            <div class="members__header">
-            </div>
-            <div class="members__team">
-                {{#each list_of_members}}
-                    <div class="members__team-tile">
-                        <div class="members__tile-img">
-                            <img src="{{img_url}}">
-                            <a class="members__tile-link" href="{{link}}">
-                                <img src="../assets/img/linkedin-logo.svg">
-                            </a>
-                        </div>
-                        <div class="members__tile-data">
-                            <h3>{{name}}</h3>
-                            <span>{{job}}</span>
-                        </div>
-                    </div>
-                {{/each}}
-            </div>
-            <div class="members-investors">
-                {{#each list_of_investors}}
-                    <div class="members-investors__tile">
-                        <a class="members-investors__tile-img" href="{{link}}">
-                            <img src="{{img_url}}">
-                        </a>
-                        <div class="members-investors__tile-data">
-                            <h3>{{name}}</h3>
-                            <span>{{job}}</span>
-                        </div>
-                    </div>
-                {{/each}}
-            </div>
-        </div>
-    </section>
-{{/with}}
-
-
-{{#with footer}}
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-wrapper">
-                <div class="footer-left">
-                    <img src="../assets/img/logo-gray.svg">
-                    <h3>visage.jobs 2019</h3>
-                    <span>visage.jobs 2019</span>
-                    <span><a href="/terms-conditions/">Terms & conditions</a> • <a href="/privacy-policy/">Privacy Policy</a></span>
-                </div>
-                <div class="footer-right">
-                    {{#each column}}
-                        <div class="footer-right__col">
-                            <span>{{header}}</span>
-                            {{#each data}}
-                                <a href="{{link}}">{{copy}}</a>
-                            {{/each}}
-                        </div>
-                    {{/each}}
-
-                    <div class="footer-right__col-spc">
-                        <span>Contact Us</span>
-                        <p>2nd Floor, 180 Sansome St, San Francisco, CA 94104</p>
-                        <a>team@visage.jobs</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-{{/with}}
-
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0="
+        crossorigin="anonymous"></script>
 <script>
     window.intercomSettings = {
         app_id: "agueobs1"
@@ -275,33 +174,41 @@
         }
     }
 })();</script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
-        integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0="
-        crossorigin="anonymous"></script>
-<script src="https://unpkg.com/micromodal/dist/micromodal.min.js"
-        type="text/javascript"
-        charset="utf-8"></script>
 <script>
+
     const $dom = {};
     $dom.navbar = document.querySelector('[js-navigation-menu]');
     console.log('NAVBAR', $dom.navbar.classList);
 
     window.addEventListener("scroll", function (event) {
         if (window.scrollY != 0) {
-            if (!$dom.navbar.classList.contains('scrolled-dark')) {
-                $dom.navbar.classList.add('scrolled-dark');
+            if (!$dom.navbar.classList.contains('scrolled')) {
+                $dom.navbar.classList.add('scrolled');
             }
         }
         else {
-            if ($dom.navbar.classList.contains('scrolled-dark')) {
-                $dom.navbar.classList.remove('scrolled-dark');
+            if ($dom.navbar.classList.contains('scrolled')) {
+                $dom.navbar.classList.remove('scrolled');
             }
         }
     }, false);
+</script>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
 
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            }
+            else {
+                panel.style.display = "block";
+            }
+        });
+    }
     (function () {
         let $ = document.querySelector.bind(document);
         let $dom = {};
@@ -321,7 +228,6 @@
 
         window.addEventListener('DOMContentLoaded', () => {
             $dom.navbarToggle.addEventListener('click', navbarToggle);
-            MicroModal.init();
         });
     })();
 </script>
