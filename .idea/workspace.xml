@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a58baa6-22f6-4a18-b908-429f6eaa765e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_generated/user-agreement/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/user-agreement.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_generated/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_generated/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_generated/recruiters/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_generated/recruiters/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/privacy-policy.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pages/privacy-policy.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/recruiters.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pages/recruiters.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/terms-conditions.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pages/terms-conditions.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,25 +148,25 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="$PROJECT_DIR$/node_modules/grunt-cli" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_generated" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_generated" />
-      <recent name="$PROJECT_DIR$/pages" />
-      <recent name="$PROJECT_DIR$/assets/img" />
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$/assets/js/vendor" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/css" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/img/visage" />
       <recent name="$PROJECT_DIR$/assets/css-old/lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
+      <recent name="$PROJECT_DIR$/_generated" />
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/assets/js/vendor" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.diversity.html">
@@ -321,7 +323,8 @@
       <workItem from="1588950270765" duration="517000" />
       <workItem from="1588978510359" duration="147000" />
       <workItem from="1589037639300" duration="963000" />
-      <workItem from="1589542686614" duration="1192000" />
+      <workItem from="1589542686614" duration="1754000" />
+      <workItem from="1592333138412" duration="322000" />
     </task>
     <servers />
   </component>
