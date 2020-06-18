@@ -140,7 +140,7 @@
                         </h3>
                         <form class="userform" target="_blank">
                             <input placeholder="Enter your work email" type="email" required>
-                            <button onclick="window.location.href = 'https://calendly.com/smclean0/demo';" type="submit" value="Submit">Get Started</button>
+                            <button type="submit" value="Submit">Get Started</button>
                         </form>
                         </form>
                     </div>
@@ -199,7 +199,7 @@
             <h2>How Visage works</h2>
             <div class="howitworks__item">
                 <div class="howitworks__image">
-                    <img src="/assets/img/howitworks-first.png">
+                    <img src="/assets/img/howitworks--first.png">
                 </div>
                 <div class="howitworks__description">
                     <div class="newfeatures__icon">
@@ -266,9 +266,9 @@
 
     <section class="newsletter">
         <h2>Ready to save time and resources?</h2>
-        <form class="userform" target="_blank">
+        <form class="userform" target="_blank" >
             <input placeholder="Enter your work email" type="email" required>
-            <button onclick="window.location.href = 'https://calendly.com/smclean0/demo';" type="submit" value="Submit">Get Started</button>
+            <button type="submit" value="Submit">Get Started</button>
         </form>
     </section>
 
@@ -297,14 +297,28 @@
                 <div>
                     <div class="ourcustomers__slide">
                         <div class="ourcustomers__left">
-                            <img src="/assets/img/ourcustomer__firsticon.png">
-                            <p>I use Visage and its crowdsourcing technology as my primary sourcing tool. They do my sourcing and contacting, which allows me to focus on the more fundamental aspects of the job. I would recommend this platform to any busy hiring team. Great way to build immediate and long term pipeline.</p>
+                            <img src="/assets/img/ourcustomer__secondicon.png">
+                            <p>Visage has been a game-changer for our talent acquisition organization. Nearly our entire sourcing effort goes to the Visage platform, enabling our team to achieve significantly more. Our hiring managers think we are rockstars thanks to the quality of candidates and fast turnaround. I am constantly recommending Visage to my friends in the industry!</p>
                             <span>
-                                <strong>Jay Jerry</strong>Talent Acquisition Manager
+                                <strong>Alex Caiola</strong>Director of Talent
                             </span>
                         </div>
                         <div class="ourcustomers__right">
-                            <img src="/assets/img/ourcustomer__first.png">
+                            <img src="/assets/img/ourcustomer__second.png">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="ourcustomers__slide">
+                        <div class="ourcustomers__left">
+                            <img src="/assets/img/ourcustomer__thirdicon.png">
+                            <p>I posted hard to find positions. Visage crowdsourced 697, validated 258, committed 31, and shortlisted 22 candidates. That was unbelievable. It happened overnight. That’s what blew me away. Visage was able to do this in 2 days when it takes staff of researchers a month to get to that number.</p>
+                            <span>
+                                <strong>Mark Webster</strong>VP Talent
+                            </span>
+                        </div>
+                        <div class="ourcustomers__right">
+                            <img src="/assets/img/ourcustomer__third.png">
                         </div>
                     </div>
                 </div>
@@ -410,6 +424,16 @@
     };
 </script>
 
+
+<script>
+    $(".userform").submit(function(e){
+        e.preventDefault();
+        let target = e.target;
+        let input = target.querySelector('input');
+
+        window.location.href = 'https://calendly.com/smclean0/demo?email='+ input.value;
+    });
+</script>
 <script>
     $(document).ready(function(){
       $('[js-ourcustomers-slider]').slick({
