@@ -40,10 +40,10 @@
 
 .navigation-menu__links{
     list-style-type: none;
+    padding: 0;
     @media (max-width: $breakpoint-md) {
         order: 4;
         width: 100%;
-        padding: 0px;
         margin: 0px;
     }
 }
@@ -54,20 +54,25 @@
     @media (max-width: $breakpoint-md) {
         display: block;
         padding: 15px 20px;
-        text-align: center;
+        text-align: left;
     }
 }
 
 
 .navigation-menu__links li a{
-    margin: 0px 40px;
-    text-transform: uppercase;
+    margin: 0px 16px;
     font-family: Helvetica;
     color: #000;
     font-size: 16px;
     transition: 0.2s;
-    @media (max-width: $breakpoint-lg) {
-        margin: 0px 20px;
+}
+
+.navigation-menu__links li a.green-text{
+    color: #0FC48B;
+    margin-right: 0;
+
+    @media (max-width: $breakpoint-md) {
+        margin: 0 16px;
     }
 }
 
@@ -77,11 +82,10 @@
 }
 
 
-.navigation-menu__left,
-.navigation-menu__right{
+.navigation-menu__left{
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 230px;
 }
 
 
@@ -96,10 +100,11 @@
 
 
 .navigation-menu__right{
-    max-width: 150px;
     margin-right: 60px;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     @media (max-width: $breakpoint-md) {
         margin-right: 40px;
         order: 2;
