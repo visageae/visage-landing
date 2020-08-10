@@ -6,17 +6,17 @@
         header: "The easiest way to make money every week in recruitment!",
         list_of_features: [
             {
-                img_url: "../assets/img/recruiter-ff.svg",
+                img_url: "/assets/img/newfeature-ff.svg",
                 title: "Earn Fast",
                 copy: "Unlike all the other commission based platforms, Visage pays you by the hour every week."
             },
             {
-                img_url: "../assets/img/recruiter-user.svg",
+                img_url: "/assets/img/newfeature-cheap.svg",
                 title: "Simple profile submission",
                 copy: "Search online and upload candidate profiles. Nothing else is required."
             },
             {
-                img_url: "../assets/img/recruiter-earn.svg",
+                img_url: "/assets/img/newfeature-quality.svg",
                 title: "Make money recruiting from home",
                 copy: "Work whenever you want, wherever you want, you just need an internet access."
             }
@@ -30,25 +30,25 @@
 		list_of_features: [
 			{
 				number:  '1',
-				icon_url: '../assets/img/recruiter-fa-user.svg',
+				icon_url: '/assets/img/howitworks-firsticon.svg',
 				title: 'Sign Up',
 				copy: 'Complete your user profile.'
 			},
 			{
 				number:  '2',
-				icon_url: '../assets/img/recruiter-fa-jobs.svg',
+				icon_url: '/assets/img/howitworks-secondicon.svg',
 				title: 'Claim jobs',
 				copy: 'Select the jobs that you want to work on.'
 			},
 			{
 				number:  '3',
-				icon_url: '../assets/img/recruiter-fa-profile.svg',
+				icon_url: '/assets/img/howitworks-thirdicon.svg',
 				title: 'Search profiles',
 				copy: 'Start your time tracker and submit suitable profiles. It’s as simple as a drag and drop.'
 			},
 			{
 				number:  '4',
-				icon_url: '../assets/img/recruiter-fa-paid.svg',
+				icon_url: '/assets/img/howitworks-fourthicon.svg',
 				title: 'Get Paid',
 				copy: "Get paid weekly for the hours you worked."
 			},
