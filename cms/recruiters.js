@@ -8,7 +8,7 @@
             {
                 img_url: "/assets/img/newfeature-ff.svg",
                 title: "Earn Fast",
-                copy: "Unlike all the other commission based platforms, Visage pays you by the hour every week."
+                copy: "Unlike all the other commission-based platforms, Visage pays you per profile submitted on a weekly basis."
             },
             {
                 img_url: "/assets/img/newfeature-cheap.svg",
@@ -18,7 +18,7 @@
             {
                 img_url: "/assets/img/newfeature-quality.svg",
                 title: "Make money recruiting from home",
-                copy: "Work whenever you want, wherever you want, you just need an internet access."
+                copy: "Work whenever you want, wherever you want. All you need is internet access."
             }
         ]
     },
@@ -32,25 +32,25 @@
 				number:  '1',
 				icon_url: '/assets/img/howitworks-firsticon.svg',
 				title: 'Sign Up',
-				copy: 'Complete your user profile.'
+				copy: 'Register to be a sourcer by filling out a user profile and completing a trial.'
 			},
 			{
 				number:  '2',
 				icon_url: '/assets/img/howitworks-secondicon.svg',
 				title: 'Claim jobs',
-				copy: 'Select the jobs that you want to work on.'
+				copy: 'Select the jobs you would like to work on according to your availability. You choose the roles that you are most comfortable sourcing for.'
 			},
 			{
 				number:  '3',
 				icon_url: '/assets/img/howitworks-thirdicon.svg',
 				title: 'Search profiles',
-				copy: 'Start your time tracker and submit suitable profiles. It’s as simple as a drag and drop.'
+				copy: 'Search for profiles from any and all professional networking platforms you have access to. Don’t spend hours connecting with candidates, just search the most relevant profiles online and submit them to us, we take care of the rest.'
 			},
 			{
 				number:  '4',
 				icon_url: '/assets/img/howitworks-fourthicon.svg',
 				title: 'Get Paid',
-				copy: "Get paid weekly for the hours you worked."
+				copy: "Receive weekly payments for all sourced profiles. With Visage, you get paid per sourced profile. No need to wait for a placement. Simply source great profiles and receive weekly payments."
 			},
 		]
     },
