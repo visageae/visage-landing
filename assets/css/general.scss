@@ -2073,3 +2073,240 @@ nav {
     }
 }
 }
+
+.new-about {
+
+    h1 {
+        margin-bottom: 48px;
+        text-align: center;
+        max-width: 840px;
+        @media only screen and (max-width: 768px) {
+            margin-bottom: 32px;
+        }
+    }
+
+    .recruiter-header {
+        background-color: #FAF9F8;
+    }
+
+    .about-header__wrapper,
+    .new-team__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-header__content {
+        width: 100%;
+        max-width: 640px;
+        
+        @media only screen and (max-width: 768px) {
+            padding: 0 32px;
+        }
+    }
+
+    .about-header {
+        padding: 48px 0;
+    }
+
+    .about-header__content h3 {
+        font-family: mandrel-normal, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 26px;
+        line-height: 34px;
+        margin: 16px 0 32px;
+    }
+
+    .about-header__content p {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 155%;
+        color: #868C94;
+    }
+
+    .new-team {
+        background-color: #FAF9F8;
+        padding: 48px 0 128px;
+
+        @media only screen and (max-width: 768px) {
+            padding: 32px 0;
+        }
+    }
+
+    .new-team__content {
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    .new-team__members {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .faq {
+        padding: 74px 0px 152px;
+        background-color: #fff;
+    }
+    
+    .faq__heading {
+        font-family: mandrel-normal, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 36px;
+        color: #000;
+        margin: 16px 0px 36px;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .accordion {
+        font-family: Inter;
+        padding: 20px 0;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #000;
+        text-align: left;
+        outline: none;
+        font-size: 18px;
+        transition: 0.4s;
+    }
+    
+    .accordion.last {
+        border-bottom: 0;
+    }
+
+    .new-team__content {
+        h3 {
+            font-family: mandrel-normal, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 130.6%;
+            text-align: center;
+            color: #2F343E;
+            margin: 0;
+        }
+        h4 {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 155%;
+            text-align: center;
+            letter-spacing: -0.01em;
+            color: #93979B;
+            margin: 16px 0 32px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            padding: 0 16px;
+        }
+    }
+
+    .new-member {
+        width: 100%;
+        max-width: 200px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 32px 0;
+
+        img {
+            width: 144px;
+            height: auto;
+        }
+
+        h5 {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 155%;
+            text-align: center;
+            color: #2F343E;
+            margin: 16px 0 0;
+        }
+
+        p {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 125%;
+            text-align: center;
+            color: #93979B;
+            margin: 0;
+        }
+
+        span {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 155%;
+            color: #2F343E;
+            margin: 0 6px;
+        }
+
+        .map-pin {
+            width: 17px;
+            height: auto;
+        }
+
+        .flag {
+            width: 20px;
+            height: 21px;
+        }
+
+        .new-member__container {
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        @media only screen and (max-width: 768px) {
+            max-width: 160px;
+            margin: 18px 0;
+
+            img {
+                width: 112px;
+                height: auto;
+            }
+
+            h5 {
+                font-size: 16px;
+                margin: 8px 0 0;
+            }
+    
+            p {
+                font-size: 14px;
+            }
+
+            span {
+                font-size: 14px;
+            }
+    
+            .map-pin {
+                width: 12px;
+                height: auto;
+            }
+    
+            .flag {
+                width: 16px;
+                height: 16px;
+            }
+
+            .new-member__container {
+                margin-top: 8px;
+            }
+
+            .about-header__content {
+                padding: 0 32px;
+            }
+        }
+    }
+}
