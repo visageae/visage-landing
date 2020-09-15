@@ -2,7 +2,6 @@
 <html>
 <head>
     <link rel="stylesheet" href="/assets/css/general.css">
-    <link rel="stylesheet" href="/assets/css/micromodal.css">
     <link rel="stylesheet" href="/assets/css/nav.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700" rel="stylesheet">
@@ -56,12 +55,15 @@
           sizes="16x16">
     <link rel="manifest" href="/assets/img/favicon/manifest.json?v=2">
     <link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg?v=2" color="#5bbad5">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/ita3whg.css">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=2">
-    <title>Visage | About</title>
-    <meta name="description" content="Our team of crowdsourcing and AI expert.">
+    <title>Visage | Make money sourcing candidates</title>
+    <meta name="description" content="Visage allows you to make money searching for candidates.">
     <meta name="keywords"
-          content="pricing, prices, price, plan, job, job credit, sourcing, source, junior, middle, senior">
+          content="recruiters, recruiting, sourcing recruiter, cash, money, referral, refer candidates, referrals, freelance, freelances">
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -79,18 +81,18 @@
     <!-- End Google Tag Manager -->
     <style type="text/css"></style>
 </head>
-<body>
-<nav id="navigation-menu" class="navigation-menu white-nav" js-navigation-menu>
+<body class="new-recruiters new-about">
+<nav id="navigation-menu" class="navigation-menu" js-navigation-menu>
     <div class="navigation-menu__container">
         <div class="navigation-menu__left">
             <a href="../index.html">
-                <img class="navigation-menu__logo" src="../assets/img/logo-white.svg">
+                <img class="navigation-menu__logo" src="../assets/img/logo.svg">
             </a>
         </div>
         <div class="navigation-menu__links-cont" js-navbar-links>
             <ul class="navigation-menu__links">
                 <li>
-                    <a href="#">About Us</a>
+                    <a href="../about/index.html">About Us</a>
                 </li>
                 <li>
                     <a href="https://app.visage.jobs/login">Sign In</a>
@@ -103,7 +105,7 @@
         <div class="navigation-menu__right">
             <ul class="navigation-menu__links hidden-sm">
                 <li>
-                    <a href="#">About Us</a>
+                    <a href="../about/index.html">About Us</a>
                 </li>
                 <li>
                     <a href="https://app.visage.jobs/login">Sign In</a>
@@ -119,86 +121,88 @@
     </div>
 </nav>
 
-{{#with about_hero}}
-    <section id="about-hero" class="about-hero">
-        <div class="hero-overlay"></div>
-        <div class="about-hero__bg"></div>
-        <div class="container about-container">
-            <div class="about-hero__contents">
-                <div class="about-hero__info">
-                    <div class="about-hero__info-wrap">
-                        <h1 class="about-hero__title">{{header}}</h1>
-                        <a class="btn-round btn-primary-dark"
-                           href="https://calendly.com/smclean0/demo"
-                           target="_blank"
-                           aria-label="Request a demo">
-                            Contact us
-                        </a>
-                    </div>
-                </div>
-            </div>
+<section class="recruiter-header">
+    <div class="container">
+        <div class="recruiter-header__wrapper">
+            <h1>Our mission is to help great employers hire the best talent out there</h1>
+            <a class="button" href="mailto:team@visage.jobs">Contact Us</a>
         </div>
-    </section>
-{{/with}}
+    </div>
+</section>
 
-
-{{#with about_showcase}}
-    <section class="main-showcase">
-        <div class="container">
-            <div class="main-showcase__wrapper">
-                <div class="main-showcase__demo-about">
-                    <h2>{{header}}</h2>
-                </div>
-                <div class="main-showcase__info-about">
-                    <div class="main-showcase__info-text">
-                        <h2>{{subtitle}}</h2>
-                        <p>{{copy}}</p>
-                    </div>
-                </div>
-            </div>
+<section class="about-header">
+    <div class="about-header__wrapper">
+        <div class="about-header__content">
+            <h3>
+                Visage combines human and artificial intelligence to support your most complex searches.
+            </h3>
+            <p>
+                Founded in 2015, Visage simplifies candidate sourcing and outreach so recruiters can focus on what really matters - their candidates. We create a strong and diverse candidate pipeline so that employers can focus on interviewing and assessing talent rather than searching for it. We solve this through our crowdsourcing solution plus advanced AI, a combination that is able to find the best candidates for open roles in a matter of hours. Our community of over 4000 global sourcers has access to millions of passive candidates. They leave no stone unturned! At Visage, we help you find the top talent out there and send only the qualified and committed candidates ready to interview. 
+            </p>
+            <p>
+                We built an exceptional team using our own tool! As a 100% remote company, we are able to find the best talent imaginable - hiring based on skill set, experience & cultural fit. We practice radical transparency with our colleagues and our clients, valuing honesty and meaning above all else. We work passionately towards our goals while maintaining balance within our personal & professional lives. Our employees live in all parts of the world providing a global and diverse perspective. 
+            </p>
         </div>
-    </section>
-{{/with}}
+    </div>
+</section>
 
-
-{{#with company_members}}
-    <section class="members">
-        <div class="container">
-            <div class="members__header">
-            </div>
-            <div class="members__team">
-                {{#each list_of_members}}
-                    <div class="members__team-tile">
-                        <div class="members__tile-img">
-                            <img src="{{img_url}}">
-                            <a class="members__tile-link" href="{{link}}">
-                                <img src="../assets/img/linkedin-logo.svg">
-                            </a>
-                        </div>
-                        <div class="members__tile-data">
-                            <h3>{{name}}</h3>
-                            <span>{{job}}</span>
-                        </div>
-                    </div>
-                {{/each}}
-            </div>
-            <div class="members-investors">
-                {{#each list_of_investors}}
-                    <div class="members-investors__tile">
-                        <a class="members-investors__tile-img" href="{{link}}">
-                            <img src="{{img_url}}">
-                        </a>
-                        <div class="members-investors__tile-data">
-                            <h3>{{name}}</h3>
-                            <span>{{job}}</span>
+{{#with new_team}}
+<section class="new-team">
+    <div class="new-team__wrapper">
+        <div class="new-team__content">
+            <h3>Our team</h3>
+            <h4>25 employees — 16 different locations — 22 languages</h4>
+            <div class="new-team__members">
+                {{#each member}}
+                    <div class="new-member">
+                        <img src={{img}}>
+                        <h5>{{name}}</h5>
+                        <p>{{position}}</p>
+                        <div class="new-member__container">
+                            <img src="../assets/img/map-pin.svg" class="map-pin">
+                            <span>{{country}}</span>
+                            <img src="{{country_img}}" class="flag">
                         </div>
                     </div>
                 {{/each}}
             </div>
         </div>
-    </section>
+    </div>
+</section>
 {{/with}}
 
+{{#with new_investors}}
+<section class="new-team">
+    <div class="new-team__wrapper">
+        <div class="new-team__content">
+            <h3>Our investors</h3>
+            <div class="new-team__members">
+                {{#each investor}}
+                    <div class="new-member">
+                        <img src={{img}}>
+                        <h5>{{name}}</h5>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</section>
+{{/with}}
+
+<section class="faq">
+    <div class="container">
+        <h2 class="faq__heading">Our Values</h2>
+        <div class="faq__wrapper">
+            <div class="faq__accordion">
+                <button class="accordion">Visionary</button>
+                <button class="accordion">Honesty</button>
+                <button class="accordion">Meaning</button>
+                <button class="accordion">Balance</button>
+                <button class="accordion">Impact</button>
+            </div>
+        </div>
+    </div>
+</section>
 
 {{#with footer}}
     <footer class="footer">
@@ -231,6 +235,15 @@
     </footer>
 {{/with}}
 
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0="
+        crossorigin="anonymous"></script>
 <script>
     window.intercomSettings = {
         app_id: "agueobs1"
@@ -270,33 +283,41 @@
         }
     }
 })();</script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
-        integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0="
-        crossorigin="anonymous"></script>
-<script src="https://unpkg.com/micromodal/dist/micromodal.min.js"
-        type="text/javascript"
-        charset="utf-8"></script>
 <script>
+
     const $dom = {};
     $dom.navbar = document.querySelector('[js-navigation-menu]');
     console.log('NAVBAR', $dom.navbar.classList);
 
     window.addEventListener("scroll", function (event) {
         if (window.scrollY != 0) {
-            if (!$dom.navbar.classList.contains('scrolled-dark')) {
-                $dom.navbar.classList.add('scrolled-dark');
+            if (!$dom.navbar.classList.contains('scrolled')) {
+                $dom.navbar.classList.add('scrolled');
             }
         }
         else {
-            if ($dom.navbar.classList.contains('scrolled-dark')) {
-                $dom.navbar.classList.remove('scrolled-dark');
+            if ($dom.navbar.classList.contains('scrolled')) {
+                $dom.navbar.classList.remove('scrolled');
             }
         }
     }, false);
+</script>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
 
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            }
+            else {
+                panel.style.display = "block";
+            }
+        });
+    }
     (function () {
         let $ = document.querySelector.bind(document);
         let $dom = {};
@@ -316,9 +337,16 @@
 
         window.addEventListener('DOMContentLoaded', () => {
             $dom.navbarToggle.addEventListener('click', navbarToggle);
-            MicroModal.init();
         });
     })();
+</script>
+<script>
+    $(document).ready(function(){
+      $('[js-ourcustomers-slider]').slick({
+          nextArrow: $('[js-ourcustomers-next]'),
+          prevArrow: $('[js-ourcustomers-prev]')
+      });
+    });
 </script>
 </body>
 
