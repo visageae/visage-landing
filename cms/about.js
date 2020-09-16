@@ -193,7 +193,7 @@
             },
             {
                 img: '../assets/img/new-team-05.png',
-                name: 'Mahira Dhariwal',
+                name: 'Mahima Dhariwal',
                 position: 'Lead Sourcing Specialist',
                 country: 'India',
                 country_img: '../assets/img/flag-india.png'
