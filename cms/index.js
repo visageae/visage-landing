@@ -165,7 +165,7 @@
         panel: [
             {
                 out: "What is Visage?",
-                in: "Visage is your virtual sourcing team. Submit your job requirements and Visage delivers qualified candidates in just 24-hours. Engage your shortlisted candidates with custom messages via email and SMS."
+                in: "Visage is your virtual sourcing team. Submit your job requirements and Visage delivers qualified candidates in just 24-hours. Engage your shortlisted candidates with custom messages via email."
 			},
 			{
                 out: "What is unique about Visage?",
@@ -173,7 +173,7 @@
 			},
 			{
                 out: "How does Visage work?",
-                in: "Define your role requirements and submit. We dispatch the role to 5+ sourcers for immediate sourcing. Our independent sourcers have access to a multitude of job boards and professional sites worldwide. They will leave no stone unturned to identify potential candidates. Review the candidate profiles, remove the ones you don't want to contact and finally, engage your shortlist with custom messages via email and SMS."
+                in: "Define your role requirements and submit. We dispatch the role to 5+ sourcers for immediate sourcing. Our independent sourcers have access to a multitude of job boards and professional sites worldwide. They will leave no stone unturned to identify potential candidates. Review the candidate profiles, remove the ones you don't want to contact and finally, engage your shortlist with custom messages via email."
 			},
 			{
                 out: "What sort of roles do you gather for?",
