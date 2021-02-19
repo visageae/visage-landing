@@ -248,7 +248,7 @@
                 country_img: '../assets/img/flag-netherlands.png'
             },
             {
-                img: '../assets/img/new-team-13.png',
+                img: '../assets/img/new-team-13-v.png',
                 name: 'Vladimir Kosmala',
                 position: 'Lead Developer',
                 country: 'France',
