@@ -194,14 +194,14 @@
             {
                 img: '../assets/img/new-team-05.png',
                 name: 'Mahima Dhariwal',
-                position: 'Lead Sourcing Specialist',
+                position: 'Internal Sourcing Team Lead',
                 country: 'India',
                 country_img: '../assets/img/flag-india.png'
             },
             {
                 img: '../assets/img/new-team-06.png',
                 name: 'Evelyn Egan',
-                position: 'Global Crowdsourcing Manager',
+                position: 'Director of Crowd Sourcing Operations',
                 country: 'Ireland',
                 country_img: '../assets/img/flag-ireland.png'
             },
@@ -215,7 +215,7 @@
             {
                 img: '../assets/img/new-team-08.png',
                 name: 'Nikita Foster',
-                position: 'Chief of Staff',
+                position: 'Chief Operations Officer',
                 country: 'Miami, Florida',
                 country_img: '../assets/img/flag-us.png'
             },
@@ -311,16 +311,9 @@
                 country_img: '../assets/img/flag-india.png'
             },
             {
-                img: '../assets/img/new-team-22.png',
-                name: 'Paola Michel Silva',
-                position: 'Customer Success Manager',
-                country: 'Mexico',
-                country_img: '../assets/img/flag-mexico.png'
-            },
-            {
                 img: '../assets/img/new-team-23.png',
                 name: 'Alexandra Tobias',
-                position: 'Community & Performance Manager',
+                position: 'Sourcing Community Manager',
                 country: 'Romania',
                 country_img: '../assets/img/flag-romania.png'
             },
@@ -334,9 +327,23 @@
             {
                 img: '../assets/img/new-team-25.png',
                 name: 'Tai Gonzalez Varela',
-                position: 'Lead Sourcing Specialist',
+                position: 'QA Team Lead',
                 country: 'Argentina',
                 country_img: '../assets/img/flag-argentina.png'
+			},
+            {
+                img: '../assets/img/new-team-26.png',
+                name: 'Michelle Dong',
+                position: 'VP of Marketing',
+                country: 'Louisiana',
+                country_img: '../assets/img/flag-us.png'
+			},
+            {
+                img: '../assets/img/new-team-27.png',
+                name: 'Nicolas Rotier',
+                position: 'Full Stack Developer',
+                country: 'France',
+                country_img: '../assets/img/flag-france.png'
 			}
 		]
     },
