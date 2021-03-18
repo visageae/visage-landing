@@ -139,7 +139,12 @@
 }
 
 .our-clients__container img {
-    padding: 0px 24px;
+    width: calc(16% - 72px);
+    padding: 12px 36px;
+}
+
+.our-clients__container .cielo {
+    max-height: 80px;
 }
 
 .newfeatures {
@@ -419,6 +424,10 @@
         padding: 4px 10px;
         max-width: 72px;
         max-height: 36px;
+        width: auto;
+    }
+    .our-clients__container .cielo {
+        max-height: 30px;
     }
 }
 
