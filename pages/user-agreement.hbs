@@ -58,6 +58,12 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=2">
     <title>Visage | User agreement</title>
+    <!-- OneTrust Cookies Consent Notice start for visage.jobs -->
+    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="de2b0da5-1978-4b74-abfe-b20e350e22a8" ></script>
+    <script type="text/javascript">
+    function OptanonWrapper() { }
+    </script>
+    <!-- OneTrust Cookies Consent Notice end for visage.jobs -->
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -136,24 +142,25 @@
 
 
 {{#with footer}}
-    <footer class="footer">
+        <footer class="footer">
         <div class="container">
             <div class="footer-wrapper">
                 <div class="footer-left">
-                    <img src="../assets/img/logo-gray.svg">
+                    <img src="/assets/img/logo-gray.svg">
                     <h3>visage.jobs 2021</h3>
                     <span>visage.jobs 2021</span>
-                    <span><a href="/terms-conditions/">Terms & conditions</a> • <a href="/privacy-policy/">Privacy Policy</a> • <a href="/sub-processors-list/">Sub processors list</a> • <a href="/user-agreement/">User Agreement</a></span>
                 </div>
                 <div class="footer-right">
-                    {{#each column}}
                         <div class="footer-right__col">
-                            <span>{{header}}</span>
-                            {{#each data}}
-                                <a href="{{link}}">{{copy}}</a>
-                            {{/each}}
+                            <span>Recruiting Sourcers</span>
+                                <a href="recruiters/index.html">Info</a>
                         </div>
-                    {{/each}}
+                        <div class="footer-right__col">
+                            <span>Company</span>
+                                <a href="about/index.html">About</a>
+                                <a href="about/index.html">Team</a>
+                                <a href="http://blog.visage.jobs/">Blog</a>
+                        </div>
 
                     <div class="footer-right__col-spc">
                         <span>Contact Us</span>
@@ -162,6 +169,14 @@
                     </div>
                 </div>
             </div>
+            <br>
+            <span>
+                <a href="/terms-conditions/">Terms & conditions</a> • 
+                <a href="/privacy-policy/">Privacy Policy</a> • 
+                <a href="/sub-processors-list/">Sub processors list</a> • 
+                <a href="/user-agreement/">User Agreement</a> • 
+                <a href="#" class="optanon-toggle-display">Cookie settings</a>
+            </span>
         </div>
     </footer>
 {{/with}}

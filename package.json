@@ -1,13 +1,13 @@
 {
-	"name": "enduro_new_project",
-	"version": "1.0.0",
+	"name": "visage-website",
+	"version": "1.1.0",
 	"description": "",
 	"main": "assets/vendor/enduro/index.js",
 	"scripts": {
-		"start": "node_modules/.bin/enduro start"
+		"start": "node_modules/.bin/enduro start",
+		"dev": "node_modules/.bin/enduro dev"
 	},
-	"author": "author goes here",
-	"license": "MIT",
+	"author": "Visage Inc.",
 	"dependencies": {
 		"enduro": "*"
 	}
