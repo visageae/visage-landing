@@ -1,0 +1,134 @@
+@import "variables/colors";
+
+.navigation-menu{
+    position: fixed;
+    padding: 60px 0px;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+}
+@media (max-width: $breakpoint-md) {
+    .navigation-menu{
+        background-color: #fff;
+        padding: 20px 0px;
+    }
+}
+
+
+.navigation-menu__container{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    @media (max-width: $breakpoint-md) {
+        flex-wrap: wrap;
+    }
+}
+
+
+.navigation-menu__logo{
+    height: 50px;
+}
+@media (max-width: $breakpoint-md) {
+    .navigation-menu__logo{
+        height: 40px;
+    }
+}
+
+
+.navigation-menu__links{
+    list-style-type: none;
+    padding: 0;
+    @media (max-width: $breakpoint-md) {
+        order: 4;
+        width: 100%;
+        margin: 0px;
+    }
+}
+
+
+.navigation-menu__links li{
+    display: inline;
+    @media (max-width: $breakpoint-md) {
+        display: block;
+        padding: 15px 20px;
+        text-align: left;
+    }
+}
+
+
+.navigation-menu__links li a{
+    margin: 0px 16px;
+    font-family: Helvetica;
+    color: #000;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.navigation-menu__links li a.green-text{
+    color: #0FC48B;
+    margin-right: 0;
+
+    @media (max-width: $breakpoint-md) {
+        margin: 0 16px;
+    }
+}
+
+
+.navigation-menu__links li a:hover{
+    color: #0FC48B;
+}
+
+
+.navigation-menu__left{
+    display: flex;
+    align-items: center;
+    width: 230px;
+}
+
+
+.navigation-menu__left{
+    margin-left: 60px;
+    @media (max-width: $breakpoint-md) {
+        margin-left: 20px;
+        order: 1;
+        width: calc(100% - 210px);
+    }
+}
+
+
+.navigation-menu__right{
+    margin-right: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    @media (max-width: $breakpoint-md) {
+        margin-right: 40px;
+        order: 2;
+        width: 150px;
+    }
+}
+
+@media (max-width: $breakpoint-md) {
+    .white-nav.navigation-menu{
+        background-color: #777;
+        padding: 20px 0px;
+    }
+}
+
+.white-nav .navigation-menu__links li a{
+    color: #fff;
+}
+
+.navigation-menu__links-cont{
+    width: 100%;
+    order: 4;
+    display: none;
+}
+
+.is-shown{
+    display: block !important;
+}
