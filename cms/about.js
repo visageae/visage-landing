@@ -220,7 +220,7 @@
                 country_img: '../assets/img/flag-us.png'
             },
             {
-                img: '../assets/img/new-team-09.png',
+                img: '../assets/img/Ludo.png',
                 name: 'Ludovic Guicheteau',
                 position: 'Data Scientist',
                 country: 'France',
@@ -269,7 +269,7 @@
                 country_img: '../assets/img/flag-us.png'
             },
             {
-                img: '../assets/img/new-team-16.png',
+                img: '../assets/img/Emmanuel.png',
                 name: 'Emmanuel Marboeuf',
                 position: 'Co-founder & CTO',
                 country: 'France',
@@ -289,6 +289,21 @@
                 country: 'Philippines',
                 country_img: '../assets/img/flag-philippines.png'
             },
+            {
+                img: '../assets/img/new-team-26.png',
+                name: 'Michelle Dong',
+                position: 'VP of Marketing',
+                country: 'Louisiana',
+                country_img: '../assets/img/flag-us.png'
+			},
+            
+            {
+                img: '../assets/img/nicolas-rotier.png',
+                name: 'Nicolas Rotier',
+                position: 'Full Stack Developer',
+                country: 'France',
+                country_img: '../assets/img/flag-france.png'
+			},
             {
                 img: '../assets/img/new-team-19.png',
                 name: 'Thibaud Poncin',
@@ -318,7 +333,7 @@
                 country_img: '../assets/img/flag-romania.png'
             },
             {
-                img: '../assets/img/new-team-24.png',
+                img: '../assets/img/Seb.png',
                 name: 'Sebastien Tour',
                 position: 'Senior Full Stack Developer',
                 country: 'France',
@@ -330,20 +345,6 @@
                 position: 'QA Team Lead',
                 country: 'Argentina',
                 country_img: '../assets/img/flag-argentina.png'
-			},
-            {
-                img: '../assets/img/new-team-26.png',
-                name: 'Michelle Dong',
-                position: 'VP of Marketing',
-                country: 'Louisiana',
-                country_img: '../assets/img/flag-us.png'
-			},
-            {
-                img: '../assets/img/new-team-27.png',
-                name: 'Nicolas Rotier',
-                position: 'Full Stack Developer',
-                country: 'France',
-                country_img: '../assets/img/flag-france.png'
 			}
 		]
     },
